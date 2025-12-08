@@ -1,0 +1,88 @@
+site_name: "Manual"
+
+theme:
+  language: en
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - header.autohide
+    - content.code.copy
+    - toc.integrate
+    - toc.follow
+    - content.tabs
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep purple
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh-TW
+          name: 中文(繁體)
+          build: true
+        - locale: zh
+          name: 中文(简体)
+          build: true
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            show_root_heading: true
+            show_source: false
+            docstring_style: google
+            docstring_section_style: table
+            # heading_level: 3
+            show_signature_annotations: false  # Hides type annotations to save space
+            separate_signature: true  # Separates signature from description
+            # extensions:
+            # - griffe_typingdoc
+            # show_symbol_type_heading: true
+            # show_root_heading: true
+            # show_if_no_docstring: true
+            # preload_modules:
+            # - httpx
+            # - starlette
+            # inherited_members: true
+            # members_order: source
+            # separate_signature: true
+            # unwrap_annotated: true
+            # filters:
+            # - '!^_'
+            # merge_init_into_class: true
+            # docstring_section_style: spacy
+            # signature_crossrefs: true
+            # show_symbol_type_heading: true
+            # show_symbol_type_toc: true
+
+nav:
+  - Home: index.md
+  - Manual:
+    - manual/docs.md
