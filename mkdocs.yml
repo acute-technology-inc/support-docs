@@ -82,7 +82,23 @@ plugins:
             # show_symbol_type_heading: true
             # show_symbol_type_toc: true
 
+markdown_extensions:
+  - markdown.extensions.nl2br
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - footnotes
 nav:
   - Home: index.md
-  - Manual:
+  - Protocol Exerciser:
+    - px/i2c.md
+    - px/i3c.md
+    - px/spi.md
+    - px/uart.md
+  - Logic Analyzer:
+    - manual/docs.md
+  - Protocol Analyzer:
+    - manual/docs.md
+  - DSO: 
     - manual/docs.md
