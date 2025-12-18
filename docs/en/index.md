@@ -1,3 +1,1 @@
-# Test
-
-Here is some content.
+# Document
