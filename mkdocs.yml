@@ -6,6 +6,7 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
+  navigation_depth: 8
   features:
     - navigation.tabs
     - navigation.sections
@@ -18,6 +19,7 @@ theme:
     - toc.integrate
     - toc.follow
     - content.tabs
+    - content.footnote.tooltips 
   palette:
     # Dark Mode
     - scheme: slate
@@ -33,7 +35,7 @@ theme:
         icon: material/weather-night
         name: Light mode
       primary: blue
-      accent: deep purple
+      accent: deep purple 
 
 plugins:
   - search
@@ -88,7 +90,9 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.critic
+  - pymdownx.keys
   - footnotes
+  - def_list
 nav:
   - Home: index.md
   - Protocol Exerciser:
