@@ -96,6 +96,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Protocol Exerciser:
+    - px/px.md
     - px/i2c.md
     - px/i3c.md
     - px/spi.md

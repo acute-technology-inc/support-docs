@@ -4,7 +4,8 @@
 ![Bus Select](/img/i2c/bus select.png)
 There has four buses for user to use. User can set different mode on different bus, by simply clicking the bus.
 For example, users can simulate one controller located on Bus 1 and another controller located on Bus 3.
-{++But, all the channel for each bus is fixed, user can NOT adjust it arbitrarily.++}
+But all the channel for each bus is fixed, user can NOT adjust it arbitrarily.
+{==We now only support ONE bus for user to use.==}
 
 ## Px Pair Settings
 ![Px Pair Settings](/img/i2c/px pair setting.png)
@@ -15,7 +16,8 @@ User can set the mode to:
 1. Controller mode: Set Exerciser as controller on this bus.
 2. Target mode: Set Exerciser as target on this bus.
 3. or Disable
-{++No matter in Controller or Target mode, user can create virtual internal nodes for simulate multiple targets on the bus.++}
+* {++No matter in Controller or Target mode, user can create virtual internal nodes for simulate multiple targets on the bus.++}
+* {++The total number of controllers and internal nodes shall not exceed 4.++}
 
 ### Voltage Settings
 All units for these settings are in {++*mV*++}.
@@ -81,8 +83,7 @@ Set the parameters for LA to decode I2C signal.
 4. Or directly input the percentage of High and Low pulse width.
 
 #### Send packet
-![Open send packet tool](/img/i2c/open send packet tool.png)
-From the button on the up right corner of Exerciser UI, user can open a floating dialog for sending I2C packet.
+To open the wizard, please check the [Wizard](px.md/#wizard)
 
 ##### Quick Send
 ![Quick Send](/img/i2c/quick send.png)

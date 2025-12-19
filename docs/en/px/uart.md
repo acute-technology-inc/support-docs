@@ -31,8 +31,7 @@ Reload the connection status and display.
 Set the UART decode parameter for LA to decode.
 
 #### Send packet
-![Open send packet tool](/img/uart/open send packet tool.png)
-From the button on the up right corner of Exerciser UI, user can open a floating dialog for sending UART packet.
+To open the wizard, please check the [Wizard](px.md/#wizard)
 
 ##### Quick Send
 ![Quick Send](/img/uart/quick send.png)
