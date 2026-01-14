@@ -1,6 +1,8 @@
 when:
   - event: pull_request
   - event: manual
+  - event: push
+    branch: main
 
 variables:
   # NAS PATH for Manual builds
@@ -11,6 +13,8 @@ variables:
   - &NAS_MAIN_PATH "/mnt/BuildBot/Release/${CI_REPO_NAME}/main/"
   # NAS PATH for tag release
   - &NAS_TAG_PATH "/mnt/BuildBot/Release/${CI_REPO_NAME}/${CI_COMMIT_TAG}/"
+  # NAS PATH for release internal
+  - &NAS_RELEASE_INTERNAL_PATH "/mnt/BuildBot/site/ladocs/"
 
 labels:
   hostname: "acute-linux-agent"
@@ -41,3 +45,20 @@ steps:
       - tar -czf docs.tar.gz site
       - mkdir -p $NAS_PATH
       - cp docs.tar.gz $NAS_PATH
+
+  build-docs-release-internal:
+    image: pxlib_build_env
+    environment:
+      NAS_PATH: *NAS_MAIN_PATH
+      NAS_RELEASE_INTERNAL_PATH: *NAS_RELEASE_INTERNAL_PATH
+    when:
+      - event: push
+        branch: main
+    commands:
+      - uv sync --dev
+      - uv run make build
+      - tar -czf docs.tar.gz site
+      - mkdir -p $NAS_PATH
+      - cp docs.tar.gz $NAS_PATH
+      - rm -r /mnt/BuildBot/site/ladocs/*
+      - cp site/* $NAS_RELEASE_INTERNAL_PATH
