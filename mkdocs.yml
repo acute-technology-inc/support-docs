@@ -6,7 +6,6 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
-  navigation_depth: 8
   features:
     - navigation.tabs
     - navigation.sections
@@ -19,7 +18,8 @@ theme:
     - toc.integrate
     - toc.follow
     - content.tabs
-    - content.footnote.tooltips 
+    - content.footnote.tooltips
+  navigation_depth: 8
   palette:
     # Dark Mode
     - scheme: slate
