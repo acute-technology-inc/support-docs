@@ -5,19 +5,19 @@ Tool bar buttons description
 
 ## Capture
 ### Device and Protocol
-![Tool Bar Protocol](/img/tool bar protocol.png)
-![Device and Protocol](/img/device and protocol.png)
+![Tool Bar Protocol](../img/tool bar protocol.png)
+![Device and Protocol](../img/device and protocol.png)
 
 User can select the protocol that want to use. But can only select one at a time.
 
 ### Settings
-![Tool Bar Settings](/img/tool bar settings.png)
+![Tool Bar Settings](../img/tool bar settings.png)
 
 It pops out topology dialog of current protocol. Please check [Protocols](#procotols) for detail description of each protocol.
 
 ### Power Supply
-![Too Bar Power Supply](/img/tool bar power supply.png)
-![Power SUpply](/img/power supply.png)
+![Too Bar Power Supply](../img/tool bar power supply.png)
+![Power SUpply](../img/power supply.png)
 
 This dialog can dependently display on the side, monitoring the voltage and current while using Exerciser.
 
@@ -29,12 +29,12 @@ This dialog can dependently display on the side, monitoring the voltage and curr
 6. Monitor window.
 
 ### Start/Stop Capture
-![Tool Bar Capture](/img/tool bar capture.png)
+![Tool Bar Capture](../img/tool bar capture.png)
 
 LA and PA start or stop capturing.
 
 ### Wizard
-![Wizard](/img/open send packet tool.png)
+![Wizard](../img/open send packet tool.png)
 
 It will pop out a wizard dialog for user to send packet of current protocol.
 Each protocol has different wizard. Please check [Protocols](#procotols) for detail.
