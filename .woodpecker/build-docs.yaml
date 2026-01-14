@@ -61,4 +61,4 @@ steps:
       - mkdir -p $NAS_PATH
       - cp docs.tar.gz $NAS_PATH
       - rm -r /mnt/BuildBot/site/ladocs/*
-      - cp site/* $NAS_RELEASE_INTERNAL_PATH
+      - cp -R site/* $NAS_RELEASE_INTERNAL_PATH
