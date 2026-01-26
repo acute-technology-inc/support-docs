@@ -67,6 +67,16 @@ Create internal nodes. After completing all necessary settings, press the `Assig
         ![Ignore Sub-Address](../img/i2c/Sub_Ignore_I2C.png)
 
 ## Controller Mode
+
+### Timing Settings
+![Timing Settings](../img/i2c/TimingSetting.png)
+
+User can adjust I2C timing, including:
+
+1. Clock Frequency, {++range from 1kHz to 1000kHz.++}
+2. Each components, {++scale from 5ns to 20us.++}
+    * User can drag the slider bar to adjust the Setup and Hold time of Data.
+
 ### Functions
 ![Functions](../img/i2c/buttons.png)
 
@@ -83,14 +93,6 @@ Scan all the available address, from 0x08 to 0x77. If any node return ACK, it wi
 #### Decode Settings
 ![Decode Settings](../img/i2c/decode.png)
 Set the parameters for LA to decode I2C signal.
-
-#### Timing Settings
-![Timing Settings](../img/i2c/timing.png)
-
-1. Input the clock speed value.
-2. Change the frequency unit.
-3. User can drag the slider to adjust the High and Low pulse width.
-4. Or directly input the percentage of High and Low pulse width.
 
 ### Send packet
 To open the wizard, please check the [Wizard](px.md/#wizard)

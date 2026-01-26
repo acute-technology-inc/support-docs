@@ -8,7 +8,6 @@ theme:
     code: Red Hat Mono
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.footer
     - navigation.top
     - search.suggest
@@ -86,7 +85,7 @@ plugins:
 
 markdown_extensions:
   - markdown.extensions.nl2br
-  - pymdownx.caret
+  - pymdownx.caret  
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.critic
@@ -97,10 +96,43 @@ nav:
   - Home: index.md
   - Protocol Exerciser:
     - px/px.md
-    - px/i2c.md
-    - px/i3c.md
-    - px/spi.md
-    - px/uart.md
+    - I2C:
+      - Quick Start:
+        - px/i2c/quick_start.md
+      - Bus Select:
+        - px/i2c/bus_select.md
+      - Px Pair Settings:
+        - px/i2c/px_pair_settings.md
+      - Add Internal Node:
+        - px/i2c/add_internal_node.md
+      - Controller Mode:
+        - px/i2c/controller.md
+      - Target Mode:
+        - px/i2c/target.md
+    - MIPI I3C:
+      - Quick Start:
+        - px/i3c/quick_start.md
+      - Bus Select:
+        - px/i3c/bus_select.md
+      - Px Pair Settings:
+        - px/i3c/px_pair_settings.md
+      - Controller Mode:
+        - px/i3c/controller.md
+      - Target Mode:
+        - px/i3c/target.md
+      - Internal Node:
+        - px/i3c/internal_node.md
+      - Wizard:
+        - px/i3c/wizard.md
+    - SPI:
+      - px/spi.md
+    - UART:
+      - Quick Start:
+        - px/uart/quick_start.md
+      - Px Pair Settings:
+        - px/uart/px_pair_settings.md
+      - Functions:
+        - px/uart/functions.md
   - Logic Analyzer:
     - manual/docs.md
   - Protocol Analyzer:
