@@ -98,6 +98,7 @@ nav:
   - Protocol Exerciser:
     - px/px.md
     - I2C:
+      - px/i2c/i2c.md
       - Quick Start:
         - px/i2c/quick_start.md
       - Bus Select:
@@ -111,6 +112,7 @@ nav:
       - Target Mode:
         - px/i2c/target.md
     - MIPI I3C:
+      - px/i3c/i3c.md
       - Quick Start:
         - px/i3c/quick_start.md
       - Bus Select:
@@ -126,8 +128,9 @@ nav:
       - Wizard:
         - px/i3c/wizard.md
     - SPI:
-      - px/spi.md
+      - px/spi/spi.md
     - UART:
+      - px/uart/uart.md
       - Quick Start:
         - px/uart/quick_start.md
       - Px Pair Settings:
