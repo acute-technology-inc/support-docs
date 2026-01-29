@@ -107,11 +107,11 @@
 #### 触发
 
 **总线 I (TL3000 series):**
-- I²C
-- DP Aux1, I²C，SPI，UART，USB PD3.0
+- I2C
+- DP Aux1, I2C，SPI，UART，USB PD3.0
 
 **总线 II (TL3000 series):**
-- BiSS-C, CAN 2.0B/CAN FD, DALI, HID over I²C, I²S, I3C, LIN2.2, LPC, MDIO, MII, Mini/Micro LED, MIPI RFEE, Modbus, PMBus, Profibus, RMII, SMBus, SVI2, USB1.1
+- BiSS-C, CAN 2.0B/CAN FD, DALI, HID over I2C, I²S, I3C, LIN2.2, LPC, MDIO, MII, Mini/Micro LED, MIPI RFEE, Modbus, PMBus, Profibus, RMII, SMBus, SVI2, USB1.1
 
 **总线 III (TL3000 series):**
 - ---
@@ -129,11 +129,11 @@
 #### 协议分析仪模式/数据收集仪模式/数据监控仪模式
 
 **I (TL3000 series):**
-- I²C
-- DP Aux1, I²C，SPI，UART，USB PD3.0
+- I2C
+- DP Aux1, I2C，SPI，UART，USB PD3.0
 
 **II (TL3000 series):**
-- BiSS-C, CAN 2.0B/CAN FD, DALI, HID over I²C, I²S, I3C, LIN2.2, LPC, MDIO, MII, Mini/Micro LED, MIPI RFEE, Modbus, PMBus, Profibus, RMII, SMBus, SVI2, USB1.1
+- BiSS-C, CAN 2.0B/CAN FD, DALI, HID over I2C, I²S, I3C, LIN2.2, LPC, MDIO, MII, Mini/Micro LED, MIPI RFEE, Modbus, PMBus, Profibus, RMII, SMBus, SVI2, USB1.1
 
 **III (TL3000 series):**
 - eMMC 4.5, eSPI, MII, NAND Flash, RGMII, RMII, SD 3.0(SDIO2.0), SVID, Serial Flash (SPI NAND), SVID2

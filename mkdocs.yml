@@ -1,24 +1,26 @@
-site_name: "Manual"
+site_name: "Acute Support Documentation Page"
 
 theme:
   language: en
   name: material
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
+    text: Roboto
+    code: Roboto Mono
   features:
-    - navigation.tabs
-    - navigation.footer
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - header.autohide
     - content.code.copy
-    - toc.integrate
-    - toc.follow
     - content.tabs
     - content.footnote.tooltips
-  navigation_depth: 8
+    - header.autohide
+    - navigation.tabs
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  navigation_depth: 3
   palette:
     # Dark Mode
     - scheme: slate
@@ -83,7 +85,19 @@ plugins:
             # show_symbol_type_heading: true
             # show_symbol_type_toc: true
 
+# Additional configuration
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - markdown.extensions.nl2br
   - pymdownx.caret  
   - pymdownx.mark
@@ -93,53 +107,77 @@ markdown_extensions:
   - footnotes
   - def_list
   - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+
 nav:
   - Home: index.md
+  - Getting Started:
+    - Hardware Configuration: hardware-configuration.md
+    - Software Installation:
+      - Download: software/download.md
+      - Install: software/installation.md
+      - Driver Install: software/driver.md
+      - Miscellaneous: software/miscellaneous.md
+    - Specifications: 
+      - Specifications: specification/specifications.md
   - Protocol Exerciser:
-    - px/px.md
-    - I2C:
-      - px/i2c/i2c.md
-      - Quick Start:
-        - px/i2c/quick_start.md
-      - Bus Select:
-        - px/i2c/bus_select.md
-      - Px Pair Settings:
-        - px/i2c/px_pair_settings.md
-      - Add Internal Node:
-        - px/i2c/add_internal_node.md
-      - Controller Mode:
-        - px/i2c/controller.md
-      - Target Mode:
-        - px/i2c/target.md
-    - MIPI I3C:
-      - px/i3c/i3c.md
-      - Quick Start:
-        - px/i3c/quick_start.md
-      - Bus Select:
-        - px/i3c/bus_select.md
-      - Px Pair Settings:
-        - px/i3c/px_pair_settings.md
-      - Controller Mode:
-        - px/i3c/controller.md
-      - Target Mode:
-        - px/i3c/target.md
-      - Internal Node:
-        - px/i3c/internal_node.md
-      - Wizard:
-        - px/i3c/wizard.md
-    - SPI:
-      - px/spi/spi.md
-    - UART:
-      - px/uart/uart.md
-      - Quick Start:
-        - px/uart/quick_start.md
-      - Px Pair Settings:
-        - px/uart/px_pair_settings.md
-      - Functions:
-        - px/uart/functions.md
+    - protocol-exerciser/index.md
+    - Protocols:
+      - I2C:
+        - protocol-exerciser/i2c/i2c.md
+        - Quick Start: protocol-exerciser/i2c/quick-start.md
+        - Bus Select: protocol-exerciser/i2c/bus-select.md
+        - Px Pair Settings: protocol-exerciser/i2c/px-pair-settings.md
+        - Add Internal Node: protocol-exerciser/i2c/add-internal-node.md
+        - Controller Mode: protocol-exerciser/i2c/controller.md
+        - Target Mode: protocol-exerciser/i2c/target.md
+      - MIPI I3C:
+        - protocol-exerciser/i3c/i3c.md
+        - Quick Start: protocol-exerciser/i3c/quick-start.md
+        - Bus Select: protocol-exerciser/i3c/bus-select.md
+        - Px Pair Settings: protocol-exerciser/i3c/px-pair-settings.md
+        - Controller Mode: protocol-exerciser/i3c/controller.md
+        - Target Mode: protocol-exerciser/i3c/target.md
+        - Internal Node: protocol-exerciser/i3c/internal-node.md
+        - Wizard: protocol-exerciser/i3c/wizard.md
+      - UART:
+        - protocol-exerciser/uart/uart.md
+        - Quick Start: protocol-exerciser/uart/quick-start.md
+        - Bus Select: protocol-exerciser/uart/functions.md
+        - Px Pair Settings: protocol-exerciser/uart/px-pair-settings.md
   - Logic Analyzer:
-    - manual/docs.md
+    - logic-analyzer/index.md
+    - File Operations: logic-analyzer/file-operations.md
+    - Keyboard Shortcuts: logic-analyzer/keyboard-shortcuts.md
+    - Capture Settings: logic-analyzer/capture-settings.md
+    - Advanced Capture: logic-analyzer/advanced-capture.md
+    - Cursor: logic-analyzer/cursor.md
+    - Waveform Area: logic-analyzer/waveform-area.md
+    - Report Area: logic-analyzer/report-area.md
+    - Bus Decode: logic-analyzer/bus-decode.md
+    - Timing Check: logic-analyzer/timing-check.md
+    - Stack Oscilloscope: logic-analyzer/stack-oscilloscope.md
   - Protocol Analyzer:
-    - manual/docs.md
-  - DSO: 
-    - manual/docs.md
+    - protocol-analyzer/index.md
+    - File Operations: protocol-analyzer/file-operations.md
+    - Keyboard Shortcuts: protocol-analyzer/keyboard-shortcuts.md
+    - Capture Modes: protocol-analyzer/capture-modes.md
+    - Protocol Settings: protocol-analyzer/protocol-settings.md
+    - Operating Modes: protocol-analyzer/operating-modes.md
+    - Show Waveforms: protocol-analyzer/show-waveforms.md
+    - Search: protocol-analyzer/search.md
+    - Window Management: protocol-analyzer/window-management.md
+    - Detail & Statistics: protocol-analyzer/detail-statistics.md
+    - Cursor: protocol-analyzer/cursor.md
+  - Decode:
+    - decode/index.md
+  - Trigger:
+    - trigger/index.md
+  - Technical Support:
+    - technical-support.md
+    - Troubleshooting: 
+      - troubleshooting/index.md
+      - Demo Mode: troubleshooting/demo-mode.md

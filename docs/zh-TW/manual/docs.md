@@ -132,11 +132,11 @@
 #### TL3000 series
 
 **匯流排 I**
-- I²C
-- DP Aux¹, I²C，SPI，UART，USB PD3.0
+- I2C
+- DP Aux¹, I2C，SPI，UART，USB PD3.0
 
 **匯流排 II**
-- BiSS-C, CAN 2.0B/CAN FD, DALI, HID over I²C, I²S, I3C, LIN2.2, LPC, MDIO, MII, Mini/Micro LED, MIPI RFEE, Modbus, PMBus, Profibus, RMII, SMBus, SVI2, USB1.1
+- BiSS-C, CAN 2.0B/CAN FD, DALI, HID over I2C, I²S, I3C, LIN2.2, LPC, MDIO, MII, Mini/Micro LED, MIPI RFEE, Modbus, PMBus, Profibus, RMII, SMBus, SVI2, USB1.1
 
 **匯流排 III**
 - eMMC4.5, eSPI, MIPI SPMI 2, NAND Flash, SD3.0, Serial Flash (SPI NAND), SVID2
@@ -157,11 +157,11 @@
 **TL3000 series**
 
 **I**
-- I²C
-- DP Aux1, I²C，SPI，UART，USB PD3.0
+- I2C
+- DP Aux1, I2C，SPI，UART，USB PD3.0
 
 **II**
-- BiSS-C, CAN 2.0B/CAN FD, DALI, HID over I²C, I²S, I3C, LIN2.2, LPC, MDIO, MII, Mini/Micro LED, MIPI RFEE, Modbus, PMBus, Profibus, RMII, SMBus, SVI2, USB1.1
+- BiSS-C, CAN 2.0B/CAN FD, DALI, HID over I2C, I²S, I3C, LIN2.2, LPC, MDIO, MII, Mini/Micro LED, MIPI RFEE, Modbus, PMBus, Profibus, RMII, SMBus, SVI2, USB1.1
 
 **III**
 - eSPI, MII, RGMII, RMII, SVID3
@@ -541,9 +541,9 @@ TL3000 series
 
 匯流排  I
 
-I²C
+I2C
 
-DP Aux1, I²C，SPI，UART，USB PD3.0
+DP Aux1, I2C，SPI，UART，USB PD3.0
 
 匯流排  II
 
@@ -556,7 +556,7 @@ DP Aux1, I²C，SPI，UART，USB PD3.0
 ---
 
 BiSS-C, CAN 2.0B/CAN FD, DALI, HID
-over I²C, I²S, I3C, LIN2.2, LPC, MDIO,
+over I2C, I²S, I3C, LIN2.2, LPC, MDIO,
 MII, Mini/Micro LED, MIPI RFEE,
 Modbus, PMBus, Profibus, RMII, SMBus,
 SVI2, USB1.1
@@ -617,12 +617,12 @@ RGMII, RMII, SD
 SVID, Serial Flash
 (SPI NAND), SVID2
 
-I²C
+I2C
 
-DP Aux1, I²C，SPI，UART，USB PD3.0
+DP Aux1, I2C，SPI，UART，USB PD3.0
 
 BiSS-C, CAN 2.0B/CAN FD, DALI, HID
-over I²C, I²S, I3C, LIN2.2, LPC, MDIO,
+over I2C, I²S, I3C, LIN2.2, LPC, MDIO,
 MII, Mini/Micro LED, MIPI RFEE,
 Modbus, PMBus, Profibus, RMII, SMBus,
 SVI2, USB1.1

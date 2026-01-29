@@ -29,3 +29,31 @@ To clean the output directory, run the following command:
 ```bash
 make clean
 ```
+
+## Folder Structure
+
+In our case, we are using i18n to localize the documentation. [Link](https://ultrabug.github.io/mkdocs-static-i18n/getting-started/quick-start/#the-folder-docs-structure)
+
+So we structure the documentation as follows:
+
+```
+./docs
+├── assets
+│   └── image_non_localized.png
+├── en
+│   ├── image_localized.png
+│   ├── index.md
+│   ├── topic1
+│   │   └── index.md
+│   └── topic2
+│       └── index.md
+└── zh
+    ├── image_localized.png
+    ├── index.md
+    ├── topic1
+    │   └── index.md
+    └── topic2
+        └── index.md
+```
+
+- Keep all filenames in English, accept only dashes (i.e. no spaces, no underscores, no special characters).
