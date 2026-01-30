@@ -41,5 +41,5 @@ For UART analysis capabilities, please refer to:
 
 For assistance with UART Protocol Exerciser features:
 
-- Contact Acute Technology support: service@acute.com.tw
+- Contact Acute Technology support: [service@acute.com.tw](mailto:service@acute.com.tw)
 - Visit: [http://www.acute.com.tw](http://www.acute.com.tw)

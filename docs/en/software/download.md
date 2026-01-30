@@ -7,7 +7,7 @@
 !!! note
 
     For stable release, we only provide the x64 (64-bit) version of the software.
-    For users who need x86 (32-bit) software, please contact us by email (service@acute.com.tw).
+    For users who need x86 (32-bit) software, please contact us by email ([service@acute.com.tw](mailto:service@acute.com.tw)).
 
 ## Download Links
 

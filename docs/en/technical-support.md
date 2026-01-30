@@ -9,7 +9,7 @@ Get help with TravelLogic software and hardware troubleshooting.
 **Acute Technology Inc.**
 
 - **Website:** [http://www.acute.com.tw](http://www.acute.com.tw)
-- **Email:** service@acute.com.tw
+- **Email:** [service@acute.com.tw](mailto:service@acute.com.tw)
 - **Phone:** +886-2-29993275
 - **Fax:** +886-2-29993276
 
