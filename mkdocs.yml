@@ -1,4 +1,7 @@
-site_name: "Acute Support Documentation Page"
+site_name: Acute Support Documentation Page
+site_description: "Acute Support Documentation Page"
+
+copyright: Copyright &copy; 2025 - 2026 Acute Technology Inc.
 
 theme:
   language: en
@@ -26,15 +29,15 @@ theme:
     - scheme: slate
       toggle:
         icon: material/weather-sunny
-        name: Dark mode
-      primary: green
+        name: Switch to dark mode
+      primary: indigo
       accent: deep purple
 
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
-        name: Light mode
+        name: Switch to light mode
       primary: blue
       accent: deep purple 
 
@@ -90,6 +93,19 @@ extra:
   status:
     new: Recently added
     deprecated: Deprecated
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/acute-technology-inc
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/people/Acute-Technology-Inc-%E7%9A%87%E6%99%B6%E7%A7%91%E6%8A%80/100057450009131/
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/Acute_Tech_Inc
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/acute-technology-taiwan
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/AcuteTechnologyInc
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/522011819
 
 extra_css:
   - stylesheets/extra.css
@@ -179,5 +195,5 @@ nav:
   - Technical Support:
     - technical-support.md
     - Troubleshooting: 
-      - troubleshooting/index.md
+      - How to Use: troubleshooting/additional-resources.md
       - Demo Mode: troubleshooting/demo-mode.md
