@@ -1,6 +1,6 @@
 # Target mode
 
-![Target Mode](../../images/i2c/target.png)
+![Target Mode](../../images/protocol-exerciser/i2c/target.png)
 
 Configure the exerciser to act as an I2C target device responding to controller commands.
 
@@ -27,7 +27,7 @@ For descriptions of available functions, see:
 
 ## Wizard interface
 
-![Target Mode Wizard](../../images/i2c/target-mode-wizard.png)
+![Target Mode Wizard](../../images/protocol-exerciser/i2c/target-mode-wizard.png)
 
 In Target mode, the I2C wizard interface is displayed but **all packet sending functions are disabled**.
 

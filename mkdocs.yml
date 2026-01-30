@@ -128,6 +128,20 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
 
+# strict: true
+
+validation:
+  # Warn about Markdown files not listed in the nav.
+  omitted_files: warn
+
+  # If a link is /foo/bar.md,
+  # turn it into relative to the docs/ directory.
+  absolute_links: relative_to_docs
+
+  # Warn about broken internal links to pages or anchors.
+  unrecognized_links: warn
+  anchors: warn
+
 nav:
   - Home: index.md
   - Getting Started:

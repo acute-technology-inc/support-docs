@@ -1,6 +1,6 @@
 # PX pair settings
 
-![PX Pair Controller](../../images/i3c/px-pair-ctrl.png)
+![PX Pair Controller](../../images/protocol-exerciser/i3c/px-pair-ctrl.png)
 
 Configure operating mode, voltage levels, and pull-up resistors for the I3C bus.
 
@@ -12,7 +12,7 @@ Click the large button on the left side of the topology dialog to open the **PX 
 
 ## Mode settings
 
-![PX Pair Controller Mode](../../images/i3c/px-pair-ctrl-mode.png)
+![PX Pair Controller Mode](../../images/protocol-exerciser/i3c/px-pair-ctrl-mode.png)
 
 The Acute PX device supports multiple targets and controllers on the same bus. Select the appropriate mode for your testing scenario.
 
@@ -83,7 +83,7 @@ See: [Internal Node](internal-node.md)
 
 ## Voltage settings
 
-![PX Pair Controller Voltage](../../images/i3c/px-pair-ctrl-voltage.png)
+![PX Pair Controller Voltage](../../images/protocol-exerciser/i3c/px-pair-ctrl-voltage.png)
 
 Configure voltage levels for proper I3C operation and signal decoding.
 
@@ -122,7 +122,7 @@ Set the hysteresis range for noise immunity on I3C signals.
 
 ## Resistance settings
 
-![PX Pair Controller Resistance](../../images/i3c/px-pair-ctrl-resistance.png)
+![PX Pair Controller Resistance](../../images/protocol-exerciser/i3c/px-pair-ctrl-resistance.png)
 
 Configure internal pull-up resistors for the I3C bus.
 

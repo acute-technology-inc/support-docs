@@ -1,6 +1,6 @@
 # Add internal node
 
-![Internal Node](../../images/i2c/add-internal-node.png)
+![Internal Node](../../images/protocol-exerciser/i2c/add-internal-node.png)
 
 Create virtual I2C target devices to simulate multi-device scenarios.
 
@@ -134,7 +134,7 @@ Configure how the internal node handles sub-addresses during multi-byte transact
 
 #### Repeat sub-address
 
-![Repeat Sub-Address](../../images/i2c/sub-repeat-i2c.png)
+![Repeat Sub-Address](../../images/protocol-exerciser/i2c/sub-repeat-i2c.png)
 
 Sub-address remains the same for all bytes in the transaction.
 
@@ -148,7 +148,7 @@ Sub-address remains the same for all bytes in the transaction.
 
 #### Increment sub-address
 
-![Increment Sub-Address](../../images/i2c/sub-inc-i2c.png)
+![Increment Sub-Address](../../images/protocol-exerciser/i2c/sub-inc-i2c.png)
 
 Sub-address increments by 1 for each byte in the transaction.
 
@@ -162,7 +162,7 @@ Sub-address increments by 1 for each byte in the transaction.
 
 #### Increment loop sub-address
 
-![Increment Loop Sub-Address](../../images/i2c/sub-inc-loop-i2c.png)
+![Increment Loop Sub-Address](../../images/protocol-exerciser/i2c/sub-inc-loop-i2c.png)
 
 Sub-address increments and wraps around at register boundary.
 
@@ -176,7 +176,7 @@ Sub-address increments and wraps around at register boundary.
 
 #### Ignore sub-address
 
-![Ignore Sub-Address](../../images/i2c/sub-ignore-i2c.png)
+![Ignore Sub-Address](../../images/protocol-exerciser/i2c/sub-ignore-i2c.png)
 
 Sub-address byte is acknowledged but ignored. All data goes to the same location.
 

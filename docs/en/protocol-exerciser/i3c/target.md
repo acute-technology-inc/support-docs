@@ -1,6 +1,6 @@
 # Target mode
 
-![Target Mode](../../images/i3c/topo-mode-target.png)
+![Target Mode](../../images/protocol-exerciser/i3c/topo-mode-target.png)
 
 Configure the exerciser to act as an I3C target device responding to an external controller.
 
@@ -21,7 +21,7 @@ Target mode allows the exerciser to simulate one or more I3C target devices. Use
 
 Configure Logic Analyzer parameters for I3C signal decoding.
 
-![Decode Settings](../../images/i3c/i3c-decode.png)
+![Decode Settings](../../images/protocol-exerciser/i3c/i3c-decode.png)
 
 **Configuration is identical to Controller mode.**
 
@@ -59,25 +59,25 @@ Upload the topology configuration to the exerciser device.
 
 ### Run process
 
-![Run Target](../../images/i3c/run-target.png)
+![Run Target](../../images/protocol-exerciser/i3c/run-target.png)
 
 The Run process executes configuration steps for Target mode.
 
 **Status indicators:**
 
-![Error](../../images/i3c/Red.png) **Error occurred** - Check status message
+![Error](../../images/protocol-exerciser/i3c/red.png) **Error occurred** - Check status message
 
-![Wait](../../images/i3c/Blue.png) **Wait for processing** - Step executing
+![Wait](../../images/protocol-exerciser/i3c/blue.png) **Wait for processing** - Step executing
 
-![Skip](../../images/i3c/Gray.png) **Skip this process** - Not needed
+![Skip](../../images/protocol-exerciser/i3c/gray.png) **Skip this process** - Not needed
 
-![Pass](../../images/i3c/Green.png) **Process succeeded** - Step complete
+![Pass](../../images/protocol-exerciser/i3c/green.png) **Process succeeded** - Step complete
 
 ---
 
 ### Successful activation
 
-![Run OK](../../images/i3c/run-target-ok.png)
+![Run OK](../../images/protocol-exerciser/i3c/run-target-ok.png)
 
 When the process completes successfully:
 
@@ -91,7 +91,7 @@ When the process completes successfully:
 
 Refresh the topology from the exerciser device and display it in the software.
 
-![Timing Reload](../../images/i3c/topo-mode-target.png)
+![Timing Reload](../../images/protocol-exerciser/i3c/topo-mode-target.png)
 
 **Identical to Controller mode functionality.**
 
