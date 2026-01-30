@@ -65,7 +65,7 @@ Supports dozens of protocols including:
 - USB PD, eSPI, eMMC
 - And many more
 
-See: [Specifications](../specifications.md)
+See: [Specifications](../specification/specifications.md)
 
 ### Analysis tools
 

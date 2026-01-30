@@ -16,9 +16,9 @@ Protocol Exerciser transforms your TravelLogic device into a protocol generator 
 
 ### Device and protocol selection
 
-![Tool Bar Protocol](/images/tool-bar-protocol.png){: style="width: 450px; height: auto;" }
+![Tool Bar Protocol](../images/tool-bar-protocol.png){: style="width: 450px; height: auto;" }
 
-![Device and Protocol](/images/device-and-protocol.png){: style="width: 450px; height: auto;" }
+![Device and Protocol](../images/device-and-protocol.png){: style="width: 450px; height: auto;" }
 
 Select which protocol to use from the dropdown list. You can only use one protocol at a time.
 
@@ -32,7 +32,7 @@ Select which protocol to use from the dropdown list. You can only use one protoc
 
 ### Settings
 
-![Tool Bar Settings](/images/tool-bar-settings.png){: style="width: 450px; height: auto;" }
+![Tool Bar Settings](../images/tool-bar-settings.png){: style="width: 450px; height: auto;" }
 
 Opens the topology dialog for the current protocol. Configure bus topology, nodes, addresses, and communication parameters.
 
@@ -46,9 +46,9 @@ See protocol-specific documentation for detailed configuration:
 
 ### Power supply
 
-![Tool Bar Power Supply](/images/tool bar power-supply.png){: style="width: 450px; height: auto;" }
+![Tool Bar Power Supply](../images/tool-bar-power-supply.png){: style="width: 450px; height: auto;" }
 
-![Power Supply](/images/power-supply.png){: style="width: 450px; height: auto;" }
+![Power Supply](../images/power-supply.png){: style="width: 450px; height: auto;" }
 
 Control and monitor the DC power output while using Protocol Exerciser.
 
@@ -71,7 +71,7 @@ Control and monitor the DC power output while using Protocol Exerciser.
 
 ### Start/Stop capture
 
-![Tool Bar Capture](/images/tool-bar-capture.png){: style="width: 450px; height: auto;" }
+![Tool Bar Capture](../images/tool-bar-capture.png){: style="width: 450px; height: auto;" }
 
 Start or stop Logic Analyzer and Protocol Analyzer capture operations.
 
@@ -86,15 +86,15 @@ Start or stop Logic Analyzer and Protocol Analyzer capture operations.
 
 ### Wizard
 
-![Wizard](/images/open-send-packet-tool.png){: style="width: 450px; height: auto;" }
+![Wizard](../images/open-send-packet-tool.png){: style="width: 450px; height: auto;" }
 
 Opens the protocol wizard dialog for sending packets on the current protocol.
 
 Each protocol has a specific wizard interface tailored to its features:
 
-- [I2C Wizard](i2c/controller.md#send-packet) - Send READ/WRITE transactions
+- [I2C Wizard](i2c/controller.md#send-packets) - Send READ/WRITE transactions
 - [I3C Wizard](i3c/wizard.md) - Send CCC commands and transfers
-- [SPI Wizard](spi/spi.md) - Configure and send SPI data
+<!-- - [SPI Wizard](spi/spi.md) - Configure and send SPI data (Coming soon) -->
 - [UART Wizard](uart/uart.md) - Transmit UART data
 
 ---

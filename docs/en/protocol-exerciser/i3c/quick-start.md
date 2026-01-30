@@ -8,7 +8,7 @@ Follow these steps to set up and use MIPI I3C Protocol Exerciser:
 
 Activate the bus by clicking the left box in the topology dialog.
 
-![Bus Select](/images/i3c/topo-mode-init.png)
+![Bus Select](../../images/i3c/topo-mode-init.png)
 
 See: [Bus Select](bus-select.md)
 
@@ -18,7 +18,7 @@ See: [Bus Select](bus-select.md)
 
 Set up pull-up resistance, Vdd, threshold, and operating mode.
 
-![PX Pair Controller](/images/i3c/px-pair-ctrl.png)
+![PX Pair Controller](../../images/i3c/px-pair-ctrl.png)
 
 See: [PX Pair Settings](px-pair-settings.md)
 
@@ -57,7 +57,7 @@ Create virtual I3C or I2C devices using [Internal Nodes](internal-node.md).
 
 ### 6. (Optional) Enable DC power supply
 
-Turn on the [DC Power Supply](../px.md#power-supply) to power your device under test.
+Turn on the [DC Power Supply](../index.md#power-supply) to power your device under test.
 
 ---
 

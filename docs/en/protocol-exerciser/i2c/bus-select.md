@@ -1,6 +1,6 @@
 # Bus select
 
-![Bus Select](/images/i2c/bus-select.png)
+![Bus Select](../../images/i2c/bus-select.png)
 
 Choose which bus to use for I2C Protocol Exerciser operations.
 

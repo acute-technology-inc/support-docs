@@ -98,7 +98,7 @@ Configure bus protocol decoding for supported protocols.
 
 - I2C, SPI, UART
 - I3C, CAN, LIN
-- And many more (see [Specifications](../specifications.md))
+- And many more (see [Specifications](../specification/specifications.md))
 
 **Configuration:** Click the gear icon on the protocol label to access advanced decode settings.
 

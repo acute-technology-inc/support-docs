@@ -4,7 +4,7 @@ Configure I2C controller settings, timing parameters, and send transactions to t
 
 ## Timing settings
 
-![Timing Settings](/images/i2c/TimingSetting.png)
+![Timing Settings](../../images/i2c/TimingSetting.png)
 
 Adjust I2C timing parameters to match your device requirements or test edge cases.
 
@@ -42,7 +42,7 @@ Drag the slider bar to adjust the setup and hold time of data signals dynamicall
 
 ## Functions
 
-![Functions](/images/i2c/buttons.png)
+![Functions](../../images/i2c/buttons.png)
 
 ### Assign
 
@@ -101,7 +101,7 @@ Scan all available addresses from 0x08 to 0x77 to detect connected devices.
 
 ### Decode settings
 
-![Decode Settings](/images/i2c/decode.png)
+![Decode Settings](../../images/i2c/decode.png)
 
 Configure Logic Analyzer parameters for I2C signal decoding.
 
@@ -116,9 +116,9 @@ Configure Logic Analyzer parameters for I2C signal decoding.
 
 ---
 
-## Send packets
+## Send packets {#send-packets}
 
-To open the wizard, see [Wizard](../px.md#wizard) in the toolbar.
+To open the wizard, see [Wizard](../index.md#wizard) in the toolbar.
 
 The I2C wizard provides two methods for sending packets: Quick Send and Packet Constructor.
 
@@ -126,7 +126,7 @@ The I2C wizard provides two methods for sending packets: Quick Send and Packet C
 
 ### Quick send
 
-![Quick Send](/images/i2c/quick-send.png)
+![Quick Send](../../images/i2c/quick-send.png)
 
 Send simple I2C transactions quickly with a streamlined interface.
 
@@ -149,7 +149,7 @@ Send simple I2C transactions quickly with a streamlined interface.
 
 ### Packet constructor
 
-![Send Packet from Bus](/images/i2c/send-packet-from-bus.png)
+![Send Packet from Bus](../../images/i2c/send-packet-from-bus.png)
 
 Build complex I2C transaction sequences with multiple packets.
 
@@ -167,7 +167,7 @@ Build complex I2C transaction sequences with multiple packets.
 
 #### Edit packet
 
-![Edit Packet](/images/i2c/edit-packet.png)
+![Edit Packet](../../images/i2c/edit-packet.png)
 
 Manage and sequence multiple I2C packets.
 
@@ -182,7 +182,7 @@ Manage and sequence multiple I2C packets.
 
 #### Packet sequence editor
 
-![Sequence Packet](/images/i2c/sequence-packet.png)
+![Sequence Packet](../../images/i2c/sequence-packet.png)
 
 Configure a sequence of WRITE and READ operations.
 
@@ -197,7 +197,7 @@ Configure a sequence of WRITE and READ operations.
 
 #### Detail packet editor
 
-![Detail Edit Packet](/images/i2c/detail-edit-packet.png)
+![Detail Edit Packet](../../images/i2c/detail-edit-packet.png)
 
 Configure individual packet parameters.
 

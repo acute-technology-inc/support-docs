@@ -1,6 +1,6 @@
 # PX pair settings
 
-![PX Pair Settings](/images/i2c/px-pair-setting.png)
+![PX Pair Settings](../../images/i2c/px-pair-setting.png)
 
 Configure operating mode, voltage levels, and pull-up resistors for the I2C bus.
 

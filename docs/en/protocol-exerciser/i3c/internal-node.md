@@ -6,9 +6,9 @@ Create virtual I3C and legacy I2C target devices for comprehensive bus testing.
 
 ## I3C node configuration
 
-![Internal Node Settings 1](/images/i3c/internal-node-settings-1.png)
+![Internal Node Settings 1](../../images/i3c/internal-node-settings-1.png)
 
-![Internal Node Settings 2](/images/i3c/internal-node-settings-2.png)
+![Internal Node Settings 2](../../images/i3c/internal-node-settings-2.png)
 
 Configure virtual I3C target devices with complete device characteristics.
 
@@ -52,7 +52,7 @@ Choose whether the node uses register addressing:
 
 ##### Without sub-address
 
-![Without Sub-Address](/images/i3c/no-sub.png)
+![Without Sub-Address](../../images/i3c/no-sub.png)
 
 No sub-addressing (register addressing) is used.
 
@@ -72,7 +72,7 @@ Configure multi-byte transaction behavior. **Available only when 8-bit Sub-Addre
 
 ##### Repeat sub-address
 
-![Repeat Sub-Address](/images/i3c/sub-repeat.png)
+![Repeat Sub-Address](../../images/i3c/sub-repeat.png)
 
 All bytes in the transaction access the same register.
 
@@ -81,7 +81,7 @@ All bytes in the transaction access the same register.
 
 ##### Increment sub-address
 
-![Increment Sub-Address](/images/i3c/sub-inc.png)
+![Increment Sub-Address](../../images/i3c/sub-inc.png)
 
 Sub-address increments by 1 for each byte.
 
@@ -90,7 +90,7 @@ Sub-address increments by 1 for each byte.
 
 ##### Increment loop sub-address
 
-![Increment Loop Sub-Address](/images/i3c/sub-inc-loop.png)
+![Increment Loop Sub-Address](../../images/i3c/sub-inc-loop.png)
 
 Sub-address increments and wraps at register boundary.
 
@@ -99,7 +99,7 @@ Sub-address increments and wraps at register boundary.
 
 ##### Ignore sub-address
 
-![Ignore Sub-Address](/images/i3c/sub-ignore.png)
+![Ignore Sub-Address](../../images/i3c/sub-ignore.png)
 
 Sub-address byte is acknowledged but ignored.
 
@@ -155,13 +155,13 @@ Configure how the internal node responds to GETCAPS CCC.
 
 **Version 1.0:**
 
-![CAPS Version 1.0](/images/i3c/getcaps-ver1-0.png)
+![CAPS Version 1.0](../../images/i3c/getcaps-ver1-0.png)
 
 Available when I3C specification version 1.0 is selected.
 
 **Format 1 (Simple):**
 
-![CAPS Simple](/images/i3c/getcaps-ver1-1.png)
+![CAPS Simple](../../images/i3c/getcaps-ver1-1.png)
 
 Basic capabilities response.
 
@@ -172,7 +172,7 @@ Basic capabilities response.
 
 **Format 2 (Defining Byte):**
 
-![CAPS Defining](/images/i3c/getcaps-ver1-1-def.png)
+![CAPS Defining](../../images/i3c/getcaps-ver1-1-def.png)
 
 *Currently supports one type of defining byte per configuration.*
 
@@ -180,19 +180,19 @@ Includes base GETCAPS Format 1 fields plus additional capability bytes:
 
 **TESTPAT (Test Pattern):**
 
-![CAPS TEST Defining](/images/i3c/getcaps-ver1-1-def-test.png)
+![CAPS TEST Defining](../../images/i3c/getcaps-ver1-1-def-test.png)
 
 **CRCAPS (Clock Rate Capabilities):**
 
-![CAPS CRCAPS Defining](/images/i3c/getcaps-ver1-1-def-crcaps.png)
+![CAPS CRCAPS Defining](../../images/i3c/getcaps-ver1-1-def-crcaps.png)
 
 **VTCAPS (Virtual Target Capabilities):**
 
-![CAPS VTCAPS Defining](/images/i3c/getcaps-ver1-1-def-vtcaps.png)
+![CAPS VTCAPS Defining](../../images/i3c/getcaps-ver1-1-def-vtcaps.png)
 
 **DBGCAPS (Debug Capabilities):**
 
-![CAPS DBGCAPS Defining](/images/i3c/getcaps-ver1-1-def-dbgcaps.png)
+![CAPS DBGCAPS Defining](../../images/i3c/getcaps-ver1-1-def-dbgcaps.png)
 
 ---
 
@@ -202,13 +202,13 @@ Configure how the internal node responds to GETSTATUS CCC.
 
 **Format 1 (Simple):**
 
-![STATUS Simple](/images/i3c/GETSTATUS.png)
+![STATUS Simple](../../images/i3c/GETSTATUS.png)
 
 Basic status response with standard status fields.
 
 **Format 2 (Defining Byte):**
 
-![STATUS Defining](/images/i3c/getstatus-def.png)
+![STATUS Defining](../../images/i3c/getstatus-def.png)
 
 *Currently supports one type of defining byte per configuration.*
 
@@ -216,15 +216,15 @@ Includes base GETSTATUS Format 1 fields plus additional status bytes:
 
 **NASTAT (Not Acknowledged Status):**
 
-![STATUS NASTAT Defining](/images/i3c/getstatus-def-nastat.png)
+![STATUS NASTAT Defining](../../images/i3c/getstatus-def-nastat.png)
 
 **PRECR (Pending Read Error Count Report):**
 
-![STATUS PRECR Defining](/images/i3c/getstatus-def-precr.png)
+![STATUS PRECR Defining](../../images/i3c/getstatus-def-precr.png)
 
 **SCMSTAT (Secondary Controller Mode Status):**
 
-![STATUS SCMSTAT Defining](/images/i3c/getstatus-def-scmstat.png)
+![STATUS SCMSTAT Defining](../../images/i3c/getstatus-def-scmstat.png)
 
 ---
 
@@ -234,7 +234,7 @@ Configure maximum data speed capabilities response.
 
 **Format 1 & 2 (Simple):**
 
-![MXDS Simple](/images/i3c/GETMXDS.png)
+![MXDS Simple](../../images/i3c/GETMXDS.png)
 
 Basic max data speed response.
 
@@ -244,7 +244,7 @@ Select **Support** in the Defining Byte field to enable defining byte format (Fo
 
 **Format 3 (Defining Byte):**
 
-![MXDS Defining](/images/i3c/getmxds-def-wrrdturn.png)
+![MXDS Defining](../../images/i3c/getmxds-def-wrrdturn.png)
 
 *Currently supports one type of defining byte per configuration.*
 
@@ -254,13 +254,13 @@ Includes base GETMXDS fields plus:
 
 **CRHDLY (Clock-to-Data Turnaround Delay):**
 
-![MXDS CRHDLY Defining](/images/i3c/getmxds-def-crhdly.png)
+![MXDS CRHDLY Defining](../../images/i3c/getmxds-def-crhdly.png)
 
 ---
 
 ##### 4. MWL & MRL (Max Write/Read Length)
 
-![MWL MRL](/images/i3c/MWLMRL.png)
+![MWL MRL](../../images/i3c/MWLMRL.png)
 
 Configure maximum write length (MWL) and maximum read length (MRL) for the device.
 
@@ -277,7 +277,7 @@ Configure maximum write length (MWL) and maximum read length (MRL) for the devic
 
 ## Legacy I2C node configuration
 
-![Internal Node I2C](/images/i3c/internal-node-i2c.png)
+![Internal Node I2C](../../images/i3c/internal-node-i2c.png)
 
 Create virtual legacy I2C devices that operate on the I3C bus.
 
@@ -317,7 +317,7 @@ Configure register behavior for the legacy I2C node.
 
 ##### Without sub-address
 
-![I2C Without Sub-Address](/images/i3c/no-sub-i2c.png)
+![I2C Without Sub-Address](../../images/i3c/no-sub-i2c.png)
 
 No register addressing is used.
 
@@ -333,25 +333,25 @@ Uses 8-bit sub-addressing for register access.
 
 ##### Repeat sub-address
 
-![I2C Repeat Sub-Address](/images/i3c/sub-repeat-i2c.png)
+![I2C Repeat Sub-Address](../../images/i3c/sub-repeat-i2c.png)
 
 All bytes access the same register.
 
 ##### Increment sub-address
 
-![I2C Increment Sub-Address](/images/i3c/sub-inc-i2c.png)
+![I2C Increment Sub-Address](../../images/i3c/sub-inc-i2c.png)
 
 Sub-address increments for each byte (common for EEPROMs).
 
 ##### Increment loop sub-address
 
-![I2C Increment Loop Sub-Address](/images/i3c/sub-inc-loop-i2c.png)
+![I2C Increment Loop Sub-Address](../../images/i3c/sub-inc-loop-i2c.png)
 
 Sub-address increments with wraparound.
 
 ##### Ignore sub-address
 
-![I2C Ignore Sub-Address](/images/i3c/sub-ignore-i2c.png)
+![I2C Ignore Sub-Address](../../images/i3c/sub-ignore-i2c.png)
 
 Sub-address is acknowledged but not used.
 
@@ -359,7 +359,7 @@ Sub-address is acknowledged but not used.
 
 ## I3C stress test
 
-![Internal Node Stress](/images/i3c/internal-node-stress.png)
+![Internal Node Stress](../../images/i3c/internal-node-stress.png)
 
 Test controller IBI handling under stress conditions.
 

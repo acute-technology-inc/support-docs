@@ -1,5 +1,5 @@
 # Px Pair Settings
-![Px Pair Settings](/images/uart/px-pair-setting.png)
+![Px Pair Settings](../../images/uart/px-pair-setting.png)
 Pressing the button on the left side (in the red box) of this dialog, it will pop out a new dialog called "PX Pair Settings".
 
 ## Mode Settings

@@ -1,6 +1,6 @@
 # Bus select
 
-![Bus Select](/images/i3c/bus-select.png)
+![Bus Select](../../images/i3c/bus-select.png)
 
 Choose the bus configuration for MIPI I3C operations.
 

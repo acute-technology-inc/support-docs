@@ -37,7 +37,7 @@ For UART analysis capabilities, please refer to:
 
 - [Logic Analyzer](../../logic-analyzer/index.md) - Capture and analyze UART signals
 - [Protocol Analyzer](../../protocol-analyzer/index.md) - Decode UART protocol transactions
-- [Specifications](../../specifications.md) - Supported UART features
+- [Specifications](../../specification/specifications.md) - Supported UART features
 
 For assistance with UART Protocol Exerciser features:
 

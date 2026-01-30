@@ -1,6 +1,6 @@
 # Controller mode
 
-![Controller Topology](/images/i3c/topo-mode-controller.png)
+![Controller Topology](../../images/i3c/topo-mode-controller.png)
 
 Configure I3C controller settings, manage device addresses, and send transactions.
 
@@ -8,7 +8,7 @@ Configure I3C controller settings, manage device addresses, and send transaction
 
 ## Address table
 
-![Address Table Settings](/images/i3c/addr-table.png)
+![Address Table Settings](../../images/i3c/addr-table.png)
 
 Manage addresses for I3C and legacy I2C devices on the bus.
 
@@ -16,7 +16,7 @@ Manage addresses for I3C and legacy I2C devices on the bus.
 
 ### I3C address table
 
-![Address Table I3C Settings](/images/i3c/addr-table-i3c-resv.png)
+![Address Table I3C Settings](../../images/i3c/addr-table-i3c-resv.png)
 
 Reserve dynamic addresses for I3C devices by specifying their device characteristics.
 
@@ -37,7 +37,7 @@ If the requested dynamic address is already in use, the controller automatically
 
 ### I2C address table
 
-![Address Table I2C Settings](/images/i3c/addr-table-i2c.png)
+![Address Table I2C Settings](../../images/i3c/addr-table-i2c.png)
 
 Add legacy I2C devices to the controller's device list.
 
@@ -53,7 +53,7 @@ Add legacy I2C devices to the controller's device list.
 
 ### In-used table
 
-![Address Table Used Settings](/images/i3c/addr-table-i3c-used.png)
+![Address Table Used Settings](../../images/i3c/addr-table-i3c-used.png)
 
 View I3C devices that have been assigned dynamic addresses and are currently active on the bus.
 
@@ -68,7 +68,7 @@ View I3C devices that have been assigned dynamic addresses and are currently act
 
 ## Decode settings
 
-![Decode Settings](/images/i3c/i3c-decode.png)
+![Decode Settings](../../images/i3c/i3c-decode.png)
 
 Configure Logic Analyzer parameters for I3C signal decoding.
 
@@ -107,7 +107,7 @@ Configure I3C timing parameters to match device requirements or test specific ti
 
 ### Common settings
 
-![Timing Common Settings](/images/i3c/timing-common.png)
+![Timing Common Settings](../../images/i3c/timing-common.png)
 
 Configure core I3C timing parameters.
 
@@ -126,7 +126,7 @@ Configure core I3C timing parameters.
 
 ### Push-pull header
 
-![Timing Push Pull Settings](/images/i3c/timing-pp.png)
+![Timing Push Pull Settings](../../images/i3c/timing-pp.png)
 
 Configure timing for push-pull mode headers.
 
@@ -136,7 +136,7 @@ Configure timing for push-pull mode headers.
 
 ### Optimized header
 
-![Timing Optimized Settings](/images/i3c/timing-opt.png)
+![Timing Optimized Settings](../../images/i3c/timing-opt.png)
 
 Configure timing for optimized push-pull headers with enhanced performance.
 
@@ -148,19 +148,19 @@ I3C uses open drain for legacy I2C compatibility and some control operations.
 
 #### 1. Open drain fast
 
-![Timing ODF Settings](/images/i3c/timing-odf.png)
+![Timing ODF Settings](../../images/i3c/timing-odf.png)
 
 Fast open-drain timing for I2C-compatible operations at higher speeds.
 
 #### 2. Open drain slow
 
-![Timing ODS Settings](/images/i3c/timing-ods.png)
+![Timing ODS Settings](../../images/i3c/timing-ods.png)
 
 Slower open-drain timing for maximum I2C compatibility.
 
 #### 3. Open drain read 8 bytes
 
-![Timing ODR8 Settings](/images/i3c/timing-odr8.png)
+![Timing ODR8 Settings](../../images/i3c/timing-odr8.png)
 
 Optimized timing for reading 8-byte blocks in open-drain mode.
 
@@ -168,7 +168,7 @@ Optimized timing for reading 8-byte blocks in open-drain mode.
 
 ### I3C read
 
-![Timing I3C RD Settings](/images/i3c/timing-i3crd.png)
+![Timing I3C RD Settings](../../images/i3c/timing-i3crd.png)
 
 *Push-pull speed mode*
 
@@ -180,7 +180,7 @@ Configure timing parameters for I3C READ transactions.
 
 ### I3C write
 
-![Timing I3C WR Settings](/images/i3c/timing-i3cwr.png)
+![Timing I3C WR Settings](../../images/i3c/timing-i3cwr.png)
 
 *Push-pull speed mode*
 
@@ -192,7 +192,7 @@ Configure timing parameters for I3C WRITE transactions.
 
 ### Legacy I2C
 
-![Timing I2C RW Settings](/images/i3c/timing-i2crw.png)
+![Timing I2C RW Settings](../../images/i3c/timing-i2crw.png)
 
 Configure timing for legacy I2C device communication.
 
@@ -226,25 +226,25 @@ Upload the configured topology to the exerciser device and activate the bus.
 
 ### Run process
 
-![Wait Run](/images/i3c/run-wait.png)
+![Wait Run](../../images/i3c/run-wait.png)
 
 The Run process executes several steps. Some steps are optional depending on your configuration.
 
 **Status indicators:**
 
-![Error](/images/i3c/Red.png) **Error occurred** - Check status message for details
+![Error](../../images/i3c/Red.png) **Error occurred** - Check status message for details
 
-![Wait](/images/i3c/Blue.png) **Wait for processing** - Step is currently executing
+![Wait](../../images/i3c/Blue.png) **Wait for processing** - Step is currently executing
 
-![Skip](/images/i3c/Gray.png) **Skip this process** - Step not needed for current configuration
+![Skip](../../images/i3c/Gray.png) **Skip this process** - Step not needed for current configuration
 
-![Pass](/images/i3c/Green.png) **Process succeeded** - Step completed successfully
+![Pass](../../images/i3c/Green.png) **Process succeeded** - Step completed successfully
 
 ---
 
 ### Successful activation
 
-![Run OK](/images/i3c/run-ok.png)
+![Run OK](../../images/i3c/run-ok.png)
 
 When all steps complete successfully, the exerciser is active and ready to send commands.
 
@@ -261,7 +261,7 @@ When all steps complete successfully, the exerciser is active and ready to send 
 
 Refresh the topology display from the exerciser device.
 
-![Timing Reload](/images/i3c/topo-mode-controller.png)
+![Timing Reload](../../images/i3c/topo-mode-controller.png)
 
 **Use cases:**
 
