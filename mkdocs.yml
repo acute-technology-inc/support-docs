@@ -19,6 +19,7 @@ theme:
     - navigation.indexes
     - navigation.sections
     - navigation.top
+    - navigation.path
     - search.highlight
     - search.share
     - search.suggest
@@ -114,7 +115,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - markdown.extensions.nl2br
+  # - markdown.extensions.nl2br
   - pymdownx.caret  
   - pymdownx.mark
   - pymdownx.tilde
@@ -204,10 +205,128 @@ nav:
     - Cursor: protocol-analyzer/cursor.md
   - Decode:
     - decode/index.md
+    - Protocols:
+      - 1-Wire: decode/1-wire/index.md
+      - 10BASE-T1S: decode/10base-t1s/index.md
+      - 3-Wire: decode/3-wire/index.md
+      - 7-Segment: decode/7-segment/index.md
+      - A/D Converter: decode/ad-converter/index.md
+      - AcceleroMeter: decode/accmeter/index.md
+      - AD-Mux Flash: decode/ad-mux-flash/index.md
+      - APML: decode/apml/index.md
+      - AVSBus: decode/avsbus/index.md
+      - BiSS-C: decode/biss-c/index.md
+      - BSD: decode/bsd/index.md
+      - BT1120: decode/bt1120/index.md
+      - CAN FD: decode/can-fd/index.md
+      - CEC: decode/cec/index.md
+      - Closed Caption: decode/closed-caption/index.md
+      - Codec SSI: decode/codec-ssi/index.md
+      - CvTktTab: decode/cvtktab/index.md
+      - DALI: decode/dali/index.md
+      - DDC/EDID: decode/ddc-edid/index.md
+      - DMX512: decode/dmx512/index.md
+      - DisplayPort AUX: decode/dp-auxch/index.md
+      - eSPI: decode/espi/index.md
+      - FlexRay: decode/flexray/index.md
+      - HD Audio: decode/hd-audio/index.md
+      - HDLC: decode/hdlc/index.md
+      - HDQ: decode/hdq/index.md
+      - HID over I2C: decode/hid-over-i2c/index.md
+      - HID over SPI: decode/hid-over-spi/index.md
+      - HTSensor: decode/htsensor/index.md
+      - I2C: decode/i2c/index.md
+      - I2C EEPROM: decode/i2c-eeprom/index.md
+      - I2C User Defined: decode/i2c-user-defined/index.md
+      - I2S: decode/i2s/index.md
+      - I80: decode/i80/index.md
+      - IDE: decode/ide/index.md
+      - IO-Link: decode/iolink/index.md
+      - IrDA: decode/irda/index.md
+      - ISELED RGB LED: decode/iseled-rgb-led/index.md
+      - ITU-R BT.656: decode/itu-r-bt656/index.md
+      - JTAG: decode/jtag/index.md
+      - JVC IR: decode/jvc-ir/index.md
+      - LCD1602: decode/lcd1602/index.md
+      - LED Control: decode/led-ctrl/index.md
+      - LIN: decode/lin/index.md
+      - Line Decoding: decode/line-decoding/index.md
+      - Line Encoding: decode/line-encoding/index.md
+      - Lissajous: decode/lissajous/index.md
+      - LPC: decode/lpc/index.md
+      - LPT: decode/lpt/index.md
+      - M-Bus: decode/mbus/index.md
+      - MDDI: decode/mddi/index.md
+      - MDIO: decode/mdio/index.md
+      - MIPI CSI: decode/mipi-csi/index.md
+      - MIPI DSI: decode/mipi-dsi/index.md
+      - MIPI I3C: decode/mipi-i3c/index.md
+      - MIPI RFFE: decode/mipi-rffe/index.md
+      - MIPI SoundWire: decode/mipi-soundwire/index.md
+      - MIPI SPMI: decode/mipi-spmi/index.md
+      - Math: decode/math/index.md
+      - MHL-CBUS: decode/mhl-cbus/index.md
+      - Microchip SWI: decode/microchip-swi/index.md
+      - Microwire: decode/microwire/index.md
+      - Mini/Micro LED: decode/mini-micro-led/index.md
+      - MII/RMII/RGMII/GMII:
+        - decode/mii/index.md
+        - MII: decode/mii/mii.md
+        - RMII: decode/mii/rmii.md
+        - GMII: decode/mii/gmii.md
+        - RGMII: decode/mii/rgmii.md
+      - MMC/eMMC: decode/mmc-emmc/index.md
+      - Modbus: decode/modbus/index.md
+      - NAND Flash: decode/nand-flash/index.md
+      - NEC IR: decode/nec-ir/index.md
+      - OA3P (OPEN Alliance 3-Pin): decode/oa3p-pmd/index.md
+      - OATC6 over SPI: decode/oatc6-over-spi/index.md
+      - PCM: decode/pcm/index.md
+      - PECI: decode/peci/index.md
+      - PDM: decode/pdm/index.md
+      - PMBus: decode/pmbus/index.md
+      - PROFIBUS: decode/profibus/index.md
+      - PS/2: decode/ps2/index.md
+      - PWM: decode/pwm/index.md
+      - QEI: decode/qei/index.md
+      - Qi: decode/qi/index.md
+      - QSPI: decode/qspi/index.md
+      - RC-5: decode/rc5/index.md
+      - RC-6: decode/rc6/index.md
+      - RT-SWI: decode/rt-swi/index.md
+      - RGB Interface: decode/rgb-if/index.md
+      - SDIO/SD 3.0: decode/sdio-sd3/index.md
+      - SDQ: decode/sdq/index.md
+      - SENT: decode/sent/index.md
+      - Serial Flash: decode/serial-flash/index.md
+      - Serialized IRQ: decode/serialized-irq/index.md
+      - SGPIO: decode/sgpio/index.md
+      - Smart Card (ISO 7816): decode/smart-card-iso7816/index.md
+      - SMBus: decode/smbus/index.md
+      - SMI: decode/smi/index.md
+      - S/PDIF: decode/spdif/index.md
+      - SPI: decode/spi/index.md
+      - SPI NAND: decode/spi-nand/index.md
+      - ST7669: decode/st7669/index.md
+      - SSI: decode/ssi/index.md
+      - SVID: decode/svid/index.md
+      - SVI2: decode/svi2/index.md
+      - SWD: decode/swd/index.md
+      - SWIM: decode/swim/index.md
+      - SWP: decode/swp/index.md
+      - TDM: decode/tdm/index.md
+      - UART: decode/uart-rs232/index.md
+      - UFCS: decode/ufcs/index.md
+      - ULPI: decode/ulpi/index.md
+      - UNI/O: decode/unio/index.md
+      - USB 1.1: decode/usb1-1/index.md
+      - USB Power Delivery: decode/usb-pd/index.md
+      - USB4/Thunderbolt 3 Sideband: decode/usb4-tbt3-sb/index.md
+      - Wiegand: decode/wiegand/index.md
   - Trigger:
     - trigger/index.md
-  - Technical Support:
-    - technical-support.md
+  - FAQ:
+    - faq/index.md
     - Troubleshooting: 
       - How to Use: troubleshooting/additional-resources.md
       - Demo Mode: troubleshooting/demo-mode.md

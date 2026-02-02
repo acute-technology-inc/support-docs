@@ -2,19 +2,6 @@
 
 <!-- Source: Acute_TLmanual_en.pdf, Chapter 3, Pages 78-79 -->
 
-Get help with TravelLogic software and hardware troubleshooting.
-
-## Contact information
-
-**Acute Technology Inc.**
-
-- **Website:** [http://www.acute.com.tw](http://www.acute.com.tw)
-- **Email:** [service@acute.com.tw](mailto:service@acute.com.tw)
-- **Phone:** +886-2-29993275
-- **Fax:** +886-2-29993276
-
----
-
 ## Troubleshooting
 
 If the software shows "Demo mode" during execution, try the following steps to resolve the issue:
