@@ -333,8 +333,8 @@ nav:
   #     - Wiegand: decode/wiegand/index.md
   # - Trigger:
   #   - trigger/index.md
-  - FAQ:
-    - faq/index.md
-    - Troubleshooting: 
-      - How to Use: troubleshooting/additional-resources.md
-      - Demo Mode: troubleshooting/demo-mode.md
+  # - FAQ:
+  #   - faq/index.md
+  #   - Troubleshooting: 
+  #     - How to Use: troubleshooting/additional-resources.md
+  #     - Demo Mode: troubleshooting/demo-mode.md
