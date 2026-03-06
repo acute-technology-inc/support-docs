@@ -154,14 +154,14 @@ draft_docs: |
 nav:
   - Home: index.md
   - Getting Started:
-    - Hardware Configuration: hardware-configuration.md
+    # - Hardware Configuration: hardware-configuration.md
     - Software Installation:
       - Download: software/download.md
       - Install: software/installation.md
       # - Driver Install: software/driver.md
       # - Miscellaneous: software/miscellaneous.md
-    - Specifications: 
-      - Specifications: specification/specifications.md
+    # - Specifications: 
+    #   - Specifications: specification/specifications.md
   - Protocol Exerciser:
     - protocol-exerciser/index.md
     - Protocols:
