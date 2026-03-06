@@ -143,6 +143,14 @@ validation:
   unrecognized_links: warn
   anchors: warn
 
+draft_docs: |
+  decode/
+  logic-analyzer/
+  protocol-analyzer/
+  specification/
+  trigger/
+  troubleshooting/
+
 nav:
   - Home: index.md
   - Getting Started:
