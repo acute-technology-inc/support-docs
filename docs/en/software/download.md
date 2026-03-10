@@ -19,7 +19,7 @@
 
     Install Protocol Exerciser software for PX2000 series
 
-    [:octicons-arrow-right-24: Download now](https://www.acute.com.tw/en/install)
+    :octicons-arrow-right-24: Coming Soon
 
 -   :material-download:{ .lg .middle } __TravelLogic__
 
