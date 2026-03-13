@@ -1,80 +1,187 @@
-# Overview
-
-<!-- Source: Acute_TLmanual_en.pdf, Chapter 2, Pages 30-77 -->
+# Logic Analyzer Mode
 
 The Logic Analyzer mode allows you to capture and analyze digital signals with advanced triggering, timing analysis, and bus decoding capabilities.
 
-## Main window components
+**New to Logic Analyzer?** Follow our [Quick Start Tutorial](quick-start.md) for a complete step-by-step walkthrough from connection to export.
 
-The Logic Analyzer interface consists of several key areas:
+## Key Features
 
-1. **Toolbar:** Configure trigger, sampling rate, threshold, and other capture parameters
-2. **Channel labels:** Add and delete channels using the icons. Press the left mouse button on a channel label to change settings. Click the gear button on the top-right corner of a bus channel for advanced parameters. Select and drag a channel label to another to combine channels
-3. **Report window toolbar:** Display channel data or decode results, view waveform statistics, and export reports as .CSV or .TXT files
-4. **Status bar:** Shows device connection status
-5. **Info panel:** Displays channel, value, and trigger information. Toggle visibility in environment settings
-6. **Waveform area:** Use the mouse wheel to zoom in/out the waveform scale. Press Shift + Key to place cursors for calculating time intervals or frequency
+### Robust Analysis Tools
 
----
+<div class="grid cards" markdown>
 
-## Quick start
+-   :material-open-in-new:{ .middle } Bus Decoding
+    
+    ---
+    
+    Decode I2C, SPI, UART, I3C, and many other protocols
+    
+    [:octicons-arrow-right-24: Learn more](bus-decode.md)
 
-1. Configure channels using [Quick Setting](capture-settings.md#quick-setting)
-2. Set up [trigger conditions](capture-settings.md#trigger-parameter-setting)
-3. Adjust [sampling rate and memory](capture-settings.md#device-memory-usage)
-4. Configure [threshold levels](capture-settings.md#threshold)
-5. Start capture (press Enter or click **Start**)
+-   :material-open-in-new:{ .middle } Cursor
+    
+    ---
+    
+    Place up to 25 cursors for precise timing analysis
+    
+    [:octicons-arrow-right-24: Learn more](cursor.md)
 
----
+-   :material-open-in-new:{ .middle } Waveform Statistics
 
-## Key features
+    ---
+  
+    Measure period, frequency, pulse width, delays, and more
 
-### Capture modes
+    [:octicons-arrow-right-24: Learn more](report-area.md#waveform-statistics)
 
-- **Asynchronous (Timing) mode:** Uses internal clock for sampling
-- **Synchronous (State) mode:** Uses external clock for sampling
-- **Transitional storage:** Captures only signal transitions to maximize memory
+-   :material-open-in-new:{ .middle } Timing Check
+    
+    ---
 
-Learn more: [Advanced Capture Settings](advanced-capture.md)
+    Import CSV files to automate parameter verification
+    
+    [:octicons-arrow-right-24: Learn more](timing-check.md)
 
-### Trigger options
+</div>
 
-- Manual trigger
-- Single level trigger
-- Multi-level trigger (up to 16 states)
-- Width trigger
-- Timeout trigger
-- External trigger
+### Powerful Trigger Options
 
-Learn more: [Capture Settings](capture-settings.md)
+The Logic Analyzer supports numerous trigger types for different capture scenarios:
 
-### Analysis tools
+<div class="grid cards" markdown>
 
-- **Bus decoding:** Decode I2C, SPI, UART, I3C, and many other protocols
-- **Timing check:** Import CSV files to automate parameter verification
-- **Waveform statistics:** Measure period, frequency, pulse width, delays, and more
-- **Cursor measurements:** Place up to 25 cursors for precise timing analysis
+-   :material-open-in-new:{ .middle } Trigger Settings
 
-Learn more: [Bus Decode](bus-decode.md), [Timing Check](timing-check.md), [Cursor](cursor.md)
+    ---
+
+    Single-level / Multi-level / Width / Timeout / External triggers
+
+    [:octicons-arrow-right-24: Learn more](trigger-settings.md)
+
+-   :material-open-in-new:{ .middle } Protocol Triggers
+
+    ---
+
+    Configure trigger conditions for protocol events
+
+    [:octicons-arrow-right-24: Learn more](trigger-settings.md)
+
+</div>
+
+### Various Capture Configurations
+
+<div class="grid cards" markdown>
+
+-   :material-open-in-new:{ .middle } Storage Modes
+
+    ---
+
+    Store to Device RAM / PC RAM / PC HDD (Waveform Logger) along with Transitional Storage for long captures
+
+    [:octicons-arrow-right-24: Learn more](capture-settings.md#storage-modes)
+
+-   :material-open-in-new:{ .middle } Capture Modes
+    
+    ---
+
+    Asynchronous (Timing analysis) mode / Synchronous (State analysis) mode
+
+    [:octicons-arrow-right-24: Learn more](advanced-capture.md)
+
+</div>
 
 ### Integration
 
-- **Stack Oscilloscope:** Combine logic and analog analysis by connecting to supported oscilloscopes
-- **Export options:** Save as TLW, VCD, binary, MATLAB, or DGW/PGV formats
+<div class="grid cards" markdown>
 
-Learn more: [Stack Oscilloscope](stack-oscilloscope.md), [File Operations](file-operations.md)
+-   :material-open-in-new:{ .middle } Stack Oscilloscope
 
----
+    ---
 
-## Documentation sections
+    Combine logic and analog analysis by connecting to supported oscilloscopes
 
-- [File Operations](file-operations.md) - Open, save, import, and export files
-- [Keyboard Shortcuts](keyboard-shortcuts.md) - Quick key reference
-- [Capture Settings](capture-settings.md) - Configure triggers, memory, and thresholds
-- [Advanced Capture](advanced-capture.md) - Async/sync modes and glitch filters
-- [Cursor](cursor.md) - Cursor operations and waveform search
-- [Waveform Area](waveform-area.md) - Waveform display and annotations
-- [Report Area](report-area.md) - Channel status and statistics
-- [Bus Decode](bus-decode.md) - Protocol decoding settings
-- [Timing Check](timing-check.md) - Automated timing verification
-- [Stack Oscilloscope](stack-oscilloscope.md) - Mixed-signal analysis
+    [:octicons-arrow-right-24: Learn more](stack-oscilloscope.md)
+
+-   :material-open-in-new:{ .middle } Various Export Options
+
+    ---
+
+    Save as VCD, binary, MATLAB, or DGW/PGV formats
+
+    [:octicons-arrow-right-24: Learn more](export-data.md)
+
+</div>
+
+## Typical Workflows
+
+### Basic Signal Capture and Measurement
+
+1. [Configure channels](tutorial.md#step-2-configure-channels) and [trigger](tutorial.md#step-3-set-up-trigger)
+2. [Capture waveform](tutorial.md#step-6-capture-waveform)
+3. [Place cursors](cursor.md) to measure timing
+4. [Save results](export-data.md)
+
+**Use case:** Measuring clock frequency, pulse width, or timing relationships.
+
+### Protocol Debugging
+
+1. Use [Quick Setting](capture-settings.md#quick-setting) for your protocol
+2. [Capture bus transactions](tutorial.md#step-6-capture-waveform)
+3. [Review decode results](bus-decode.md) in report area
+4. [Export decode report](export-data.md#export-decode-reports) for documentation
+
+**Use case:** Debugging I2C, SPI, UART, or other bus protocols.
+
+### Timing Verification
+
+1. [Import CSV](timing-check.md) with timing specifications
+2. Configure [automated measurements](report-area.md#waveform-statistics)
+3. Capture and verify results
+4. [Export report](export-data.md) with pass/fail status
+
+**Use case:** Production testing, design verification, compliance testing.
+
+### Signal Integrity Analysis
+
+1. Enable [hardware glitch filter](advanced-capture.md#hardware-glitch-filter)
+2. Capture with [high sample rate](capture-settings.md#device-memory-usage)
+3. Use [Stack Oscilloscope](stack-oscilloscope.md) for analog view
+4. Compare filtered vs. unfiltered with [software filter](advanced-capture.md#software-glitch-filter)
+
+**Use case:** Identifying noise, glitches, or signal quality issues.
+
+## Documentation Structure
+
+**Getting Started**
+
+- [Understanding the Interface](interface-guide.md): Learn the UI components and layout
+- [Quick Start Tutorial](quick-start.md): Step-by-step walkthrough for beginners
+
+**Capturing Data**
+
+- [Capture Settings](capture-settings.md): Configure triggers, memory, and thresholds
+- [Trigger Settings](trigger-settings.md): Configure trigger type and conditions
+- [Advanced Capture Settings](advanced-capture.md): Asynchronous/Synchronous modes and glitch filters
+
+**Analyzing Waveforms**
+
+- [Navigate the data](navigate-data.md): Navigate the captured data
+- [Navigate the report](report-area.md): Navigate the analysis results
+- [Channel labels](channel-labels.md): Customize the channel labels
+- [Cursor measurements](cursor.md): Precise timing measurements with cursors
+- [Bus decode](bus-decode.md): Protocol decoding and custom reports
+
+**File Operations**
+
+- [Open & Save Files](file-operations.md): Manage waveform files and import data
+- [Export Data](export-data.md): Export to various formats and batch operations
+
+**Advanced Features**
+
+- [Power Sequence Validation](timing-check.md): Automated timing verification
+- [Stack External Oscilloscope](stack-oscilloscope.md): Integrate with external oscilloscopes with your analysis
+
+**Preferences**
+
+- [Environment options](preferences.md): A collection of environment settings
+- [Keyboard Shortcuts](keyboard-shortcuts.md): Manage your favorite shortcuts

@@ -1,47 +1,51 @@
-# Advanced capture settings
+# Advanced Capture Settings
 
-<!-- Source: Acute_TLmanual_en.pdf, Chapter 2, Pages 56-58 -->
+In addition to the basic capture settings we introduced in the last section, we also provide some advanced capture settings for you to choose from. Here are the details:
 
-Configure advanced capture modes including asynchronous/synchronous operation and glitch filtering.
+<figure markdown>
+  ![Advanced Capture Settings](../images/la/advanced-capture.png){ width="800" }
+  <figcaption>Advanced Capture Settings</figcaption>
+</figure>
 
-## Capture mode setting
+## Asynchronous Mode / Synchronous Mode
 
-Choose between timing-based and state-based capture modes.
+<figure markdown>
+  ![Asynchronous Mode / Synchronous Mode](../images/la/async-sync-list.png){ width="300" }
+  <figcaption>List of Asynchronous Mode / Synchronous Mode</figcaption>
+</figure>
 
----
+### Asynchronous Mode (Timing Analysis)
 
-### Asynchronous mode (Timing Analyzer)
+Asynchronous Mode uses the device's internal clock as the sampling clock. This mode
+is the default mode for most cases. It takes a sample at the clock rate consistently, and requires that the signal be oversampled to get accurate timing.
 
-Uses the device's internal clock as the sampling frequency.
+!!! tip
 
-**Sampling frequency guidelines:**
+    As a rule of thumb, you should sample at least 5 to 10 times of the signal frequency. Sampling rate lower than 5 times of the signal frequency will cause signal distortion.
 
-- **Recommended:** Set sampling frequency to about 10x the signal frequency
-- **Minimum:** Not less than 5x the signal frequency
-- **Warning:** Rates lower than 5x will cause signal distortion
+**Compound Mode**
 
-**Sampling error:**
+We also support compound clocks, where external clock is combined with internal clock to form a new sampling clock.
 
-Asynchronous sampling introduces sampling error between actual capture and the signal. The error time equals the reciprocal of the sampling frequency.
+Two modes are supported:
 
-**Qualifier mode:**
+- **Asynchronous Mode (Record When CK0 = 0)**: Only record when the external clock is LOW
+- **Asynchronous Mode (Record When CK0 = 1)**: Only record when the external clock is HIGH
 
-To increase signal capture frequency, add a qualifier:
-
-1. Select CK0
-2. Set a channel condition (0 or 1)
-
-**Example:** When Chip Select is 0 to capture the signal:
+**Example:** When SPI Chip Select (CS) is 0 to capture the signal:
 
 - Select asynchronous mode (recorded when CK0 = 0)
 - The qualifier condition filters captures to only when CK0 meets the condition
-- Device automatically enables transitional storage mode
 
----
+### Synchronous Mode (State Analysis)
 
-### Synchronous mode (State Analyzer)
+Differ from Asynchronous Mode, Synchronous Mode uses an external input clock as the sampling clock.
 
-Uses an external input clock as the sampling frequency.
+There are some preset modes for Synchronous Mode:
+
+- **Synchronous Mode (Latch on CK0 Rising)**: Sampled at the rising edge of the external clock
+- **Synchronous Mode (Latch on CK0 Falling)**: Sampled at the falling edge of the external clock
+- **Synchronous Mode (Latch on CK0 Either)**: Sampled at the rising or falling edge of the external clock
 
 **Configuration:**
 
@@ -49,15 +53,7 @@ Uses an external input clock as the sampling frequency.
 - When the external clock stops, signal capture also stops
 - Creates synchronous operation between device and external clock
 
-#### Easy setting
-
-CK0 is used as the input clock when configured for edge detection:
-
-- Rising edge
-- Falling edge
-- Either edge
-
-#### Advanced setting
+### Advanced Settings
 
 Configure multiple edge conditions to sample simultaneously.
 
@@ -68,97 +64,64 @@ Each edge condition set has two qualifier sets. Sampling occurs immediately when
 **Example conditions:**
 
 - CK0 ↑ → Sampling occurs immediately
-- CK0 ↑ + CK2 = 0 → Sampling occurs immediately
 
-This allows complex sampling conditions based on multiple signal relationships.
+<figure markdown>
+  ![Advanced Settings](../images/la/sync-advanced-sample.png){ width="400" }
+</figure>
 
----
+- CK0 ↑ + CK1 = 0 → Sampling occurs immediately
 
-## Glitch filter settings
+<figure markdown>
+  ![Advanced Settings](../images/la/sync-advanced-sample-2.png){ width="400" }
+</figure>
 
-Filter unwanted noise and eliminate false logic states caused by signal quality issues.
+## Glitch Filter
 
----
+We provide Glitch Filter feature in order to suppress short pulses in recorded data, and eliminate false logic states caused by these short pulses. This is a common issue during the recording process, cause we can't guarantee if there is any noise introduced from the environment.
 
-### Hardware glitch filter
+!!! tip
+
+    Use an Oscilloscope to analyze the signal quality. Try to eliminate the noise as much as possible for better result.
+
+### Hardware Glitch Filter
 
 Filter out unwanted glitches and logical misjudgments caused by slow transitions.
 
-**Characteristics:**
+<figure markdown>
+  ![Hardware Glitch Filter](../images/la/glitch-filter-hardware.png){ width="400" }
+  <figcaption>Hardware Glitch Filter Configuration</figcaption>
+</figure>
+
+**Characteristics**
 
 - Acts as a low-pass filter
 - Filters **before** hardware triggering occurs
 - Reminds users that glitches may indicate poor data transmission quality
 
-**Filter range:** 5ns to 35ns
-
-**Use with Stack Oscilloscope:**
-
-Combine Logic Analyzer and Oscilloscope Stack to:
-
-- Determine signal integrity
-- Identify unexpected glitches
-- Analyze analog characteristics of digital signals
-
-**Visual indicator:**
+**Filter range**: 5ns to 35ns
 
 Channels using the hardware glitch filter are marked with a **red dot** on the channel label for easy identification.
 
----
-
-### Software glitch filter
+### Software Glitch Filter
 
 Filter signals after capture without affecting trigger or timing.
 
-**Filter range:** 1ps to 1ms
+<figure markdown>
+  ![Software Glitch Filter](../images/la/glitch-filter-software.png){ width="400" }
+  <figcaption>Software Glitch Filter Configuration</figcaption>
+</figure>
 
-**Characteristics:**
+**Filter range**: 1ps to 1ms
+
+**Characteristics**
 
 - Changes display and decode contents only
 - Does **not** affect triggering
 - Does **not** affect recordable time
 - Disabling the filter restores original un-filtered waveform
 
-**Use cases:**
-
-- Remove noise for clearer display
-- Filter out known glitches during analysis
-- Test decode with and without noise
-
-**Advantages over hardware filter:**
+**Advantages over hardware filter**:
 
 - Wider filter range (1ps to 1ms vs. 5ns to 35ns)
-- Non-destructive - original data is preserved
-- Can be toggled on/off to compare results
-
----
-
-## Choosing the right mode
-
-### Use Asynchronous mode when:
-
-- Measuring signals without a common clock
-- Signal frequency is well-defined and stable
-- You need timing-accurate measurements
-- Working with independent signal sources
-
-### Use Synchronous mode when:
-
-- Measuring state-based systems
-- External clock defines data validity
-- Working with bus protocols with clock lines
-- State transitions are more important than timing
-
-### Use Hardware glitch filter when:
-
-- Pre-filtering is required before triggering
-- Working with noisy signals that affect triggers
-- Filter range of 5ns-35ns is sufficient
-- Signal quality is critical to capture
-
-### Use Software glitch filter when:
-
-- Post-capture filtering is preferred
-- Need to preserve original data
-- Want to compare filtered vs. unfiltered results
-- Need very short (1ps) or very long (1ms) filter times
+- Non-destructive: original recorded data is preserved
+- Can be toggled ENABLE or DISABLE to compare filtered and unfiltered results

@@ -1,193 +1,195 @@
-# Capture settings
+# Capture Settings
 
-<!-- Source: Acute_TLmanual_en.pdf, Chapter 2, Pages 42-55 -->
+Here are some important configurations before you start capturing data.
 
-Configure capture parameters including quick settings, triggers, memory usage, and thresholds.
+* [Sample Rate](#sample-rate)
+* [Channel Settings](#channel-settings)
+* [Storage Modes](#storage-modes)
+* [Threshold](#threshold)
+* [Trigger Settings](trigger-settings.md)
 
-## Operating steps
+## Sample Rate
 
-Follow this sequence for configuring a capture:
+As a rule of thumb, you should sample at least 5 to 10 times of the signal frequency. You may setup the sample rate much higher than this if preferred. It generally improves the timing resolution of the captured data. However, it may increase the probability of introducing glitches of data, which may affect the interpretation of the data.
 
-**Quick Setting** → **Trigger** → **Sample Rate** → **Memory** → **Threshold**
+**Examples:**
 
----
+- I2C at 100 kHz → Use 1 MHz or higher
+- SPI at 1 MHz → Use 10 MHz or higher
 
-## Quick setting
+!!! tip
 
-Immediately configure required channels and related settings. When configuring specific bus decode, the sampling rate and threshold are automatically set according to default conditions.
+    [Quick Settings](quick-start.md#step-2-capture-settings) already guaranteed this rule for most of the protocols.
 
-This feature provides preset configurations for common protocols, saving time on manual setup.
+Simply click the **Sample Rate** button in the toolbar to set the sample rate.
 
----
+<figure markdown>
+  ![Sample Rate Settings](../images/la/sample-rate.png){ width="800" }
+  <figcaption>Sample Rate Dropdown List</figcaption>
+</figure>
 
-## Trigger parameter setting
+For Mixed-Signal Oscilloscope series, the location of the sample rate configuration is slightly different, as shown below.
 
-### Manual trigger
+<figure markdown>
+  ![Sample Rate Settings](../images/la/sample-rate-mso.png){ width="800" }
+  <figcaption>Sample Rate Settings for Mixed-Signal Oscilloscope series</figcaption>
+</figure>
 
-After setup, click the **Stop** button to manually set the trigger point in the captured data.
+## Channel Settings
 
----
+Configure the amount of channels to be used for capturing data. Note that this configuration shall be configured before you start the capture. If some channels are not in use, you can disable them to save memory.
 
-### Single level trigger
+<figure markdown>
+  ![Channel Settings](../images/la/channels.png){ width="400" }
+  <figcaption>Channel Settings</figcaption>
+</figure>
 
-Configure a simple trigger based on channel states.
+<figure markdown>
+  ![Channel Settings](../images/la/channels-mso.png){ width="800" }
+  <figcaption>Channel Settings for Mixed Signal Oscilloscope series</figcaption>
+</figure>
 
-**Configuration options:**
+## Storage Modes
 
-1. **Channel / Label:** Select trigger conditions for each channel:
-   - **X** - Don't care
-   - **↑** - Rising edge
-   - **↓** - Falling edge
-   - **0** - Low level
-   - **1** - High level
-   - **Either** - Any edge
-   - **Specified value** - Exact binary pattern
+Configure how you store your captured data.
 
-2. **Pass count:** Number of matching trigger events to ignore before triggering. Default is 0 (trigger on first match).
+<figure markdown>
+  ![Memory Modes](../images/la/memory-modes.png){ width="400" }
+  <figcaption>Storage Modes</figcaption>
+</figure>
 
----
+<figure markdown>
+  ![Memory Modes](../images/la/memory-modes-mso.png){ width="800" }
+  <figcaption>Storage Modes for Mixed-Signal Oscilloscope series</figcaption>
+</figure>
 
-### Multi-level trigger
+Here is an image the demonstates the difference between the three main storage modes.
 
-Create complex trigger conditions using multiple stages (up to 16 states).
+<figure markdown>
+  ![Memory Modes](../images/la/storage-modes.png){ width="800" }
+  <figcaption>Storage Modes Comparison</figcaption>
+</figure>
 
-**Configuration:**
+### Store to Device RAM
 
-Each state is configured like a single-level trigger. States can be connected with:
+This mode is the default mode. The recorded data is buffered inside the device RAM. When the memory is full, the capture will stop and the data will be transferred to the PC.
 
-- **Next IF** - Continuous trigger (signals must match on adjacent sample clocks)
-- **Then IF** - Non-continuous trigger (signals can match with any number of samples between)
+You can set the storage depth for capturing data. Capture stops when the limit is reached.
+The upper limit differs between the models.
 
-**State relationship diagram:**
+<figure markdown>
+  ![Memory Modes](../images/la/memory-modes-adjust.png){ width="400" }
+</figure>
 
-The software displays the current trigger condition flow, showing which states are continuous and which are non-continuous.
+It also provides an estimated recordable time to help you decide how much memory you need.
 
-**Continuous vs. non-continuous triggers:**
+### Stream to PC RAM
 
-**Continuous trigger:**
+The recorded data is buffered by the device RAM and then streamed to the PC RAM in real time. This will be useful when you got enough PC RAM.
 
-- Signals captured by two adjacent sample clocks must meet the conditions
-- Typically used with synchronous or state mode measurements
-- Signals are in a continuous, predictable state
+!!! warning
 
-**Non-continuous trigger:**
+    There will be a limitation due to the throughput of the USB transmission. Thus, it is not recommended to operate this mode with high sampling rate because it bursts more data in a shorter time.
 
-- Triggers when both conditions are met, regardless of signals between them
-- Suitable for asynchronous or timing mode
-- Ideal when edge transitions must meet conditions but intermediate states don't matter
+### Stream to PC HDD (Waveform Logger)
 
-**Additional options:**
+This mode is further stored the data to the hard disk, since mostly we have more storage space in the hard disk. It is recommended to use this mode for long captures, but it has the same limitation as the **Stream to PC RAM** mode.
 
-3. **Trigger condition area:** Set the trigger condition for each class
-4. **OR IF:** Establish parallel trigger conditions. Any matching condition will trigger
-5. **Sequence by:** Set incidental trigger conditions based on edge transitions
+### Transitional Storage
 
-**Sequence by example:**
+Transitional storage is a feature that applies to the **Store to Device RAM** mode and **Stream to PC RAM** mode. It allows you to capture the data for longer time by only storing the transitions instead of all sample points from the entire capture. 
 
-If signal data is valid only when the clock is rising, you can:
+!!! tip
 
-- Set Sequence by to **Custom Rising**
-- Select the Clock pin as the valid condition
-- Set conditions for other data lines using multi-level triggering
+    It is strongly recommended to use this mode when you have long-idled signals and you still want to capture the data for a long period of time.
 
-**Note:** Sequence by function is only supported when sampling frequency is ≤ 250 MHz.
+### Trigger Position
 
-**Limitation:** Multi-level triggering is not supported when sampling frequency is ≥ 2 GHz.
+Set trigger point location in memory using percentage.
 
----
-
-### Width trigger
-
-Trigger when a channel meets the trigger condition and the pulse width matches the specified length.
-
----
-
-### Timeout trigger
-
-Trigger when a signal duration exceeds the set time value, without waiting for a complete pulse.
-
----
-
-### External trigger
-
-Use the device's **Trig-In** input pulse signal as the trigger condition.
-
----
-
-## Device memory usage
-
-Configure how much device memory to use for capture.
-
-**Settings:**
-
-1. **Device memory usage:** Set storage depth for capturing data. Capture stops when the limit is reached
-2. **Recordable time:** Estimated length of actual capture waveform based on current settings
-   - **Note:** Time estimation is disabled when using transitional storage mode
-3. **Memory / Channel:** Device allocates available memory based on the number of channels selected
-   - Fewer channels = more memory per channel
-4. **Trigger position:** Set trigger point location in memory using percentage
-   - **Example:** 50% means up to 50% of device memory stores pre-trigger data
-5. **Capture stop condition:** Configure when the capture automatically stops
-
----
+- **Example:** 50% means up to 50% of device memory stores pre-trigger data
+- **Capture stop condition:** Configure when the capture automatically stops
 
 ## Threshold
 
+### Threshold Voltage Level Configuration
+
 Configure voltage thresholds that determine logic levels for captured signals.
 
-### Threshold settings
+!!! tip
 
-**Definition:**
+    **Rule of thumb:** Threshold = Supply Voltage ÷ 2. This is a good starting point for optimal results.
 
-- Signal voltage **above** threshold = Logic High (1)
-- Signal voltage **below** threshold = Logic Low (0)
+1. Click on the **Threshold** button in the toolbar
 
-**Recommendation:** Set threshold to half of the signal voltage for optimal results.
+2. Choose a preset from the **Quick Setup** dropdown list or set custom voltage
 
-**Quick setting:** Select commonly used voltage levels from preset options, then fine-tune as needed.
+    Common voltage levels:
 
----
+    - Vcc 5 V: Configures the threshold to 2.5 V
+    - Vcc 3.3 V: Configures the threshold to 1.6 V
+    - Vcc 1.8 V: Configures the threshold to 0.9 V
 
-### Schmitt circuit threshold mode
+3. Click **OK**
 
-Use two threshold levels to eliminate noise and signal jitter.
+**Rule of thumb:** Threshold = Supply Voltage ÷ 2
 
-**Why use Schmitt circuit mode?**
+<figure markdown>
+  ![Threshold Settings dialog with Schmitt circuit mode](../images/la/threshold-settings.png){ width="400" }
+  <figcaption>Threshold Settings</figcaption>
+</figure>
+
+<figure markdown>
+  ![Threshold Settings dialog with Schmitt circuit mode](../images/la/threshold-settings-mso.png){ width="800" }
+  <figcaption>Threshold Settings for Mixed-Signal Oscilloscope series</figcaption>
+</figure>
+
+### Threshold Configuration with Schmitt Circuit
+
+**Why use Schmitt circuit?**
 
 When using a single threshold and the voltage is close to the threshold during signal transition, the device may capture ambiguous 0 or 1 states. This causes viewing difficulties.
 
-**Hardware surge filter limitations:**
+Real signals often contain:
+- noise
+- slow edges
+- bouncing signals (switches)
+
+This causes trouble when analyzing the waveform, as the signal may be captured in an ambiguous state, as the figure below shows.
+
+<figure markdown>
+  ![Schmitt circuit demonstration](../images/la/schmitt-demonstration.png){ width="600" }
+</figure>
+
+**Hardware surge filter limitations**
 
 A hardware surge filter (low-pass filter) can filter noise but may also filter true signals or high-frequency components, making it unsuitable for this problem.
 
-**Schmitt circuit solution:**
+**Schmitt circuit solution**
 
 Uses two sets of thresholds to create hysteresis on the voltage signal, eliminating noise interference and solving signal jitter.
 
-**Configuration:**
+**Configuration**
 
 When using Schmitt circuit functions:
 
 - Both channels must be used for measurements
 - Each measurement point requires two test lines to form two threshold sets
-- Either threshold can be Threshold-High or Threshold-Low
 
-**Channel pairing:**
+**Channel pairing**
 
-- First threshold set: A0-A15
-- Second threshold set: A16-A31
-- Pairing: A0↔A16, A1↔A17, A2↔A18, etc.
+For TravelLogic series, you can pair the channels as follows:
 
-**Logic judgment rules:**
+<figure markdown>
+  ![Schmitt circuit for threshold settings](../images/la/threshold-schmitt.png){ width="400" }
+</figure>
 
-- Signal must **exceed Threshold-High** to become logic 1
-- Signal must drop **below Threshold-Low** to become logic 0
-- Signals between thresholds remain in the non-transposed area, maintaining last logical state
+- First threshold set: CH0 - CH15
+- Second threshold set: CH16 - CH31
+- Pairing: CH0 ↔ CH16, CH1 ↔ CH17, CH2 ↔ CH18, etc.
 
----
+**How to determine the logic level?**
 
-### Set individual threshold on each tip
-
-Enable the checkbox to adjust the threshold of each probe tip individually. Click the value button to directly type the desired value.
-
-This allows fine-tuning thresholds for signals with varying voltage levels across different channels.
+- Input signal must **rise above Upper Threshold** to switch to logic 1 (HIGH)
+- Input signal must **fall below Lower Threshold** to switch to logic 0 (LOW)
+- When the input is between the thresholds, the output retains its previous logical state.
