@@ -91,6 +91,6 @@ Press the **H** key to jump to Cursor H, and here we go. The Cursor H is now in 
   ![Cursor Position](../images/la/cursor-quick-positioning-2.png){ width="800" }
 </figure>
 
-This just like a bookmark. Next time, you can drop cursor anywhere you want to quickly reference to, this helps you to navigate the waveform area quickly and efficiently. Add any cursor by pressing the **Shift + A-Z** key.
+They are just like bookmarks. Next time, you can drop cursors anywhere you want to quickly reference to, this helps you to navigate the waveform area quickly and efficiently. Add any cursors by pressing the **Shift + A-Z** key.
 
 See also [Cursor operations](cursor.md) for more details.
