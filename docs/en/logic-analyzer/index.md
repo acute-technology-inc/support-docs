@@ -32,15 +32,15 @@ The Logic Analyzer mode allows you to capture and analyze digital signals with a
   
     Measure period, frequency, pulse width, delays, and more
 
-    [:octicons-arrow-right-24: Learn more](report-area.md#waveform-statistics)
+    [:octicons-arrow-right-24: Learn more](navigate-report.md#waveform-statistics)
 
 -   :material-open-in-new:{ .middle } Timing Check
     
     ---
 
-    Import CSV files to automate parameter verification
+    Import CSV timing configuration files to automate power sequence validation
     
-    [:octicons-arrow-right-24: Learn more](timing-check.md)
+    [:octicons-arrow-right-24: Learn more](power-sequence-validation.md)
 
 </div>
 
@@ -134,8 +134,8 @@ The Logic Analyzer supports numerous trigger types for different capture scenari
 
 ### Timing Verification
 
-1. [Import CSV](timing-check.md) with timing specifications
-2. Configure [automated measurements](report-area.md#waveform-statistics)
+1. [Import CSV](power-sequence-validation.md) with timing specifications
+2. Configure [automated measurements](navigate-report.md#waveform-statistics)
 3. Capture and verify results
 4. [Export report](export-data.md) with pass/fail status
 
@@ -166,10 +166,10 @@ The Logic Analyzer supports numerous trigger types for different capture scenari
 **Analyzing Waveforms**
 
 - [Navigate the data](navigate-data.md): Navigate the captured data
-- [Navigate the report](report-area.md): Navigate the analysis results
 - [Channel labels](channel-labels.md): Customize the channel labels
 - [Cursor measurements](cursor.md): Precise timing measurements with cursors
-- [Bus decode](bus-decode.md): Protocol decoding and custom reports
+- [Protocol decoders](bus-decode.md): Protocol decoding and custom reports
+- [Navigate the report](navigate-report.md): Navigate the analysis results
 
 **File Operations**
 
@@ -178,7 +178,7 @@ The Logic Analyzer supports numerous trigger types for different capture scenari
 
 **Advanced Features**
 
-- [Power Sequence Validation](timing-check.md): Automated timing verification
+- [Power Sequence Validation](power-sequence-validation.md): Automate checks the horiztonal timing validation with customized timing configuration files
 - [Stack External Oscilloscope](stack-oscilloscope.md): Integrate with external oscilloscopes with your analysis
 
 **Preferences**

@@ -333,7 +333,7 @@ Measure timing relationship between two signals:
 3. Select second channel when prompted
 4. Delay time displays in report
 
-See: [Report Area - Waveform Statistics](report-area.md#waveform-statistics) for all measurement types.
+See: [Report Area - Waveform Statistics](navigate-report.md#waveform-statistics) for all measurement types.
 
 ## Next Steps
 
@@ -346,7 +346,7 @@ See: [Report Area - Waveform Statistics](report-area.md#waveform-statistics) for
 
 ### Advanced Features
 
-- **Timing validation:** Automate checks with [Timing Check](timing-check.md)
+- [**Power sequence timing validation**](power-sequence-validation.md): Automate checks with horiztonal timing validation
 - **Mixed-signal analysis:** Combine with [Stack Oscilloscope](stack-oscilloscope.md)
 - **Glitch filtering:** Remove noise with [Hardware/Software filters](advanced-capture.md#glitch-filter-settings)
 - **Custom reports:** Create [customized decode reports](bus-decode.md#customized-report-settings)

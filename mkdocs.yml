@@ -149,20 +149,20 @@ validation:
 
 draft_docs: |
   protocols/
-  logic-analyzer/channel-labels.md
-  logic-analyzer/cursor.md
-  logic-analyzer/report-area.md
-  logic-analyzer/bus-decode.md
-  logic-analyzer/file-operations.md
-  logic-analyzer/export-data.md
-  logic-analyzer/timing-check.md
-  logic-analyzer/stack-oscilloscope.md
-  logic-analyzer/keyboard-shortcuts.md
   protocol-analyzer/
   specification/
   trigger/
   troubleshooting/
   software/installation.md
+  logic-analyzer/channel-labels.md
+  logic-analyzer/cursor.md
+  logic-analyzer/navigate-report.md
+  logic-analyzer/bus-decode.md
+  logic-analyzer/file-operations.md
+  logic-analyzer/export-data.md
+  logic-analyzer/power-sequence-validation.md
+  logic-analyzer/stack-oscilloscope.md
+  logic-analyzer/keyboard-shortcuts.md
 
 nav:
   - Home: index.md
@@ -213,35 +213,35 @@ nav:
       - Advanced capture settings: logic-analyzer/advanced-capture.md
     - Analyzing Waveforms:
       - Navigate the data: logic-analyzer/navigate-data.md
-      - Navigate the report: logic-analyzer/report-area.md
       - Channel labels: logic-analyzer/channel-labels.md
       - Cursor measurements: logic-analyzer/cursor.md
-      - Bus decode: logic-analyzer/bus-decode.md
+      - Protocol decoders: logic-analyzer/bus-decode.md
+      - Navigate the report: logic-analyzer/navigate-report.md
     - File Operations:
       - Open & Save Files: logic-analyzer/file-operations.md
       - Export Data: logic-analyzer/export-data.md
     - Advanced Features:
-      - Power Sequence Validation: logic-analyzer/timing-check.md
+      - Power Sequence Validation: logic-analyzer/power-sequence-validation.md
       - Stack External Oscilloscope: logic-analyzer/stack-oscilloscope.md
     - Preferences:
       - System environment options: logic-analyzer/preferences.md
       - Keyboard shortcuts: logic-analyzer/keyboard-shortcuts.md
-  - Protocol Analyzer:
-    - protocol-analyzer/index.md
-    - Capturing Data:
-      - Protocol Settings: protocol-analyzer/protocol-settings.md
-      - Operating Modes: protocol-analyzer/operating-modes.md
-      - Capture Modes: protocol-analyzer/capture-modes.md
-    - Navigation:
-      - Show Waveforms: protocol-analyzer/show-waveforms.md
-      - Search: protocol-analyzer/search.md
-      - Detail & Statistics: protocol-analyzer/detail-statistics.md
-      - Window Management: protocol-analyzer/window-management.md
-      - Cursor: protocol-analyzer/cursor.md
-    - Exporting Data:
-      - File Operations: protocol-analyzer/file-operations.md
-    - Preferences:
-      - Keyboard shortcuts: protocol-analyzer/keyboard-shortcuts.md
+  # - Protocol Analyzer:
+  #   - protocol-analyzer/index.md
+  #   - Capturing Data:
+  #     - Protocol Settings: protocol-analyzer/protocol-settings.md
+  #     - Operating Modes: protocol-analyzer/operating-modes.md
+  #     - Capture Modes: protocol-analyzer/capture-modes.md
+  #   - Navigation:
+  #     - Show Waveforms: protocol-analyzer/show-waveforms.md
+  #     - Search: protocol-analyzer/search.md
+  #     - Detail & Statistics: protocol-analyzer/detail-statistics.md
+  #     - Window Management: protocol-analyzer/window-management.md
+  #     - Cursor: protocol-analyzer/cursor.md
+  #   - Exporting Data:
+  #     - File Operations: protocol-analyzer/file-operations.md
+  #   - Preferences:
+  #     - Keyboard shortcuts: protocol-analyzer/keyboard-shortcuts.md
   - Protocols:
     - protocols/index.md
     - Curated List:

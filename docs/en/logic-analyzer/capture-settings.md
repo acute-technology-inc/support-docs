@@ -74,7 +74,7 @@ Here is an image the demonstates the difference between the three main storage m
 
 This mode is the default mode. The recorded data is buffered inside the device RAM. When the memory is full, the capture will stop and the data will be transferred to the PC.
 
-You can set the storage depth for capturing data. Capture stops when the limit is reached.
+You can set the storage depth for capturing data. A single capture stops when the limit of the storage depth is reached.
 The upper limit differs between the models.
 
 <figure markdown>

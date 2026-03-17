@@ -94,7 +94,7 @@ Displays analysis results right under the waveform area.
 - Configure columns
 - Save report settings
 
-To learn more about detailed features in the report area, see the [Navigate the report](report-area.md) section of this user guide.
+To learn more about detailed features in the report area, see the [Navigate the report](navigate-report.md) section of this user guide.
 
 ### 5. Status Bar
 
@@ -142,6 +142,6 @@ Displays device connection and capture status information.
 - Navigation:
 
     - [Navigate the data](waveform-area.md): Detailed waveform operations
-    - [Navigate the report](report-area.md): Understanding report displays
+    - [Navigate the report](navigate-report.md): Understanding report displays
 
 - [Troubleshooting](troubleshooting.md): Common issues and solutions

@@ -85,18 +85,12 @@ We provide Glitch Filter feature in order to suppress short pulses in recorded d
 
 ### Hardware Glitch Filter
 
-Filter out unwanted glitches and logical misjudgments caused by slow transitions.
+It actually applies a low-pass filter before we start capturing. The filtering process is done by hardware, so you can't disable it after the captured data is stored.
 
 <figure markdown>
   ![Hardware Glitch Filter](../images/la/glitch-filter-hardware.png){ width="400" }
   <figcaption>Hardware Glitch Filter Configuration</figcaption>
 </figure>
-
-**Characteristics**
-
-- Acts as a low-pass filter
-- Filters **before** hardware triggering occurs
-- Reminds users that glitches may indicate poor data transmission quality
 
 **Filter range**: 5ns to 35ns
 
