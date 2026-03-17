@@ -25,6 +25,20 @@ There are several kinds of reports you can view here:
   ![Waveform statistics](../images/la/report-measurement.png)
 </figure>
 
+## Report Toolbar
+
+![](/assets/report/transition-report.png): Switch to [Transition](#transition-report) report
+
+![](/assets/report/decode-report.png): Switch to [Protocol decoder](#protocol-decoder-report) report
+
+![](/assets/report/measurement-report.png): Switch to [Waveform statistics](#waveform-statistics) report
+
+![](/assets/report/export-report.png): Export the report data into TXT/CSV format
+
+![](/assets/report/refresh-report.png): Refresh the analysis results, used in protocol decoder and waveform statistics reports
+
+![](/assets/report/jump-report.png): Jump to the specific row number
+
 ## Transition report
 
 Display the logic level transitions logs of each channel.
@@ -116,65 +130,24 @@ please refer to the [Protocols](../../protocols/index.md) tab page to find your 
 
 </div>
 
+## Customized Report
 
-## Report Storage
+Sometimes you may want to focus on a specific part of the report, or you probably want to compare multiple decoder reports at the same time. This customization is what you need.
 
-### 4. Save Report Contents
+### Configuration
 
-Export report contents as text files for documentation or further analysis.
+Select the *Customized Report* item in the dropdown list from the report window toolbar.
 
-**Supported formats:**
+<figure markdown>
+  ![Customized Report](../images/la/customized-report-dropdown.png){ width="600" }
+</figure>
 
-- .CSV (Comma-Separated Values)
-- .TXT (Plain text)
+Pick the columns you want to include. For the example below, we may choose only the data bits of the I2C decoder.
 
-**What's included:**
+<figure markdown>
+  ![Customized Report](../images/la/customized-report-settings.png){ width="600" }
+</figure>
 
-- Decode results
-- Timestamps
-- Channel states
-- Customized report columns
+**Use cases**
 
-**How to save:** Click the save button in the report window toolbar.
-
----
-
-## Tips And Best Practices
-
-### Measurement Range Selection
-
-- Use **cursors** to define the measurement range for more accurate statistics
-- Measure only the relevant portion of long captures to avoid averaging effects
-- Clear cursor selection to measure the entire waveform
-
----
-
-### Efficient Measurement Workflows
-
-**Compare multiple channels:**
-
-1. Set up measurement type on first channel
-2. Drag to copy to all channels you want to compare
-3. Review results in report area
-
-**Analyze single signal thoroughly:**
-
-1. Drag multiple measurement types onto one channel name
-2. View comprehensive signal characteristics
-3. Export results for documentation
-
-
-**Tips:**
-
-- Resize report area by dragging the divider
-- Use row numbers for easier reference (enable in preferences)
-- Right-click in report for context menu options
-
-
----
-
-### Report Organization
-
-- Customize report columns using [Customized Report Settings](bus-decode.md#customized-report-settings)
-- Show row numbers for easier reference (enable in [system environment settings](preferences.md#report-options))
-- Include timestamp information for precise time correlation
+In most scenarios, we would like to decode different protocols and observe how they correlate with each other. For example, in a power control system, I2C and USB PD coexist and may affect one another. This is where a customized report becomes useful.
