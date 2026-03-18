@@ -233,7 +233,7 @@ nav:
   #     - File Operations: protocol-analyzer/file-operations.md
   #   - Preferences:
   #     - Keyboard shortcuts: protocol-analyzer/keyboard-shortcuts.md
-  - Protocols:
+  - Supported Protocols:
     - protocols/index.md
     - Curated List:
       - 1-Wire: protocols/1-wire.md
