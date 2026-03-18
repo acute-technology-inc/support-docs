@@ -139,7 +139,5 @@ Displays device connection and capture status information.
 - [Capture Settings](capture-settings.md): Configure toolbar parameters
 - Navigation:
 
-    - [Navigate the data](waveform-area.md): Detailed waveform operations
+    - [Navigate the data](navigate-data.md): Detailed waveform operations
     - [Navigate the report](navigate-report.md): Understanding report displays
-
-- [Troubleshooting](troubleshooting.md): Common issues and solutions

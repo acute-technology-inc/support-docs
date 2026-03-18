@@ -133,11 +133,11 @@ markdown_extensions:
   - toc:
       toc_depth: 3
 
-# strict: true
+strict: true
 
 validation:
   # Warn about Markdown files not listed in the nav.
-  omitted_files: warn
+  omitted_files: info
 
   # If a link is /foo/bar.md,
   # turn it into relative to the docs/ directory.
@@ -206,7 +206,6 @@ nav:
       - Navigate the data: logic-analyzer/navigate-data.md
       - Channel labels: logic-analyzer/channel-labels.md
       - Interact with cursors: logic-analyzer/cursor.md
-      # - Protocol decoders: logic-analyzer/bus-decode.md
       - Navigate the report: logic-analyzer/navigate-report.md
     - File Operations:
       - Open & Save Files: logic-analyzer/file-operations.md

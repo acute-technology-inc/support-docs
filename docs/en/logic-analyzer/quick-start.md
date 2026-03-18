@@ -32,7 +32,7 @@ Check the **status bar** at the bottom of the window:
 
 **Model information** should display in the status bar (e.g., "LA4136B Connected").
 
-**Troubleshooting:** If device isn't detected, see [Troubleshooting](../troubleshooting/additional-resources.md).
+<!-- **Troubleshooting:** If device isn't detected, see [Troubleshooting](../troubleshooting/additional-resources.md). -->
 
 ## Step 2: Capture Settings
 
@@ -339,16 +339,16 @@ See: [Report Area - Waveform Statistics](navigate-report.md#waveform-statistics)
 
 ### Improve Your Skills
 
-- **Try different trigger types:** [Multi-level triggers](capture-settings.md#multi-level-trigger) for complex conditions
-- **Explore capture modes:** [Synchronous mode](advanced-capture.md#synchronous-mode-state-analyzer) for state analysis
-- **Learn annotations:** Add [text and graphics](waveform-area.md#add-text--graphic-annotations) to document findings
+- **Try different trigger types:** Multi-level triggers for complex conditions
+- **Explore capture modes:** [Synchronous mode](advanced-capture.md#synchronous-mode-state-analysis) for state analysis
+- **Learn annotations:** Add [text and graphics](navigate-data.md#quick-note-and-marker-annotations) to document findings
 - **Master cursors:** Use [multiple cursors](cursor.md) for parallel measurements
 
 ### Advanced Features
 
 - [**Power sequence timing validation**](power-sequence-validation.md): Automate checks with horiztonal timing validation
 - **Mixed-signal analysis:** Combine with [Stack Oscilloscope](stack-oscilloscope.md)
-- **Glitch filtering:** Remove noise with [Hardware/Software filters](advanced-capture.md#glitch-filter-settings)
+- **Glitch filtering:** Remove noise with [Hardware/Software filters](advanced-capture.md#glitch-filter)
 - **Custom reports:** Create [customized decode reports](bus-decode.md#customized-report-settings)
 
 ### Practice Scenarios
@@ -387,7 +387,7 @@ See: [Report Area - Waveform Statistics](navigate-report.md#waveform-statistics)
 
 - Check probe connections (loose wires?)
 - Verify threshold voltage is correct
-- Try [Glitch Filter](advanced-capture.md#glitch-filter-settings)
+- Try [Glitch Filter](advanced-capture.md#glitch-filter)
 - Increase sample rate
 
 **Problem: Decode shows errors**

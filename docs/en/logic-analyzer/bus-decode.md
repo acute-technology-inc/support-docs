@@ -140,5 +140,3 @@ Save customized reports using standard export functions:
 - Individual file export (current window)
 - Batch report export (multiple files)
 - CSV or TXT format
-
-See: [File Operations - Report Storage](file-operations.md#batch-operations)

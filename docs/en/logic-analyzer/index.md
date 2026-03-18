@@ -116,8 +116,8 @@ The Logic Analyzer supports numerous trigger types for different capture scenari
 
 ### Basic Signal Capture and Measurement
 
-1. [Configure channels](tutorial.md#step-2-configure-channels) and [trigger](tutorial.md#step-3-set-up-trigger)
-2. [Capture waveform](tutorial.md#step-6-capture-waveform)
+1. [Configure channels](channel-labels.md) and [trigger](trigger-settings.md)
+2. [Capture waveform](capture-settings.md)
 3. [Place cursors](cursor.md) to measure timing
 4. [Save results](export-data.md)
 
@@ -126,13 +126,13 @@ The Logic Analyzer supports numerous trigger types for different capture scenari
 ### Protocol Debugging
 
 1. Use [Quick Setting](quick-start.md#step-2-capture-settings) for your protocol
-2. [Capture bus transactions](tutorial.md#step-6-capture-waveform)
-3. [Review decode results](bus-decode.md) in report area
+2. [Capture protocol transactions](capture-settings.md)
+3. [Review decode results](navigate-report.md) in report area
 4. [Export decode report](export-data.md#export-decode-reports) for documentation
 
 **Use case:** Debugging I2C, SPI, UART, or other bus protocols.
 
-### Timing Verification
+### Horizontal Timing Verification
 
 1. [Import CSV](power-sequence-validation.md) with timing specifications
 2. Configure [automated measurements](navigate-report.md#waveform-statistics)
@@ -144,7 +144,7 @@ The Logic Analyzer supports numerous trigger types for different capture scenari
 ### Signal Integrity Analysis
 
 1. Enable [hardware glitch filter](advanced-capture.md#hardware-glitch-filter)
-2. Capture with [high sample rate](capture-settings.md#storage-modes)
+2. Capture with [high sample rate](capture-settings.md)
 3. Use [Stack Oscilloscope](stack-oscilloscope.md) for analog view
 4. Compare filtered vs. unfiltered with [software filter](advanced-capture.md#software-glitch-filter)
 
@@ -166,12 +166,9 @@ The Logic Analyzer supports numerous trigger types for different capture scenari
 **Analyzing Waveforms**
 
 - [Navigate the data](navigate-data.md): Navigate the captured data
-<!-- - [Channel labels](channel-labels.md): Customize the channel labels -->
-- Channel labels: Customize the channel labels
-<!-- - [Cursor measurements](cursor.md): Precise timing measurements with cursors -->
-- Cursor measurements: Precise timing measurements with cursors
+- [Channel labels](channel-labels.md): Customize the channel labels
+- [Cursor measurements](cursor.md): Precise timing measurements with cursors
 <!-- - [Protocol decoders](bus-decode.md): Protocol decoding and custom reports -->
-- Protocol decoders: Protocol decoding and custom reports
 - [Navigate the report](navigate-report.md): Navigate the analysis results
 
 **File Operations**

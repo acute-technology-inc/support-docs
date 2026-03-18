@@ -1,12 +1,12 @@
-# File operations
+# File Operations
 
 <!-- Source: Acute_TLmanual_en.pdf, Chapter 2, Pages 31-40 -->
 
-Manage waveform files, import data, export to various formats, and configure system settings.
+Open, save, and import waveform files from various sources.
 
-## Basic file operations
+## Basic File Operations
 
-### Open file
+### Open File
 
 Load a previously saved waveform file from disk.
 
@@ -15,66 +15,29 @@ Supported formats:
 - TravelLogic Waveform Files (*.TLW)
 - Logic Analyzer Waveform Files (*.LAW)
 
-### Save file
+### Save File
 
 Save the current capture to disk with the existing filename.
 
-### Save as
+### Save As
 
 Save with a new filename and optionally specify a storage range.
 
-**Available formats:**
+**Primary format:**
 
-1. **TravelLogic files (*.TLW)** - Native format with all settings
-2. **Transitional text file (*.txt)** - Transition-only data
-3. **Text file (*.txt)** - Full data export
-4. **MATLAB array file (*.m)** - For MATLAB analysis
-5. **Binary data file (*.bin)** - Raw binary format
-6. **TravelLogic files + Report file (*.TLW + *.TXT)** - Waveform and decoded report
-7. **Value Change Dump (*.vcd)** - Standard VCD format for simulation tools
-8. **Timestamp binary file (*.bin)** - Time-stamped binary data with options:
-   - 64-bit time + 16-bit data
-   - 64-bit time + 32-bit data
-   - 64-bit time + 64-bit data
-   - 64-bit time + 128-bit data
+- **TravelLogic files (*.TLW)** - Native format with all settings preserved
 
-**Timestamp binary format:**
+**Additional formats:** For exporting to other formats, see [Export Data](export-data.md).
 
-The first 64 bits represent time, and the remaining bits represent data. Data direction is from LSB to MSB (left to right).
-
-**Note:** If you choose a data bit format with fewer bits than the number of channels, extra bits will be discarded.
-
-### Save all
+### Save All
 
 Save all open Logic Analyzer and Protocol Analyzer windows to files at once.
 
----
-
-## Export to pattern generator
-
-### Save as DGW / PGV file
-
-Convert captured waveforms to DGW/PGV format for Acute Digital Data Generators (PKPG, PG2000, DG Series, TD Series). The exported waveform can be used to regenerate digital signals.
-
-**Configuration options:**
-
-1. **Select PG model:** The software checks maximum working frequency and memory depth based on the selected model
-2. **File name and location:** Specify where to save the converted PGV file
-3. **Save range:** 
-   - Waveform within cursor range
-   - Maximum available range (based on PG's maximum memory)
-   - **Note:** Files larger than the PG's memory may not open in the PG software
-4. **Repeat output:** Add a "Jump to start" command at the end for continuous playback
-5. **Idle convert method:** Replace long idle periods with loop instructions to save memory
-   - **Warning:** This makes the waveform more complex and harder to edit
-6. **PG working frequency:** Specify the target pattern generator frequency
-7. **Waveform convert method:** Choose how to handle frequency mismatches:
-   - **Real-time sampling mode:** Uses PG's maximum frequency (may lose small signals)
-   - **Slower waveform mode:** Converts high-speed waveform to slower speed (may affect setup/hold timing)
+**Use case:** Quickly save multiple captures from different windows in one operation.
 
 ---
 
-## Import data
+## Import Data
 
 ### Import CSV
 
@@ -86,7 +49,7 @@ Convert digital or analog data stored in text format to TLW format for viewing a
 
 **Supported formats:**
 
-#### 1. Agilent LA Module CSV text file
+#### 1. Agilent LA Module CSV Text File
 
 Export from Agilent LA software using Module CSV text file format.
 
@@ -150,115 +113,62 @@ You must specify the basic unit for voltage measurements:
 - Positive and negative channel settings must match
 - Number of positive and negative channels must be equal
 
-#### 5. Custom format
+#### 5. Custom Format
 
 Import waveforms from other logic analyzers by arranging data according to the required format.
 
 ---
 
-## Batch operations
+## File Format Reference
 
-### Batch report save
+### Supported File Formats
 
-Generate decode reports from multiple captured waveform files in one operation.
+**For opening:**
 
-**Configuration:**
+- *.TLW (TravelLogic Waveform): Native format with full settings
+- *.LAW (Logic Analyzer Waveform): Legacy format
 
-1. **Source files:** Select .TLW or .LAW waveform files
-2. **Output directory:** Choose where to save converted reports
-3. **File extension:** Select .CSV or .TXT format
-4. **Decode settings:**
-   - Use decode settings from each individual file
-   - Use decode settings from a specified file for all conversions
-5. **Report format:**
-   - Save reports in separated files
-   - Combine all reports into one file with separation text
-6. **Include options:**
-   - Timestamp column information
-   - Header column information
+**For saving:**
 
----
+- *.TLW (TravelLogic Waveform): Recommended format
 
-## Window management
+**For importing:**
 
-### Add analyzer windows
+- Agilent LA Module CSV
+- Tektronix TLA Data Exchange Format
+- Generic LA Text Files
+- DSO Text Files
+- Custom formatted files
 
-- **Add Protocol Analyzer:** Open a new Protocol Analyzer window
-- **Add Logic Analyzer:** Open a new Logic Analyzer window
-
-### Language
-
-Change the display language:
-
-- English
-- Traditional Chinese (繁體中文)
-- Simplified Chinese (简体中文)
+**For exporting:** See [Export Data](export-data.md) for VCD, MATLAB, binary, and other export formats.
 
 ---
 
-## System environment settings
+## Tips And Best Practices
 
-Configure application-wide preferences and display options.
+### Organizing Files
 
-### Display settings
+- Use descriptive filenames with dates (e.g., `i2c_sensor_2026-03-10.tlw`)
+- Save reference waveforms for comparison
+- Keep decode settings with waveforms using .TLW format
 
-1. **Default label height:** Modify the channel height in the waveform area
-2. **Working directory:** Location for temporary files and waveforms during operation
-3. **Waveform display type:** Choose what to display between waveform edges:
-   - Time value
-   - Logic value
-   - No display
-4. **Expanded waveform color:** Enable different colors for each channel
+### Importing From Other Analyzers
 
-### Startup and save behavior
+- Check sample rate and time base compatibility
+- Verify channel mapping before import
+- Test with small files first to verify format
+- Hardware device must be connected for CSV import
 
-5. **Load last environment on software start:** Restore previous settings (not waveforms) when launching
-6. **Save waveform after each acquisition:** Automatically save to working directory after capture
-7. **Repeat acquisition behavior:** Configure waveform decoding display during repeat captures (1/2/5 second intervals)
+### File Compatibility
 
-### Report options
+- .TLW files preserve all settings and decode configurations
+- Use Save All to quickly backup multiple open windows
+- Legacy .LAW files can be opened but should be saved as .TLW
 
-8. **Display row number in LA decode report:** Show row numbers on the left side of the report area
-9. **Report data display byte number:** Set the number of bytes to display per report field
-10. **Detail report byte numbers:** Limit the number of bytes displayed in each detail report
+---
 
-### Trigger and cursor
+## Related Topics
 
-11. **Trigger out pulse width (μs):** Default length from trigger point to end of capture
-12. **Show waveform value tooltip on cursor position:** Display channel numbers and bus decode names
-13. **Show cursor position in decode/transition report:** Display cursor location in the report time field
-14. **Show cursor separate time on cursor bar:** Show time intervals between cursors
-15. **Cursor font size in report area:** Adjust font size for cursor positions in reports (item 13)
-16. **Max. Logic Analyzer cursor measurement tab count:** Set number of cursor measurement groups (3-10)
-
-### Device behavior
-
-17. **Auto-reconnect device:** Automatically reconnect when device is re-plugged after offline
-
-### Waveform display
-
-18. **Show channel information in waveform display:** Display channel numbers in waveform area
-19. **Show value information in waveform display:** Display 0/1 for digital channels, voltage for analog channels
-20. **Show trigger information in waveform display:** Display trigger setting values
-21. **Show channel activity in waveform display:** Summarize edge transitions for each channel
-22. **Display waveform time scale dash line:** Add vertical lines to align waveform area with report area
-
-### Processing
-
-23. **Use multicore processing:** Enable multi-core CPU usage to speed up data processing
-24. **Display report timestamp information:** Choose timestamp format:
-    - Timing info format
-    - Timing info with date/time (trigger point at 0 s)
-    - Sample count format
-
-### Channel management
-
-25. **Enable label combine by mouse dragging:** Drag one channel label onto another to combine channels
-
-### Font settings
-
-Configure the font type and size for text displayed in:
-
-- Waveform area
-- Notes
-- Channel labels
+- [Export Data](export-data.md): Export waveforms and reports to various formats
+- [Preferences](preferences.md): Configure working directory and auto-save behavior
+- [Navigate the data](navigate-data.md): Save and recall channel label configurations

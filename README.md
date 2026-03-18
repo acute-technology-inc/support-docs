@@ -38,7 +38,7 @@ So we structure the documentation as follows:
 
 ```
 ./docs
-├── assets
+├── assets // This folder shall contain non-localized assets only.
 │   └── image_non_localized.png
 ├── en
 │   ├── image_localized.png
