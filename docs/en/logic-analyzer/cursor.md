@@ -1,205 +1,97 @@
-# Cursor operations
+# Interact with cursors
 
-<!-- Source: Acute_TLmanual_en.pdf, Chapter 2, Pages 59-61 -->
-
-Place cursors for time measurements and search through waveforms efficiently.
+Cursors play a crucial role in navigating and analyzing the captured data. They not only allow you to quickly jump to specific positions in the waveform area, but also provide precise time interval and frequency measurements, as well as sophisticated waveform searches.
 
 ## Overview
 
-The cursor system allows precise time interval and frequency measurements, as well as sophisticated waveform searches.
+<figure markdown>
+  ![Cursor control panel](../images/la/toolbar-cursor.png){ width="600" }
+  <figcaption>Cursor control panel</figcaption>
+</figure>
 
-**Special-purpose cursors:**
+Cursors can be added, deleted, and dragged to any positions in the waveform area.
 
-- **T cursor:** Marks the trigger point (cannot be repositioned)
-- **B cursor:** Dedicated search cursor
+### Special-purpose cursors
 
----
+**T cursor**: Marks the trigger point (most likely to be at a fixed position). This is typically red-colored.
 
-## Move to
+## Operations
+
+### Add cursor
+
+This will automatically add a cursor right after the last cursor (incrementing the letter from A to Z).
+
+!!! tip
+
+    **Keyboard Shortcut**: Press **Shift + A-Z** keys to add a cursor at the mouse position.
+
+### Delete cursor
+
+A dropdown list will popup to show you a list of existing cursors you can delete, or delete them all at once by clicking the **Delete All** button.
+
+### Move To
 
 Quickly jump to specific positions in the waveform area.
 
+**Shortcut**: Press **A-Z** keys to quickly jump to the corresponding cursor location.
+
+<figure markdown>
+  ![](../images/la/cursor-move-to-menu.png){ width="200" }
+</figure>
+
 **Available positions:**
 
-- **Waveform start:** Move to the beginning of the captured waveform
-- **First transition:** Move to the first waveform transition on any channel
-- **First transition on selected label:** Move to the first transition of a specific channel
-- **Waveform end:** Move to the end of the captured waveform
-- **Last transition:** Move to the last waveform transition on any channel
-- **Last transition on selected label:** Move to the last transition of a specific channel
-- **Trigger position:** Move to the trigger point (T cursor)
-- **Cursor A-Z:** Move to any named cursor position
+- Waveform start: Move to the beginning of the captured waveform
+- First transition: Move to the first waveform transition on any channel
+- First transition on selected label: Move to the first transition of a specific channel label
+- Waveform end: Move to the end of the captured waveform
+- Last transition: Move to the last waveform transition on any channel
+- Last transition on selected label: Move to the last transition of a specific channel label
+- Trigger position: Move to the trigger point (a.k.a. T cursor)
+- Cursor A-Z: Move to any named cursor position
 
----
+    !!! tip
 
-## Waveform search
+        **Keyboard Shortcut**: Press **A-Z** keys to quickly jump to the corresponding cursor location.
+
+## Waveform Search by Cursors
 
 Find specific signal patterns using four search modes.
 
-### 1. By edge
+### 1. By Edge
 
-Move the cursor based on the number of edges on a specified channel.
+Move the specified cursor position according to the number of Rising / Falling / Either edges (x1 ~ x4096) of the specified channel.
 
-**Configuration:**
+### 2. By Time
 
-- **Edge type:** Rising / Falling / Either
-- **Edge count:** 1 to 4096 edges
-- **Channel:** Select which channel to count edges on
+Move the specified cursor position forward or backward to specify the amount of time.
 
-**Search direction:** Forward or backward from current cursor position
+### 3. By Value Match
 
----
+In search of displayed value content of the specified channel, if the specified channel is the bus protocol, the text comparison will be used for the search. If the specified channel is the bus or channel, the numerical comparison will be used for the search.
 
-### 2. By time
+### 4. Search Pulse Width
 
-Move the cursor forward or backward by a specified time amount.
+The waveform pulse widths meeting the conditions can be searched on the specified channels. The single-cursor movement function on the left side or the multiple-cursor movement function on the right side can be used on any operation meeting or exceeding the conditions.
 
-**Configuration:**
+## Measuring with cursors
 
-- **Time amount:** Enter time value with units (ns, μs, ms, s)
-- **Direction:** Forward or backward
+At the bottom right of the UI, there is a measurement display bar that shows measurement values between cursors. It will update automatically when you move the cursors. Of course, you can also manually edit the pairs of cursors by clicking the A-Z buttons.
 
-**Use cases:**
+<figure markdown>
+  ![](../images/la/cursor-measurement-time.png){ width="800" }
+</figure>
 
-- Jump to a specific time offset from a known point
-- Measure periodic signals by jumping in time increments
+<figure markdown>
+  ![](../images/la/cursor-measurement-change.png){ width="800" }
+</figure>
 
----
+Additionaly, you can change the display format of the measurement with the icon on right side of the measurement display bar.
 
-### 3. By value match
+1. ![](/assets/cursor/cursor-timing.png) **Interval time**: Time between the selected cursor and the reference cursor
+2. ![](/assets/cursor/cursor-frequency.png) **Frequency calculation**: Frequency = 1 / interval time
+3. ![](/assets/cursor/cursor-samples.png) **Sampling statistics**: Number of samples between cursors, depending on the sampling rate of the captured data.
 
-Search for specific data values on channels or buses.
+### Multiple measurements
 
-**How it works:**
-
-- **Protocol channels:** Uses text comparison for search
-- **Bus/Channel data:** Uses numerical comparison for search
-
-**Configuration:**
-
-- Select target channel or bus
-- Enter value to match
-- Choose search direction
-
-**Search direction:** Forward or backward from current cursor position
-
----
-
-### 4. Search pulse width
-
-Find pulses meeting specific width criteria on selected channels.
-
-**Configuration:**
-
-- **Channel:** Select which channel to analyze
-- **Condition:** Minimum and/or maximum pulse width
-- **Width range:** Specify time range with units
-
-**Operation modes:**
-
-- **Single-cursor movement:** Find next/previous matching pulse
-- **Multiple-cursor movement:** Mark all matching pulses automatically
-
-**Search starting point:** Current position of the selected cursor
-
----
-
-## Cursor management
-
-### Adding cursors
-
-**Method 1: Click button**
-
-Click the **Add Cursor** button in the toolbar to add a cursor at the current mouse position.
-
-**Method 2: Keyboard shortcut**
-
-Press **Shift + [A-Z letter]** to add a cursor at the mouse position.
-
-**Automatic naming:** Cursors are automatically named A through Z in the order they're created.
-
----
-
-### Deleting cursors
-
-Click the **Delete Cursor** button in the toolbar to remove the selected cursor.
-
-**Note:** Special cursors T (trigger) and B (search) cannot be deleted.
-
----
-
-## Cursor movement methods
-
-### 1. Mouse drag
-
-Click and drag the cursor sign or cursor line at the top of the waveform window to reposition the cursor.
-
----
-
-### 2. Keyboard navigation
-
-Press **A-Z** keys to quickly jump to the corresponding cursor location.
-
-**Example:**
-
-- Press **A** to jump to cursor A
-- Press **B** to jump to cursor B
-- Press **T** to jump to the trigger point
-
----
-
-### 3. Keyboard placement
-
-Press **Shift + [A-Z letter]** to move an existing cursor to the mouse position, or create a new cursor if it doesn't exist.
-
-**Advantage:** No dragging required - places cursor precisely at mouse location.
-
----
-
-## Measurement display
-
-The frequency/time display bar at the bottom right shows measurement values between cursors.
-
-**Displayed information (left to right):**
-
-1. **Interval time:** Time between the selected cursor and the reference cursor
-2. **Frequency calculation:** 1 / interval time
-3. **Sampling statistics:** Number of samples between cursors
-
-**Cursor selection:**
-
-Click the cursor name in the measurement display to switch between cursors.
-
-**Multiple measurements:**
-
-You can configure the maximum number of cursor measurement groups (3-10) in system environment settings.
-
----
-
-## Tips and best practices
-
-### Efficient cursor usage
-
-- Use **Shift + letter** shortcuts to quickly place multiple cursors without clicking toolbar
-- Name cursors strategically (e.g., A and B for pulse width, C and D for period)
-- Use the B cursor for searches to preserve your other measurement cursors
-
-### Measurement workflows
-
-**Measure pulse width:**
-
-1. Place cursor A on rising edge
-2. Place cursor B on falling edge
-3. Read interval time in measurement display
-
-**Measure frequency:**
-
-1. Place cursor A on first rising edge
-2. Place cursor B on next rising edge
-3. Read frequency calculation in measurement display
-
-**Measure duty cycle:**
-
-1. Measure pulse width (high time)
-2. Measure period (full cycle)
-3. Calculate: Duty cycle = (high time / period) × 100%
+You can configure the maximum number of cursor measurement groups (3-10) in [system environment settings](preferences.md#options). Default is 3.

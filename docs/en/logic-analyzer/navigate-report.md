@@ -104,9 +104,9 @@ please refer to the [Protocols](../../protocols/index.md) tab page to find your 
 
     See more details about MIPI I3C decode and trigger settings.
 
-    [:octicons-arrow-right-24: Decode Settings](../protocols/i3c.md)
+    [:octicons-arrow-right-24: Decode Settings](../protocols/mipi-i3c.md)
 
-    [:octicons-arrow-right-24: Trigger Settings](../protocols/i3c.md)
+    [:octicons-arrow-right-24: Trigger Settings](../protocols/mipi-i3c.md)
 
 -   :material-open-in-new:{ .middle } SPI
 

@@ -160,10 +160,9 @@ Please refer to the [Protocol](../protocols/index.md) Page for more details. Her
 
     See more details about MIPI I3C decode and trigger settings.
 
-    [:octicons-arrow-right-24: Trigger Settings](../protocols/i3c.md)
+    [:octicons-arrow-right-24: Trigger Settings](../protocols/mipi-i3c.md)
 
-    [:octicons-arrow-right-24: Decode Settings](../protocols/i3c.md)
-
+    [:octicons-arrow-right-24: Decode Settings](../protocols/mipi-i3c.md)
 
 -   :material-open-in-new:{ .middle } SPI
 
@@ -174,7 +173,6 @@ Please refer to the [Protocol](../protocols/index.md) Page for more details. Her
     [:octicons-arrow-right-24: Trigger Settings](../protocols/spi.md)
 
     [:octicons-arrow-right-24: Decode Settings](../protocols/spi.md)
-
 
 -   :material-open-in-new:{ .middle } UART
 

@@ -52,7 +52,7 @@ RC-5's Manchester encoding provides several advantages: excellent noise immunity
 
 **Bit Transmission Order:**
 - Start bits, toggle bit, address (MSB first), command (MSB first)
-- Example: [S1=1][S2=1][T][A4][A3][A2][A1][A0][C5][C4][C3][C2][C1][C0]
+- Example: \[S1=1\]\[S2=1\]\[T\]\[A4\]\[A3\]\[A2\]\[A1\]\[A0\]\[C5\]\[C4\]\[C3\]\[C2\]\[C1\]\[C0\]
 
 ### Address Space (5-bit System Address)
 

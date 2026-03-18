@@ -42,7 +42,7 @@ Quick Settings provides preset configurations for common protocols, saving time 
 
 If you're trying to capture a common protocol like I2C:
 
-1. Click on the [**Quick Settings**](capture-settings.md#quick-settings) button in the toolbar
+1. Click on the [**Quick Settings**](quick-start.md#step-2-capture-settings) button in the toolbar
 
     <figure markdown>
         ![Quick Settings Button](../images/la/quick-settings-button.png){ width="800" }

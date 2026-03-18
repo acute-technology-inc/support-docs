@@ -6,7 +6,7 @@
 
 ## Overview
 
-In the previous sections, we introduced [Waveform Statistics](#navigate-report.md#waveform-statistics) and [Cursor](#cursor.md) for you to perform measurement analysis on your captured data. With both tools, we can apply to various applications within debugging.
+In the previous sections, we introduced [Waveform Statistics](navigate-report.md#waveform-statistics) and [Cursor](cursor.md) for you to perform measurement analysis on your captured data. With both tools, we can apply to various applications within debugging.
 
 This is important in modern electronic systems. Some use cases such as:
 

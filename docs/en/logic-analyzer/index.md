@@ -125,7 +125,7 @@ The Logic Analyzer supports numerous trigger types for different capture scenari
 
 ### Protocol Debugging
 
-1. Use [Quick Setting](capture-settings.md#quick-setting) for your protocol
+1. Use [Quick Setting](quick-start.md#step-2-capture-settings) for your protocol
 2. [Capture bus transactions](tutorial.md#step-6-capture-waveform)
 3. [Review decode results](bus-decode.md) in report area
 4. [Export decode report](export-data.md#export-decode-reports) for documentation
@@ -144,7 +144,7 @@ The Logic Analyzer supports numerous trigger types for different capture scenari
 ### Signal Integrity Analysis
 
 1. Enable [hardware glitch filter](advanced-capture.md#hardware-glitch-filter)
-2. Capture with [high sample rate](capture-settings.md#device-memory-usage)
+2. Capture with [high sample rate](capture-settings.md#storage-modes)
 3. Use [Stack Oscilloscope](stack-oscilloscope.md) for analog view
 4. Compare filtered vs. unfiltered with [software filter](advanced-capture.md#software-glitch-filter)
 
@@ -166,15 +166,20 @@ The Logic Analyzer supports numerous trigger types for different capture scenari
 **Analyzing Waveforms**
 
 - [Navigate the data](navigate-data.md): Navigate the captured data
-- [Channel labels](channel-labels.md): Customize the channel labels
-- [Cursor measurements](cursor.md): Precise timing measurements with cursors
-- [Protocol decoders](bus-decode.md): Protocol decoding and custom reports
+<!-- - [Channel labels](channel-labels.md): Customize the channel labels -->
+- Channel labels: Customize the channel labels
+<!-- - [Cursor measurements](cursor.md): Precise timing measurements with cursors -->
+- Cursor measurements: Precise timing measurements with cursors
+<!-- - [Protocol decoders](bus-decode.md): Protocol decoding and custom reports -->
+- Protocol decoders: Protocol decoding and custom reports
 - [Navigate the report](navigate-report.md): Navigate the analysis results
 
 **File Operations**
 
-- [Open & Save Files](file-operations.md): Manage waveform files and import data
-- [Export Data](export-data.md): Export to various formats and batch operations
+<!-- - [Open & Save Files](file-operations.md): Manage waveform files and import data -->
+- Open & Save Files: Manage waveform files and import data
+<!-- - [Export Data](export-data.md): Export to various formats and batch operations -->
+- Export Data: Export to various formats and batch operations
 
 **Advanced Features**
 

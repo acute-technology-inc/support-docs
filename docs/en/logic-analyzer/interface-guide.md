@@ -1,7 +1,5 @@
 # Understanding the Interface
 
-<!-- Source: Acute_TLmanual_en.pdf, Chapter 2, Pages 30-77 -->
-
 Learn about the Logic Analyzer interface layout and how each component works together for signal capture and analysis. 
 You can follow along whether you own any Acute's Logic Analyzer product or not. If you don’t own one, you may run the software in [Demo Mode](demo-mode.md).
 
