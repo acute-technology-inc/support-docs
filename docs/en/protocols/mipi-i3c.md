@@ -1,10 +1,9 @@
 # MIPI I3C (Improved Inter-Integrated Circuit)
 
-
 ## Decode Settings
+
 <figure markdown>
   ![Decode Settings](../images/decode/mipi-i-3-c-settings.png)
-  <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example

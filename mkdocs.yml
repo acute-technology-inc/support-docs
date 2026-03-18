@@ -133,7 +133,8 @@ markdown_extensions:
   - toc:
       toc_depth: 3
 
-strict: true
+# Only enable strict mode in CI/CD pipelines
+# strict: true
 
 validation:
   # Warn about Markdown files not listed in the nav.

@@ -17,6 +17,10 @@ serve:
 build:
 	$(MKDOCS) build -f $(CONFIG_FILE) --site-dir $(SITE_DIR)
 
+# Build the documentation with strict mode
+build-strict:
+	$(MKDOCS) build --strict -f $(CONFIG_FILE) --site-dir $(SITE_DIR)
+
 # Clean the output directory
 clean:
 	rm -rf $(SITE_DIR)/

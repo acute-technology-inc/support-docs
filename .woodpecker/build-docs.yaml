@@ -28,7 +28,7 @@ steps:
       - event: pull_request
     commands:
       - uv sync --dev
-      - uv run make build
+      - uv run make build-strict
       - tar -czf docs.tar.gz site
       - mkdir -p $NAS_PATH
       - cp docs.tar.gz $NAS_PATH
@@ -41,7 +41,7 @@ steps:
       - event: manual
     commands:
       - uv sync --dev
-      - uv run make build
+      - uv run make build-strict
       - tar -czf docs.tar.gz site
       - mkdir -p $NAS_PATH
       - cp docs.tar.gz $NAS_PATH
@@ -56,7 +56,7 @@ steps:
         branch: main
     commands:
       - uv sync --dev
-      - uv run make build
+      - uv run make build-strict
       - tar -czf docs.tar.gz site
       - mkdir -p $NAS_PATH
       - cp docs.tar.gz $NAS_PATH
