@@ -1,5 +1,18 @@
 # DDC / EDID
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/ddc-edid-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/ddc-edid-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is DDC and EDID?
 
 ### Overview

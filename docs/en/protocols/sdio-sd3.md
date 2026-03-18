@@ -1,5 +1,18 @@
 # SDIO/SD 3.0
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/sd-emmc-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/sd-emmc-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is SDIO/SD 3.0?
 
 SDIO (Secure Digital Input Output) is an extension of the SD (Secure Digital) memory card standard that enables SD cards to perform I/O functions beyond simple data storage. Developed by the SD Card Association, SDIO cards utilize the same physical form factor and electrical interface as standard SD memory cards but incorporate additional functionality such as WiFi, Bluetooth, GPS, cameras, and other peripheral devices. The SDIO specification shares the underlying communication protocol with SD memory cards, allowing host controllers to support both storage and I/O functions through a unified interface.

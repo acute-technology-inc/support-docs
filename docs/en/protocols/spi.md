@@ -1,5 +1,54 @@
 # SPI (Serial Peripheral Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/spi-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/spi-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/spi-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/spi-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/spi-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/spi-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/spi-fig-07.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/spi-fig-08.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/spi-fig-09.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/spi-fig-10.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/spi-fig-11.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is SPI?
 
 ### Overview

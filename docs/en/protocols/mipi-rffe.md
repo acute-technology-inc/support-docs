@@ -1,5 +1,18 @@
 # MIPI RFFE (RF Front-End Control Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/mipi-rffe-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/mipi-rffe-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is MIPI RFFE?
 
 MIPI RFFE (RF Front-End Control Interface) is a standardized two-wire digital control bus specification developed by the MIPI Alliance specifically for controlling and configuring RF (Radio Frequency) front-end components in wireless communication devices. First released in 2010 and subsequently enhanced through versions 2.0 (2014) and 3.0 (2020), RFFE was created to address the growing complexity of modern cellular transceivers that require precise, real-time control of power amplifiers, antenna tuners, filters, switches, and low-noise amplifiers across multiple frequency bands and communication standards (2G, 3G, 4G LTE, 5G NR). Prior to RFFE, RF front-end control relied on vendor-specific GPIO (General Purpose I/O) interfaces requiring numerous dedicated pins and lacking standardization, leading to complex board layouts and limited interoperability between components from different manufacturers.

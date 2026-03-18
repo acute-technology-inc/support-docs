@@ -1,5 +1,18 @@
 # LPT (Parallel Port / Centronics Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/lpt-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/lpt-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is LPT?
 
 ### Overview

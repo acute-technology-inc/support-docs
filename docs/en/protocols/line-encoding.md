@@ -1,5 +1,58 @@
 # Line Encoding
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/line-encoding-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/line-encoding-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-encoding-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-encoding-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-encoding-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-encoding-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-encoding-fig-07.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-encoding-fig-08.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-encoding-fig-09.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-encoding-fig-10.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-encoding-fig-11.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-encoding-fig-12.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is Line Encoding?
 
 Line encoding is a signal processing technique that converts digital data into electrical waveforms suitable for transmission over physical media such as copper wires, optical fibers, or radio channels. Rather than transmitting raw binary data as simple high-low voltage levels (which would suffer from DC bias, lack of synchronization, and poor error detection), line encoding schemes map logical 1s and 0s to carefully designed signal patterns that incorporate clock recovery information, maintain DC balance, limit consecutive identical bits, and improve noise immunity. Line encoding is fundamental to all digital communication systems, from low-speed serial interfaces like RS-232 to high-speed networks like Gigabit Ethernet and optical fiber links.

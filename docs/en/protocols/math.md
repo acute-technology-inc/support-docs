@@ -1,5 +1,22 @@
 # Math Functions (Waveform Mathematics)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/m-pesti-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/m-pesti-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/m-pesti-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What are Math Functions?
 
 Math functions in logic analyzers and oscilloscopes are computational tools that perform mathematical operations on captured waveforms to derive additional signals, measurements, and visualizations beyond the raw captured data. Rather than being a communication protocol, the "Math" function represents a suite of signal processing capabilities that transform, combine, and analyze digital and analog signals to reveal hidden characteristics, calculate derived parameters, and simplify complex signal relationships. These functions operate on time-series data—the voltage or logic level samples captured from input channels—applying algebraic operations (addition, subtraction, multiplication, division), logical operations (AND, OR, XOR, NOT), statistical calculations (average, RMS, standard deviation), frequency domain transforms (FFT), and advanced signal processing (filtering, integration, differentiation) to generate virtual channels that display computed results alongside original signals.

@@ -1,5 +1,18 @@
 # JVC IR (Infrared Remote Control Protocol)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/jvc-ir-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/jvc-ir-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is JVC IR?
 
 The JVC infrared remote control protocol is a proprietary infrared transmission standard developed by JVC (Victor Company of Japan, Ltd.) for consumer electronics remote controls, particularly for audio and video equipment. Developed in the 1980s, the JVC protocol uses pulse distance modulation (also called pulse-interval encoding) on a 38 kHz carrier frequency to encode 16 bits of data consisting of an 8-bit address and an 8-bit command. Unlike the NEC protocol which includes redundant inverse bytes for error detection, JVC's protocol is more compact, transmitting only the essential address and command bytes without inversions, resulting in shorter frame durations and faster response times suitable for audio/video equipment where rapid commands (volume adjustment, channel changes) are common.

@@ -1,5 +1,18 @@
 # UFCS (Universal Fast Charging Specification)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/ufcs-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/ufcs-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is UFCS?
 
 UFCS (Universal Fast Charging Specification), also known as the Fusion Fast Charging Protocol, is a unified fast charging standard collaboratively developed by the China Academy of Information and Communications Technology (CAICT), major Chinese smartphone manufacturers including Huawei, OPPO, Vivo, Xiaomi, and leading charging IC suppliers. First released on May 28, 2021, UFCS was created to address the fragmentation and incompatibility issues plaguing the fast charging ecosystem, where different manufacturers employed proprietary charging protocols (Huawei SuperCharge, OPPO VOOC, Xiaomi Turbo Charge, etc.) that prevented universal charger and cable compatibility. The specification aims to establish a standardized communication protocol and power delivery framework that enables any UFCS-certified charger to safely and optimally charge any UFCS-compatible device, regardless of brand, eliminating consumer confusion and reducing electronic waste from incompatible charging accessories.

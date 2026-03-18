@@ -1,5 +1,18 @@
 # NEC IR (Infrared Remote Control Protocol)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/nec-ir-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/nec-ir-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is NEC IR?
 
 The NEC infrared transmission protocol is one of the most widely used infrared remote control protocols for consumer electronics, developed by NEC Corporation (Nippon Electric Company) of Japan. Introduced in the 1980s, the NEC protocol became a de facto standard for infrared remote controls due to its robust design, ease of implementation, and excellent noise immunity. The protocol uses pulse distance encoding modulated onto a 38 kHz carrier frequency, where data bits are distinguished by the length of the space (silence) following each pulse burst rather than by pulse width variation. This encoding scheme provides reliable communication over typical living room distances (up to 10 meters) while being resistant to ambient infrared noise from sunlight, incandescent lamps, and other sources.

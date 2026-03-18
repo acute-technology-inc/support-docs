@@ -1,5 +1,22 @@
 # LIN (Local Interconnect Network)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/lin-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/lin-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/lin-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is LIN?
 
 ### Overview

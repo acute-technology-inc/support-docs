@@ -1,5 +1,22 @@
 # PDM (Pulse Density Modulation)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/pdm-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/pdm-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/pdm-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is PDM?
 
 ### Overview

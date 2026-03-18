@@ -9,6 +9,19 @@
 > - Review of command structure and telemetry formats
 > - Cross-reference with actual AMD datasheets and VR controller documentation
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/svi2-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/svi2-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is SVI2?
 
 ### Overview

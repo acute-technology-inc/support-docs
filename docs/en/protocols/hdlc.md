@@ -1,5 +1,18 @@
 # HDLC (High-Level Data Link Control)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/hdlc-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/hdlc-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is HDLC?
 
 ### Overview

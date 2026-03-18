@@ -1,5 +1,18 @@
 # IrDA
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/irda-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/irda-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is IrDA?
 
 IrDA (Infrared Data Association) is a wireless standard for short-range infrared data transmission established in 1993 and introduced commercially in June 1994. The protocol provides physically secure, point-to-point bidirectional data transfer using infrared light in the 850-900 nanometer wavelength range. IrDA was developed as a standard for connecting portable devices such as laptops, mobile phones, PDAs, cameras, and printers without physical cables.

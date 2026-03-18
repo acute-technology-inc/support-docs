@@ -1,5 +1,18 @@
 # ITU-R BT.656
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/itu-r-bt656-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/itu-r-bt656-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is ITU-R BT.656?
 
 ITU-R Recommendation BT.656 defines the electrical and mechanical interface for digital component video signals in 525-line (NTSC) and 625-line (PAL) television systems operating at the 4:2:2 sampling level specified in ITU-R BT.601. The standard was developed by the International Telecommunication Union Radiocommunication Sector (ITU-R) to provide a standardized method for transmitting digital video between equipment such as cameras, video processors, encoders, and broadcast equipment. BT.656 eliminates the need for separate horizontal and vertical synchronization signals by embedding timing information directly within the video data stream.

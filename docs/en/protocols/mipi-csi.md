@@ -1,5 +1,12 @@
 # MIPI CSI
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Figure](../images/decode/mipi-csi.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is MIPI CSI?
 
 MIPI CSI-2 (Camera Serial Interface version 2) is a high-speed serial interface specification developed by the MIPI Alliance for transmitting image and video data from camera sensors to application processors in mobile devices and embedded systems. The standard was created to replace parallel camera interfaces that required numerous data lines (8, 10, or 12 bits plus control signals), providing instead a compact serial interface with only 1 to 4 differential data lanes plus a clock lane. This dramatic reduction in pin count simplifies board design, reduces connector complexity, minimizes electromagnetic interference, and enables higher data rates necessary for modern high-resolution image sensors.

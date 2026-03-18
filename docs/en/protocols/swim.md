@@ -1,5 +1,22 @@
 # SWIM (Single Wire Interface Module)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/swim-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/swim-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/swim-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is SWIM?
 
 ### Overview

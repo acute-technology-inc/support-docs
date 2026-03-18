@@ -1,5 +1,22 @@
 # PECI
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/peci-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/peci-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/peci-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is PECI?
 
 PECI (Platform Environment Control Interface) is a proprietary single-wire communication interface developed by Intel for thermal and power management in computer platforms. The protocol enables bidirectional communication between Intel processors and external management controllers, primarily for reading processor temperature data and configuring thermal management parameters. PECI was introduced by Intel to replace older methods of thermal monitoring that relied on external substrate diodes, providing more accurate on-die temperature measurements through integrated Digital Thermal Sensors (DTS).

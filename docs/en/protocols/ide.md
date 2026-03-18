@@ -1,5 +1,18 @@
 # IDE (Integrated Drive Electronics)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/ide-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/ide-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is IDE?
 
 IDE (Integrated Drive Electronics), formally known as ATA (AT Attachment) or PATA (Parallel ATA), is a parallel bus interface standard designed for connecting mass storage devices such as hard disk drives, optical drives, and tape drives to computer motherboards. Developed in 1986 by Western Digital and standardized through ANSI committees in the 1990s, IDE revolutionized personal computing by integrating drive controller electronics directly onto the drive itself, eliminating the need for separate controller cards. The name "AT Attachment" derives from its initial design for IBM's PC/AT computer, while "Integrated Drive Electronics" reflects the embedded controller architecture that simplified system integration and reduced costs.

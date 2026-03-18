@@ -1,5 +1,22 @@
 # A/D Converter (ADC)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/ad-converter-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/ad-converter-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/ad-converter-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is an A/D Converter?
 
 ### Overview

@@ -1,5 +1,22 @@
 # RC-6 (Philips Remote Control Protocol)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/rc6-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/rc6-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/rc6-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is RC-6?
 
 RC-6 is an advanced infrared remote control protocol developed by Philips as the successor to the widely-used RC-5 protocol, designed in the late 1990s to meet the evolving needs of modern consumer electronics and digital entertainment devices. While maintaining the core advantages of RC-5's Manchester encoding and 36 kHz carrier frequency, RC-6 introduces several enhancements including a more robust header structure with a leader symbol for improved receiver AGC (Automatic Gain Control), mode bits for protocol extensibility, a double-length trailer/toggle bit for enhanced reliability, and support for extended addressing schemes. RC-6 was specifically developed for and adopted by Microsoft for the Windows Media Center platform, making it the standard protocol for Media Center remotes and subsequently for Microsoft Xbox consoles, significantly increasing its deployment in home entertainment systems worldwide.

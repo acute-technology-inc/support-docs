@@ -1,5 +1,18 @@
 # DALI (Digital Addressable Lighting Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/dali-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/dali-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is DALI?
 
 ### Overview

@@ -1,5 +1,38 @@
 # 10BASE-T1S
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/10base-t1s-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/10base-t1s-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/10base-t1s-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/10base-t1s-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/10base-t1s-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/10base-t1s-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/10base-t1s-fig-07.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is 10BASE-T1S?
 
 ### Overview

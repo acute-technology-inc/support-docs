@@ -1,5 +1,18 @@
 # OA3P (OPEN Alliance 3-Pin)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/oa3ppmd-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/oa3ppmd-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is OA3P?
 
 OA3P (OPEN Alliance 3-pin) is a protocol specification developed by the OPEN Alliance SIG (Special Interest Group) for automotive Ethernet physical layer (PHY) testing, device qualification, and signal monitoring. The protocol defines testing requirements and decode capabilities for automotive Ethernet implementations, ensuring device consistency, reliability, and stability under various operating conditions including temperature extremes, voltage variations, and electromagnetic interference typical of automotive environments. OA3P specifically supports the 10BASE-T1S Ethernet standard—a 10 Mbit/s automotive Ethernet specification designed for low-cost, short-distance communication in vehicles—along with associated management and diagnostic interfaces such as MDC (Management Data Clock) and MDO (Management Data Output) signals.

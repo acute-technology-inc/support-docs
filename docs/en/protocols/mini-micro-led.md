@@ -1,5 +1,18 @@
 # Mini LED and Micro LED Display Technology
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/mini-micro-led-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/mini-micro-led-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What are Mini LED and Micro LED?
 
 Mini LED and Micro LED are advanced display technologies representing the evolution of LED-based displays toward smaller pixel sizes, higher brightness, improved contrast ratios, and better power efficiency compared to traditional LCD and OLED displays. **Mini LED** refers to LEDs with chip sizes between 100-300 micrometers, typically used as backlight arrays for LCD panels ("Mini LED backlight") or as direct-view display pixels in large-format LED walls. **Micro LED** refers to even smaller LEDs with chip dimensions less than 100 micrometers (often 10-50 µm), used as self-emissive display pixels without requiring separate backlighting, similar to OLED but with higher brightness, longer lifespan, and no burn-in issues. Both technologies enable finer pixel pitches, local dimming with thousands of zones (Mini LED backlight), and modular scalable displays for commercial and consumer applications.

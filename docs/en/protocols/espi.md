@@ -1,5 +1,18 @@
 # eSPI (Enhanced Serial Peripheral Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/espi-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/espi-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is eSPI?
 
 ### Overview

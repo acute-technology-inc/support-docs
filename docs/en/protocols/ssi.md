@@ -1,5 +1,18 @@
 # SSI (Synchronous Serial Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/ssi-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/ssi-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is SSI?
 
 ### Overview

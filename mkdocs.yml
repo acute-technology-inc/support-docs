@@ -235,7 +235,6 @@ nav:
   - Protocols:
     - protocols/index.md
     - Curated List:
-      - I2C: protocols/i2c.md
       - 1-Wire: protocols/1-wire.md
       - 10BASE-T1S: protocols/10base-t1s.md
       - 3-Wire: protocols/3-wire.md

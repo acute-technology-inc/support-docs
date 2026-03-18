@@ -1,5 +1,58 @@
 # NAND Flash
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/nand-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/nand-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/nand-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/nand-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/nand-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/nand-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/nand-fig-07.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/nand-fig-08.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/nand-fig-09.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/nand-fig-10.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/nand-fig-11.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/nand-fig-12.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is NAND Flash?
 
 NAND Flash is a type of non-volatile memory technology that stores data in an array of memory cells based on floating-gate transistors. First introduced by Toshiba in 1987, NAND flash revolutionized data storage by offering high density, low cost per bit, and the ability to electrically erase and reprogram data in blocks. The name "NAND" derives from the NOT-AND logic gate configuration used in the memory cell architecture, which enables higher density compared to NOR flash by connecting cells in series rather than parallel.

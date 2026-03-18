@@ -1,5 +1,18 @@
 # MDIO
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/mdio-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/mdio-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is MDIO?
 
 MDIO (Management Data Input/Output) is a two-wire serial management interface defined in IEEE 802.3 for communicating with Ethernet physical layer (PHY) devices. Developed as part of the IEEE 802.3 standard, MDIO provides a standardized method for media access controllers (MACs) and other management entities to read status information, configure parameters, and control Ethernet PHY chips. The interface enables access to PHY registers containing link status, speed and duplex settings, auto-negotiation capabilities, error counters, and diagnostic information without interfering with the high-speed data path carrying Ethernet frames.

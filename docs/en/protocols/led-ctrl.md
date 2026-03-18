@@ -1,5 +1,18 @@
 # LED Control Protocols
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/l-ed_ctrl-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/l-ed_ctrl-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What are LED Control Protocols?
 
 LED Control protocols refer to a family of single-wire serial communication standards used to control individually addressable RGB and RGBW LEDs in cascaded configurations. The most common protocols—including WS2812/WS2812B, WS2813, WS2814, APA102, HD107S, and SK6812—integrate LED driver circuitry directly into each LED package, enabling daisy-chained arrangements where hundreds or thousands of LEDs can be controlled from a single microcontroller data pin. These protocols revolutionized LED display and lighting applications by eliminating the need for complex multiplexing hardware, individual current-limiting resistors, and parallel control lines, replacing them with simple serial data streams that specify color and brightness for each LED in sequence.

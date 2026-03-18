@@ -1,5 +1,58 @@
 # 7-Segment Display
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/7-segment-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/7-segment-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/7-segment-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/7-segment-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/7-segment-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/7-segment-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/7-segment-fig-07.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/7-segment-fig-08.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/7-segment-fig-09.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/7-segment-fig-10.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/7-segment-fig-11.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/7-segment-fig-12.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is a 7-Segment Display?
 
 ### Overview

@@ -1,5 +1,30 @@
 # PMBus
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/pmbus-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/pmbus-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/pmbus-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/pmbus-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/pmbus-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is PMBus?
 
 PMBus (Power Management Bus) is an open standard digital communication protocol designed for monitoring, configuration, and control of power conversion devices. Developed by the PMBus Implementers Forum, the specification provides a comprehensive command language for power supplies, voltage regulators, and related power management components. PMBus enables intelligent power system management through standardized commands for reading telemetry, configuring operating parameters, managing faults, and coordinating multiple power supplies within complex systems.

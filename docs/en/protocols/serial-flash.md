@@ -1,5 +1,50 @@
 # Serial Flash
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/serial-flash-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/serial-flash-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serial-flash-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serial-flash-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serial-flash-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serial-flash-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serial-flash-fig-07.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serial-flash-fig-08.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serial-flash-fig-09.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serial-flash-fig-10.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is Serial Flash?
 
 Serial Flash, commonly known as SPI NOR Flash, is a type of non-volatile memory device that communicates using the Serial Peripheral Interface (SPI) protocol. Unlike parallel NAND flash that requires many I/O pins and complex controllers, Serial Flash operates with just four to six pins, making it ideal for cost-sensitive and space-constrained applications. These devices typically use NOR flash memory technology, which provides fast random-access read capabilities, execute-in-place (XIP) functionality, and high data reliability without requiring sophisticated error correction algorithms.

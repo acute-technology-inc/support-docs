@@ -1,5 +1,26 @@
 # PS/2
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/ps2-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/ps2-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/ps2-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/ps2-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is PS/2?
 
 PS/2 (Personal System/2) is a synchronous serial communication protocol developed by IBM in 1987 for connecting keyboards and mice to computers. Introduced with the IBM Personal System/2 series, the PS/2 interface replaced the larger 5-pin DIN keyboard connector used in the IBM PC/AT and the DE-9 RS-232 serial mouse connector. The protocol uses a 6-pin mini-DIN connector and became the de facto standard for keyboard and mouse connections on personal computers for over two decades.

@@ -1,5 +1,18 @@
 # I2C EEPROM
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/i-2-c-eeprom-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/i-2-c-eeprom-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is I2C EEPROM?
 
 ### Overview

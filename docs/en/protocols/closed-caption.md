@@ -1,5 +1,18 @@
 # Closed Caption
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/closed-caption-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/closed-caption-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is Closed Caption?
 
 ### Overview

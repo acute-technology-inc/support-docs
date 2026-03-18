@@ -1,5 +1,18 @@
 # HD Audio (High Definition Audio)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/hd-audio-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/hd-audio-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is HD Audio?
 
 ### Overview

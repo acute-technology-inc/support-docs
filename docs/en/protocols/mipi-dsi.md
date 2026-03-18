@@ -1,5 +1,22 @@
 # MIPI DSI
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/mipi-dsi-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/mipi-dsi-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/mipi-dsi-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is MIPI DSI?
 
 MIPI DSI (Display Serial Interface) is a high-speed serial interface specification developed by the MIPI Alliance for connecting application processors to display panels in mobile and embedded devices. The standard was created to replace parallel RGB interfaces that required numerous signal lines and suffered from electromagnetic interference (EMI) issues and high power consumption. MIPI DSI reduces the pin count dramatically by using only 1 to 4 differential data lanes plus a differential clock lane, significantly simplifying board design and reducing connector complexity while enabling higher resolutions and faster refresh rates than parallel interfaces.

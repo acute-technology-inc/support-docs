@@ -1,5 +1,42 @@
 # Line Decoding
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/line-decoding-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/line-decoding-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-decoding-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-decoding-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-decoding-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-decoding-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-decoding-fig-07.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/line-decoding-fig-08.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is Line Decoding?
 
 Line decoding is the process of extracting digital data from encoded physical layer signals captured by logic analyzers or oscilloscopes. While line encoding converts logical data into transmission-optimized waveforms, line decoding reverses this process—analyzing captured signal transitions, voltage levels, and timing to recover the original binary information. In logic analyzer workflows, line decoding acts as the critical first stage of protocol analysis, transforming raw electrical signals into bit streams that higher-layer decoders can then interpret as packets, frames, commands, and data according to protocol specifications.

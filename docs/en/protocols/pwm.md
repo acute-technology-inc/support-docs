@@ -1,5 +1,34 @@
 # PWM (Pulse Width Modulation)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/pwm-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/pwm-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/pwm-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/pwm-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/pwm-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/pwm-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is PWM?
 
 ### Overview

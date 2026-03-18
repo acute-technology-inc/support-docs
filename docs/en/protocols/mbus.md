@@ -1,5 +1,18 @@
 # M-Bus
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/mbus-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/mbus-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is M-Bus?
 
 M-Bus (Meter-Bus) is a European standard communication protocol designed for remote reading and management of utility meters including water, gas, heat, and electricity consumption. Standardized as EN 13757 by the European Committee for Standardization (CEN), M-Bus was developed specifically to address the requirements of automatic meter reading (AMR) systems in residential, commercial, and industrial utility installations. The protocol provides a cost-effective two-wire interface enabling a single master device to interrogate hundreds of slave meters connected in parallel along a common bus, dramatically simplifying installation compared to individual meter connections.

@@ -1,5 +1,26 @@
 # JTAG (Joint Test Action Group)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/jtag-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/jtag-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/jtag-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/jtag-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is JTAG?
 
 ### Overview

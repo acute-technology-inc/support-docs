@@ -1,5 +1,18 @@
 # SENT (Single Edge Nibble Transmission)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/sent-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/sent-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is SENT?
 
 SENT (Single Edge Nibble Transmission) is a unidirectional, point-to-point digital communication protocol standardized by SAE International in specification SAE J2716, specifically designed for transmitting high-resolution analog sensor data from automotive sensors to Electronic Control Units (ECUs). Introduced in 2008 and subsequently revised in 2010 and 2016, SENT was developed to address the automotive industry's need for a cost-effective, robust, and efficient method to communicate sensor measurements while replacing traditional analog voltage signals and reducing the complexity and cost compared to bidirectional serial protocols like LIN or CAN. The protocol uses a single wire for unidirectional data transmission from sensor to ECU, eliminating the need for complex transceivers, multiple signal lines, and reducing overall system cost while providing digital accuracy, diagnostic capabilities, and immunity to electrical noise inherent in automotive environments.

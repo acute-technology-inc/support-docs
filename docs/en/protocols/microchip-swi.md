@@ -1,5 +1,18 @@
 # Microchip SWI (Single Wire Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/microchip-swi-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/microchip-swi-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is Microchip SWI?
 
 Microchip's Single Wire Interface (SWI) is a proprietary two-pin serial communication protocol designed for low-pin-count applications requiring minimal wiring complexity. Using only SI/O (Serial Input/Output) and Ground connections, SWI enables bidirectional communication with unpowered or parasitically-powered devices. The protocol was developed by Microchip Technology for applications such as printer cartridge identification, EEPROM data storage, sensor calibration, and battery authentication where minimizing connector pins and PCB routing is critical. SWI's most distinctive feature is its ability to harvest energy from the SI/O signal line to power the slave device, eliminating the need for a separate power connection in many applications.

@@ -1,5 +1,18 @@
 # HID over SPI
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/hid-over-spi-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/hid-over-spi-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is HID over SPI?
 
 ### Overview

@@ -1,5 +1,22 @@
 # USB4/Thunderbolt 3 Sideband
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/usb4-tbt3-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/usb4-tbt3-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/usb4-tbt3-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is USB4/Thunderbolt 3 Sideband?
 
 USB4/Thunderbolt 3 Sideband is a low-speed auxiliary communication channel that operates independently from the high-speed differential lanes in USB4 and Thunderbolt 3 interfaces. Standardized in the USB4™ Thunderbolt3™ Compatibility Requirements Specification (Version 1.0, January 2021), this protocol was developed through collaboration between Apple, HP, Intel, Microsoft, Renesas, STMicroelectronics, and Texas Instruments to ensure interoperability between USB4 and Thunderbolt 3 devices. The sideband channel manages critical link initialization, configuration, and management functions that occur before and during high-speed data transmission.

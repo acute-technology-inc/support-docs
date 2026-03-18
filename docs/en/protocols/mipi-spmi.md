@@ -1,5 +1,18 @@
 # MIPI SPMI (System Power Management Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/mipi-spmi-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/mipi-spmi-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is MIPI SPMI?
 
 MIPI SPMI (System Power Management Interface) is a high-speed, low-latency, bidirectional two-wire serial bus specification developed by the MIPI Alliance specifically for real-time power management control in mobile devices, tablets, and other battery-powered systems. First adopted in 2008 (v1.0) and enhanced in 2012 (v2.0), SPMI was created to replace legacy point-to-point power management interfaces with a standardized, scalable bus architecture optimized for the unique requirements of dynamic voltage and frequency scaling (DVFS) in multi-core application processors. The protocol enables baseband processors or application processors to control Power Management ICs (PMICs) that regulate voltages for CPU cores, GPU, memory, peripherals, and other system components, allowing fine-grained, real-time power control essential for balancing performance and battery life in modern mobile systems.

@@ -1,5 +1,18 @@
 # RGB Interface
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/rgb-if-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/rgb-if-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is RGB Interface?
 
 The RGB (Red-Green-Blue) parallel interface, also known as RGB parallel video interface or RGB TTL interface, is a digital display interface that transmits video data using separate parallel data lines for red, green, and blue color components. This interface directly connects display controllers or graphics processors to TFT LCD panels, small embedded displays, and other flat-panel display technologies. The RGB interface represents one of the simplest and most straightforward methods of transmitting digital video data, with each pixel's color information sent simultaneously across multiple parallel data lines synchronized to a pixel clock.

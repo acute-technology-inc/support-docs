@@ -1,5 +1,18 @@
 # PROFIBUS
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/profibus-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/profibus-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is PROFIBUS?
 
 PROFIBUS (Process Field Bus) is an open, vendor-independent fieldbus communication protocol standardized as IEC 61158 Type 3 and IEC 61784, designed for high-speed, deterministic communication in factory automation and process control applications. Developed in Germany in the late 1980s and first standardized in 1991 as DIN 19245, PROFIBUS became one of the world's most widely deployed industrial networking technologies, with over 66 million devices installed globally. The protocol provides reliable, real-time communication between programmable logic controllers (PLCs), distributed I/O systems, sensors, actuators, drives, and other field devices in industrial environments.

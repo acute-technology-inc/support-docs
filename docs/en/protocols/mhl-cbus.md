@@ -1,5 +1,18 @@
 # MHL-CBUS (Mobile High-Definition Link Control Bus)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/mhl-cbus-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/mhl-cbus-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is MHL-CBUS?
 
 MHL-CBUS is the bidirectional control channel protocol used in the Mobile High-Definition Link (MHL) standard, which enables high-definition audio and video transmission from mobile devices to displays and TVs over standard USB connectors. Developed by the MHL Consortium (founded by Nokia, Samsung, Silicon Image, Sony, and Toshiba in 2010), the CBUS protocol operates over a single pin in the 5-pin MHL connector, providing device discovery, capability negotiation, register access, and DDC (Display Data Channel) communication while the main differential pairs carry TMDS-encoded video and audio data. MHL was designed to solve the mobile-to-TV connectivity challenge, allowing smartphones and tablets to output HD video to external displays using their existing micro-USB charging port.

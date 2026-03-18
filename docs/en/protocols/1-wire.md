@@ -1,5 +1,18 @@
 # 1-Wire
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/1-wire-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/1-wire-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is 1-Wire?
 
 ### Overview

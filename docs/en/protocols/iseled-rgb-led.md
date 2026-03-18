@@ -1,5 +1,18 @@
 # ISELED RGB LED
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/iseled-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/iseled-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is ISELED RGB LED?
 
 ISELED (Integrated Smart Embedded LED) is a smart RGB LED technology and communication protocol developed by Inova Semiconductors specifically for automotive interior ambient lighting applications. Unlike traditional LED control methods that require individual current-limiting resistors and suffer from LED-to-LED brightness and color variations, ISELED integrates a microcontroller-based LED driver (the INLC10AQ controller IC) directly with RGB LEDs into intelligent modules that can be individually addressed, color-calibrated, and temperature-compensated. Each ISELED module communicates via a proprietary bidirectional, half-duplex, 2 Mbps CRC-protected serial bus, enabling daisy-chained configurations where hundreds of LEDs can be controlled from a single microcontroller with just two wires (data and power).

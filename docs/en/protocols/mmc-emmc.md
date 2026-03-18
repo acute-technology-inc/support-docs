@@ -1,5 +1,34 @@
 # MMC/eMMC
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/mmc-emmc-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/mmc-emmc-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/mmc-emmc-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/mmc-emmc-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/mmc-emmc-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/mmc-emmc-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is MMC/eMMC?
 
 MMC (MultiMediaCard) is a memory card standard developed by Siemens and SanDisk in 1997 for portable data storage, using a simple serial interface for communication between a host controller and flash memory. eMMC (embedded MultiMediaCard) evolved from the removable MMC card format into an embedded, soldered-down BGA package integrating both flash memory and a flash controller into a single component. Standardized by JEDEC committee JC-64, eMMC simplifies embedded system design by providing a complete managed flash storage solution with wear leveling, bad block management, and error correction handled internally by the eMMC controller.

@@ -1,5 +1,34 @@
 # MIPI SoundWire (Audio Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/mipi-soundwire-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/mipi-soundwire-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/mipi-soundwire-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/mipi-soundwire-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/mipi-soundwire-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/mipi-soundwire-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is MIPI SoundWire?
 
 MIPI SoundWire is a two-wire, digital audio interface specification developed by the MIPI Alliance to replace legacy analog and multi-wire digital audio connections in mobile devices, tablets, laptops, automotive systems, and IoT applications. Introduced to address the limitations of traditional audio interfaces like I2S (Inter-IC Sound) which require multiple dedicated signal lines per audio channel (bit clock, word select, data), Sound Wire provides a scalable, low-pin-count solution that transports multiple channels of high-quality audio, control data, and synchronization over just two wires: clock and data. The protocol enables efficient connectivity between application processors, audio codecs, amplifiers, microphones, and speakers while reducing board space, component cost, and power consumption compared to parallel audio buses.

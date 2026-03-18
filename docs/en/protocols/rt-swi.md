@@ -1,5 +1,22 @@
 # RT-SWI (Real-Time Single Wire Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/rt_swi-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/rt_swi-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/rt_swi-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is RT-SWI?
 
 RT-SWI (Real-Time Single Wire Interface) is a single-wire bidirectional communication protocol used in embedded systems for low-pin-count communication with peripherals requiring minimal wiring. While specific manufacturer documentation for "RT-SWI" as a distinct protocol standard is limited, the designation typically refers to single-wire interface implementations optimized for real-time applications where deterministic timing, low latency, and minimal resource overhead are critical. Single-wire protocols like RT-SWI reduce connector pin counts, simplify PCB routing, and lower system costs compared to multi-wire interfaces like SPI or I2C, making them attractive for space-constrained embedded applications such as sensors, EEPROMs, authentication chips, and peripheral identification modules.

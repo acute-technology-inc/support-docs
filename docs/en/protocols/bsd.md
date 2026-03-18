@@ -1,5 +1,18 @@
 # BSD (Bit Serial Device)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/bsd-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/bsd-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is BSD?
 
 ### Overview

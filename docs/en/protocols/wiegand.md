@@ -1,5 +1,18 @@
 # Wiegand (Access Control Protocol)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/wiegand-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/wiegand-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is Wiegand?
 
 The Wiegand interface is a de facto wiring standard and communication protocol used extensively in the physical security industry to connect card readers (proximity, magnetic stripe, barcode, biometric) to access control panels and door controllers. Named after John R. Wiegand who discovered the Wiegand effect (a magnetic phenomenon) in the 1970s, the Wiegand interface originally referred to card technology using ferromagnetic wires, but the term now primarily describes the electrical signaling protocol used to transmit card credential data from readers to controllers regardless of the underlying card technology. The protocol's simplicity, long-distance capability (up to 500 feet / 150 meters), immunity to electromagnetic interference, and vendor-neutral standardization have made it the dominant interface standard for physical access control installations in commercial buildings, government facilities, educational institutions, healthcare, industrial sites, and residential security systems worldwide.

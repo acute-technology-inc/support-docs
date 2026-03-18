@@ -1,5 +1,30 @@
 # IO-Link
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/iolink-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/iolink-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/iolink-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/iolink-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/iolink-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is IO-Link?
 
 IO-Link is the first globally standardized I/O technology (IEC 61131-9) for communication with sensors and actuators in factory automation. Developed by a consortium of leading automation manufacturers and standardized in 2013, IO-Link transforms traditional digital input/output connections into intelligent point-to-point communication links without requiring changes to existing wiring infrastructure. The protocol enables bidirectional data exchange, parameter configuration, diagnostics, and device identification over standard 3-wire sensor cables, elevating simple binary sensors into smart devices that provide rich information to automation systems.

@@ -1,5 +1,22 @@
 # USB Power Delivery
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/usb-pd-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/usb-pd-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/usb-pd-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is USB Power Delivery?
 
 USB Power Delivery (USB-PD) is a power negotiation protocol developed by the USB Implementers Forum (USB-IF) that enables USB devices to negotiate higher power levels beyond the basic USB power specifications. Initially released in 2012 and substantially revised through multiple versions, USB-PD allows devices to dynamically request and supply power up to 240 watts over USB Type-C connections. The protocol enables intelligent power management by allowing devices to communicate their power requirements and capabilities, replacing the need for proprietary charging solutions.

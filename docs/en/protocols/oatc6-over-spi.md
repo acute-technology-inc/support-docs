@@ -1,5 +1,18 @@
 # OATC6 over SPI (OPEN Alliance TC6)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/oatc6-over-spi-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/oatc6-over-spi-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is OATC6 over SPI?
 
 OATC6 (OPEN Alliance Technical Committee 6) over SPI refers to the implementation of the OPEN Alliance TC6 Ethernet communication standard using SPI (Serial Peripheral Interface) as the physical transport layer. The OPEN Alliance TC6 specification defines a protocol for transmitting Ethernet frames over media-independent communication interfaces (xMII), specifically designed for automotive and industrial applications where traditional Ethernet PHY connections may be replaced with simpler serial interfaces to reduce wiring complexity, cost, and EMI (electromagnetic interference). The TC6 protocol enables Ethernet communication between microcontrollers and peripherals using existing serial interfaces like SPI, eliminating the need for dedicated Ethernet MACs and PHYs in certain embedded system architectures.

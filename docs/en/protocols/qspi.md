@@ -1,5 +1,18 @@
 # QSPI
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/qspi-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/qspi-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is QSPI?
 
 QSPI (Quad Serial Peripheral Interface) is an enhanced version of the standard SPI protocol that uses four bidirectional data lines instead of the two unidirectional lines (MOSI/MISO) in traditional SPI. This quad-line architecture enables four bits to be transferred simultaneously per clock cycle, quadrupling the potential throughput compared to standard SPI while maintaining the familiar SPI command structure and chip select mechanism. QSPI was developed primarily for high-speed communication with NOR Flash memory devices, where fast sequential reads and random access performance are critical for applications like code execution-in-place (XIP) and fast boot times.

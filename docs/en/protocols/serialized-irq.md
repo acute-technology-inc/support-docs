@@ -1,5 +1,38 @@
 # Serialized IRQ (SERIRQ)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/serialized-irq-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/serialized-irq-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serialized-irq-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serialized-irq-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serialized-irq-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serialized-irq-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/serialized-irq-fig-07.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is Serialized IRQ?
 
 Serialized IRQ (SERIRQ) is an interrupt signaling protocol developed by Intel as part of the Low Pin Count (LPC) Interface Specification to replace the traditional parallel interrupt request (IRQ) lines used in ISA-based PC architectures. Formally documented in Intel's Low Pin Count Interface Specification Revision 1.1 (August 2002), SERIRQ serializes up to 32 interrupt requests over a single bidirectional wire, dramatically reducing the pin count required for interrupt handling in embedded systems and chipset designs. The protocol was developed to support the transition from legacy ISA expansion buses to more integrated, lower-pin-count architectures while maintaining backward compatibility with existing interrupt-driven software.

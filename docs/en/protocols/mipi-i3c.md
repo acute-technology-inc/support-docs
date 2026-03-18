@@ -1,5 +1,22 @@
 # MIPI I3C (Improved Inter-Integrated Circuit)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/mipi-i-3-c-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/mipi-i-3-c-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/mipi-i-3-c-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is MIPI I3C?
 
 MIPI I3C (Improved Inter-Integrated Circuit) is an advanced two-wire serial communication bus specification developed by the MIPI Alliance as a modernized successor to the widely-used I²C (Inter-Integrated Circuit) protocol. Introduced in 2017 with version 1.0 and subsequently enhanced through versions 1.1, 1.2, and beyond, I3C was designed to address the performance limitations of I²C while maintaining backward compatibility with legacy I²C devices on the same bus. The specification exists in two variants: MIPI I3C (full featured) and MIPI I3C Basic (royalty-free subset), both targeting mobile devices, IoT (Internet of Things), sensors, data center applications, and modern embedded systems requiring higher throughput, lower latency, and reduced power consumption compared to traditional I²C. I3C achieves data rates up to 12.5 Mbps (SDR mode) and 25 Mbps (HDR modes), significantly faster than I²C's maximum 3.4 Mbps.

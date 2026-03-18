@@ -1,5 +1,18 @@
 # UNI/O
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/unio-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/unio-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is UNI/O?
 
 ### Overview

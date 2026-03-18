@@ -1,5 +1,18 @@
 # SGPIO (Serial GPIO)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/sgpio-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/sgpio-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is SGPIO?
 
 ### Overview

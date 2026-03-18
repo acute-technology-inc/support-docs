@@ -1,5 +1,18 @@
 # APML (Advanced Platform Management Link)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/apml-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/apml-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is APML?
 
 ### Overview

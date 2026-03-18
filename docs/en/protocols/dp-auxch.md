@@ -1,5 +1,26 @@
 # DisplayPort AUX Channel
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/dp-auxch-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/dp-auxch-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/dp-auxch-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/dp-auxch-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is DisplayPort AUX Channel?
 
 ### Overview

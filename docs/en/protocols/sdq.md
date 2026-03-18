@@ -1,5 +1,18 @@
 # SDQ (Single Data Queue)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/sdq-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/sdq-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is SDQ?
 
 ### Overview

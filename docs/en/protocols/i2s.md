@@ -1,5 +1,22 @@
 # I2S (Inter-IC Sound)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/i-2-s-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/i-2-s-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/i-2-s-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is I2S?
 
 ### Overview

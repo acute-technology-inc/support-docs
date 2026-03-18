@@ -1,5 +1,22 @@
 # PCM (Pulse Code Modulation Audio Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/pcm-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/pcm-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/pcm-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is PCM?
 
 ### Overview

@@ -1,5 +1,22 @@
 # CEC (Consumer Electronics Control)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/cec-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/cec-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/cec-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is CEC?
 
 ### Overview

@@ -1,5 +1,18 @@
 # USB 1.1
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/usb1-1-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/usb1-1-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is USB 1.1?
 
 USB 1.1 (Universal Serial Bus version 1.1) is a serial communication protocol and physical interface standard released in August 1998 by a consortium of companies including Compaq, Intel, Microsoft, and NEC. The specification, formally finalized on September 23, 1998, corrected significant issues present in the original USB 1.0 standard released in January 1996, making USB 1.1 the first widely adopted version of the USB standard. The protocol was designed to replace multiple legacy connection standards including RS-232 serial ports, parallel ports, PS/2 keyboard and mouse connectors, and game ports with a single universal interface.

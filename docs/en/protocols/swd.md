@@ -1,5 +1,46 @@
 # SWD (Serial Wire Debug)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/swd-fig-01.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/swd-fig-02.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/swd-fig-03.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/swd-fig-04.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/swd-fig-05.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/swd-fig-06.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/swd-fig-07.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/swd-fig-08.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/swd-fig-09.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is SWD?
 
 SWD (Serial Wire Debug) is a two-wire debug protocol developed by ARM as a compact, pin-efficient alternative to the traditional JTAG (Joint Test Action Group) debug interface for accessing on-chip debug and trace capabilities in ARM Cortex-based microcontrollers and microprocessors. Part of the ARM Debug Interface v5 Architecture Specification and standardized within ARM's CoreSight debug and trace technology ecosystem, SWD was specifically designed to reduce the number of physical pins required for debugging from JTAG's minimum of four (TDI, TDO, TMS, TCK) plus optional reset to just two mandatory signals (SWDIO and SWCLK) plus optional trace output (SWO). This pin reduction is critical for space-constrained embedded devices, wearables, IoT modules, and cost-sensitive applications where minimizing pin count frees up valuable GPIO pins for application functionality while still providing full debug capabilities including breakpoints, watchpoints, register access, memory read/write, and Flash programming.

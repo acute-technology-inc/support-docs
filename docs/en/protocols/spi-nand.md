@@ -1,5 +1,18 @@
 # SPI NAND
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/spi-nand-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/spi-nand-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is SPI NAND?
 
 SPI NAND is a NAND flash memory variant that uses the Serial Peripheral Interface (SPI) protocol for communication with host controllers, combining the high density and low cost of NAND flash with the simplicity and ease of integration of SPI. Introduced in the early 2010s by manufacturers like Micron, Winbond, GigaDevice, and Macronix, SPI NAND was developed to address the growing complexity of parallel NAND interfaces while maintaining compatibility with widely-adopted SPI infrastructure. Unlike parallel NAND which requires 16+ I/O pins and complex timing management, SPI NAND operates with as few as 4-6 pins using standard SPI bus protocols, making it ideal for space-constrained embedded systems and applications requiring simpler PCB routing.

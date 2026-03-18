@@ -1,5 +1,18 @@
 # AD-Mux Flash
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/ad-mux-flash-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/ad-mux-flash-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is AD-Mux Flash?
 
 ### Overview

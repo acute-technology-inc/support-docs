@@ -1,5 +1,22 @@
 # S/PDIF
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/spdif-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/spdif-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/spdif-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is S/PDIF?
 
 ### Overview

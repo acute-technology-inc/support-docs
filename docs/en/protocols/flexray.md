@@ -1,5 +1,18 @@
 # FlexRay
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/flexray-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/flexray-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is FlexRay?
 
 ### Overview

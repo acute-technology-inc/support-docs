@@ -1,5 +1,18 @@
 # SMI (Serial Management Interface)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/smi-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/smi-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+
 ## What is SMI?
 
 ### Overview

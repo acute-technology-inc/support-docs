@@ -1,5 +1,22 @@
 # RC-5 (Philips Remote Control Protocol)
 
+
+## Decode Settings
+<figure markdown>
+  ![Decode Settings](../images/decode/rc5-settings.png)
+  <figcaption>Decode Settings</figcaption>
+</figure>
+
+## Example
+<figure markdown>
+  ![Decode Example](../images/decode/rc5-example.png)
+  <figcaption>Decode Example</figcaption>
+</figure>
+<figure markdown>
+  ![Decode Figure](../images/decode/rc5-result.png)
+  <figcaption>Decode Figure</figcaption>
+</figure>
+
 ## What is RC-5?
 
 RC-5 is a widely adopted infrared remote control protocol developed by Philips in the early 1980s for consumer electronics equipment. Originally designed for Philips products, RC-5 quickly became a de facto standard adopted by numerous European and international manufacturers including Marantz, Bang & Olufsen, Grundig, and many others due to its robust design and effective noise immunity. The protocol uses bi-phase (Manchester) encoding modulated onto a 36 kHz carrier frequency, a distinctive choice that was specifically selected to avoid interference from television horizontal scan frequencies (15.625 kHz and harmonics). Unlike pulse distance protocols like NEC that encode data by varying spacing between pulses, RC-5 encodes data within the pulse transitions themselves, with each bit represented by a transition in the middle of the bit period, making timing recovery simpler and providing inherent clock synchronization.
