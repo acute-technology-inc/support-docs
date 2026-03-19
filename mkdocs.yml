@@ -45,7 +45,8 @@ theme:
       accent: deep purple 
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-]'
   - i18n:
       docs_structure: folder
       languages:
@@ -53,12 +54,12 @@ plugins:
           default: true
           name: English
           build: true
-        # - locale: zh-TW
-        #   name: 中文(繁體)
-        #   build: true
-        # - locale: zh
-        #   name: 中文(简体)
-        #   build: true
+        - locale: zh-TW
+          name: 中文(繁體)
+          build: true
+        - locale: zh
+          name: 中文(简体)
+          build: true
   - mkdocstrings:
       handlers:
         python:
@@ -122,6 +123,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.critic
+  - pymdownx.critic:
+      mode: accept
   - pymdownx.keys
   - footnotes
   - def_list
