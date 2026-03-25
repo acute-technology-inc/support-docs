@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/usb-pd-settings.png)
+  ![Decode Settings](../images/protocol-decode/usb-pd-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/usb-pd-example.png)
+  ![Decode Example](../images/protocol-decode/usb-pd-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/usb-pd-result.png)
+  ![Decode Figure](../images/protocol-decode/usb-pd-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

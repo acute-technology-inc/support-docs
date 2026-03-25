@@ -3,21 +3,21 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/qei-fig-01.png)
+  ![Decode Settings](../images/protocol-decode/qei-fig-01.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/qei-fig-02.png)
+  ![Decode Example](../images/protocol-decode/qei-fig-02.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/qei-fig-03.png)
+  ![Decode Figure](../images/protocol-decode/qei-fig-03.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/qei-fig-04.png)
+  ![Decode Figure](../images/protocol-decode/qei-fig-04.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

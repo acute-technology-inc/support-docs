@@ -8,7 +8,7 @@ You can follow along whether you own any Acute's Logic Analyzer product or not. 
 The Logic Analyzer interface is organized into distinct areas, each serving a specific purpose in the capture and analysis workflow.
 
 <figure markdown>
-  ![Logic Analyzer main window with toolbar, channel labels, waveform area, and report window](../images/la/user-interface.png){ width="800" }
+  ![Logic Analyzer main window with toolbar, channel labels, waveform area, and report window](../images/logic-analyzer/user-interface.png){ width="800" }
   <figcaption>User interface of Logic Analyzer Mode</figcaption>
 </figure>
 

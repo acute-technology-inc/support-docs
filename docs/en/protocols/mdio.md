@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/mdio-settings.png)
+  ![Decode Settings](../images/protocol-decode/mdio-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/mdio-example.png)
+  ![Decode Example](../images/protocol-decode/mdio-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/modbus-settings.png)
+  ![Decode Settings](../images/protocol-decode/modbus-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/modbus-example.png)
+  ![Decode Example](../images/protocol-decode/modbus-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

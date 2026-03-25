@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/accmeter-settings.png)
+  ![Decode Settings](../images/protocol-decode/accmeter-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/accmeter-example.png)
+  ![Decode Example](../images/protocol-decode/accmeter-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/accmeter-result.png)
+  ![Decode Figure](../images/protocol-decode/accmeter-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

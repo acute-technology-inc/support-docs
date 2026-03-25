@@ -24,7 +24,7 @@ Right-click and drag to select region. You are able to get
 For example, we can immediately estimate the I2C Clock frequency is about 95 kHz, as in the figure shows.
 
 <figure markdown>
-  ![Quick Calculation](../images/la/quick-calculation.png){ width="800" }
+  ![Quick Calculation](../images/logic-analyzer/quick-calculation.png){ width="800" }
   <figcaption>Quick Calculation</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ For example, we can immediately estimate the I2C Clock frequency is about 95 kHz
 Add notes and visual markers directly in the waveform area to document important signals or conditions.
 
 <figure markdown>
-  ![Quick Note and Marker Annotations](../images/la/add-note.gif){ width="800" }
+  ![Quick Note and Marker Annotations](../images/logic-analyzer/add-note.gif){ width="800" }
   <figcaption>Quick Note and Marker Annotations</figcaption>
 </figure>
 
@@ -44,14 +44,14 @@ This gives you the ability to quickly add text labels, graphic markers, and note
 You can adjust the channel labels by dragging the label border.
 
 <figure markdown>
-  ![Adjust Channel Labels](../images/la/channel-label-height.png){ width="800" }
+  ![Adjust Channel Labels](../images/logic-analyzer/channel-label-height.png){ width="800" }
   <figcaption>Adjust the height of the channel labels</figcaption>
 </figure>
 
 Even the order of the channel labels.
 
 <figure markdown>
-  ![Adjust Channel Labels](../images/la/channel-label-order.gif){ width="800" }
+  ![Adjust Channel Labels](../images/logic-analyzer/channel-label-order.gif){ width="800" }
   <figcaption>Adjust order of the channel labels</figcaption>
 </figure>
 
@@ -62,17 +62,17 @@ For more details of how to manage the channel labels, see also [Channel Labels](
 Hide the toolbar by clicking the arrow up icon.
 
 <figure markdown>
-  ![Hide Toolbar](../images/la/toolbar-hide.png){ width="800" }
+  ![Hide Toolbar](../images/logic-analyzer/toolbar-hide.png){ width="800" }
 </figure>
 
 To maximize the waveform area, you can drag the divider between the waveform area and the report area to the bottom.
 
 <figure markdown>
-  ![Drag Divider to Maximize Waveform Area](../images/la/waveform-area-divider.png){ width="800" }
+  ![Drag Divider to Maximize Waveform Area](../images/logic-analyzer/waveform-area-divider.png){ width="800" }
 </figure>
 
 <figure markdown>
-  ![Maximize Waveform Area](../images/la/waveform-area-maximize.png){ width="800" }
+  ![Maximize Waveform Area](../images/logic-analyzer/waveform-area-maximize.png){ width="800" }
 </figure>
 
 ## Fast navigation via Cursors
@@ -82,13 +82,13 @@ You can use cursors to quickly navigate to specific positions in the waveform ar
 Let see the the following example. Suppose we have a Cursor H outside of our viewing area, and we want to quickly jump to it.
 
 <figure markdown>
-  ![Cursor Position](../images/la/cursor-quick-positioning-1.png){ width="800" }
+  ![Cursor Position](../images/logic-analyzer/cursor-quick-positioning-1.png){ width="800" }
 </figure>
 
 Press the **H** key to jump to Cursor H, and here we go. The Cursor H is now in the middle of the waveform area.
 
 <figure markdown>
-  ![Cursor Position](../images/la/cursor-quick-positioning-2.png){ width="800" }
+  ![Cursor Position](../images/logic-analyzer/cursor-quick-positioning-2.png){ width="800" }
 </figure>
 
 They are just like bookmarks. Next time, you can drop cursors anywhere you want to quickly reference to, this helps you to navigate the waveform area quickly and efficiently. Add any cursors by pressing the **Shift + A-Z** key.

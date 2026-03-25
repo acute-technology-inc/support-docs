@@ -3,7 +3,7 @@
 ## Language
 
 <figure markdown>
-  ![Language](../images/la/toolbar-file-language.png){ width="800" }
+  ![Language](../images/logic-analyzer/toolbar-file-language.png){ width="800" }
 </figure>
 
 **Available languages**
@@ -15,11 +15,11 @@
 ## Options
 
 <figure markdown>
-  ![Options](../images/la/toolbar-file-options.png){ width="800" }
+  ![Options](../images/logic-analyzer/toolbar-file-options.png){ width="800" }
 </figure>
 
 <figure markdown>
-  ![Options](../images/la/toolbar-file-options-dialog.png){ width="400" }
+  ![Options](../images/logic-analyzer/toolbar-file-options-dialog.png){ width="400" }
 </figure>
 
 All values marked **bold** are the default values.

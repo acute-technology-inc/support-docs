@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/ufcs-settings.png)
+  ![Decode Settings](../images/protocol-decode/ufcs-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/ufcs-example.png)
+  ![Decode Example](../images/protocol-decode/ufcs-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

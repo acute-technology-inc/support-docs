@@ -45,13 +45,13 @@ If you're trying to capture a common protocol like I2C:
 1. Click on the [**Quick Settings**](quick-start.md#step-2-capture-settings) button in the toolbar
 
     <figure markdown>
-        ![Quick Settings Button](../images/la/quick-settings-button.png){ width="800" }
+        ![Quick Settings Button](../images/logic-analyzer/quick-settings-button.png){ width="800" }
     </figure>
 
 2. Select the protocol you want to capture from the dropdown list. Here we select I2C and there will be a dialog popup to configure the parameters for I2C.
 
     <figure markdown>
-        ![I2C Quick Settings](../images/la/i2c-quick-settings.png){ width="600" }
+        ![I2C Quick Settings](../images/logic-analyzer/i2c-quick-settings.png){ width="600" }
     </figure>
 
     It will make some changes to the capture settings to make it suitable for I2C. As you can see,

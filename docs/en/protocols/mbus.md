@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/mbus-settings.png)
+  ![Decode Settings](../images/protocol-decode/mbus-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/mbus-example.png)
+  ![Decode Example](../images/protocol-decode/mbus-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

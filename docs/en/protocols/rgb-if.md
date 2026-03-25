@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/rgb-if-settings.png)
+  ![Decode Settings](../images/protocol-decode/rgb-if-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/rgb-if-example.png)
+  ![Decode Example](../images/protocol-decode/rgb-if-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

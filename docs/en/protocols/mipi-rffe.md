@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/mipi-rffe-settings.png)
+  ![Decode Settings](../images/protocol-decode/mipi-rffe-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/mipi-rffe-example.png)
+  ![Decode Example](../images/protocol-decode/mipi-rffe-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

@@ -3,53 +3,53 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/7-segment-fig-01.png)
+  ![Decode Settings](../images/protocol-decode/7-segment-fig-01.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/7-segment-fig-02.png)
+  ![Decode Example](../images/protocol-decode/7-segment-fig-02.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/7-segment-fig-03.png)
+  ![Decode Figure](../images/protocol-decode/7-segment-fig-03.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/7-segment-fig-04.png)
+  ![Decode Figure](../images/protocol-decode/7-segment-fig-04.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/7-segment-fig-05.png)
+  ![Decode Figure](../images/protocol-decode/7-segment-fig-05.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/7-segment-fig-06.png)
+  ![Decode Figure](../images/protocol-decode/7-segment-fig-06.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/7-segment-fig-07.png)
+  ![Decode Figure](../images/protocol-decode/7-segment-fig-07.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/7-segment-fig-08.png)
+  ![Decode Figure](../images/protocol-decode/7-segment-fig-08.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/7-segment-fig-09.png)
+  ![Decode Figure](../images/protocol-decode/7-segment-fig-09.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/7-segment-fig-10.png)
+  ![Decode Figure](../images/protocol-decode/7-segment-fig-10.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/7-segment-fig-11.png)
+  ![Decode Figure](../images/protocol-decode/7-segment-fig-11.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/7-segment-fig-12.png)
+  ![Decode Figure](../images/protocol-decode/7-segment-fig-12.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

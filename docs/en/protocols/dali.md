@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/dali-settings.png)
+  ![Decode Settings](../images/protocol-decode/dali-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/dali-example.png)
+  ![Decode Example](../images/protocol-decode/dali-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

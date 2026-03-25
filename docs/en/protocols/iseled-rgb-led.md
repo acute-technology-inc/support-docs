@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/iseled-settings.png)
+  ![Decode Settings](../images/protocol-decode/iseled-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/iseled-example.png)
+  ![Decode Example](../images/protocol-decode/iseled-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

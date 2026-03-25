@@ -3,33 +3,33 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/serialized-irq-fig-01.png)
+  ![Decode Settings](../images/protocol-decode/serialized-irq-fig-01.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/serialized-irq-fig-02.png)
+  ![Decode Example](../images/protocol-decode/serialized-irq-fig-02.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/serialized-irq-fig-03.png)
+  ![Decode Figure](../images/protocol-decode/serialized-irq-fig-03.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/serialized-irq-fig-04.png)
+  ![Decode Figure](../images/protocol-decode/serialized-irq-fig-04.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/serialized-irq-fig-05.png)
+  ![Decode Figure](../images/protocol-decode/serialized-irq-fig-05.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/serialized-irq-fig-06.png)
+  ![Decode Figure](../images/protocol-decode/serialized-irq-fig-06.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/serialized-irq-fig-07.png)
+  ![Decode Figure](../images/protocol-decode/serialized-irq-fig-07.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

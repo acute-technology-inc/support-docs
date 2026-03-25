@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/ad-converter-settings.png)
+  ![Decode Settings](../images/protocol-decode/ad-converter-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/ad-converter-example.png)
+  ![Decode Example](../images/protocol-decode/ad-converter-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/ad-converter-result.png)
+  ![Decode Figure](../images/protocol-decode/ad-converter-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

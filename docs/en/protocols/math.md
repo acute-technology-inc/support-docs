@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/m-pesti-settings.png)
+  ![Decode Settings](../images/protocol-decode/m-pesti-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/m-pesti-example.png)
+  ![Decode Example](../images/protocol-decode/m-pesti-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/m-pesti-result.png)
+  ![Decode Figure](../images/protocol-decode/m-pesti-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

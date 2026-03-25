@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/oa3ppmd-settings.png)
+  ![Decode Settings](../images/protocol-decode/oa3ppmd-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/oa3ppmd-example.png)
+  ![Decode Example](../images/protocol-decode/oa3ppmd-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

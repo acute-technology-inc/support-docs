@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/rc6-settings.png)
+  ![Decode Settings](../images/protocol-decode/rc6-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/rc6-example.png)
+  ![Decode Example](../images/protocol-decode/rc6-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/rc6-result.png)
+  ![Decode Figure](../images/protocol-decode/rc6-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

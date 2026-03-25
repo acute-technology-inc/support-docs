@@ -24,14 +24,14 @@ As a rule of thumb, you should sample at least 5 to 10 times of the signal frequ
 Simply click the **Sample Rate** button in the toolbar to set the sample rate.
 
 <figure markdown>
-  ![Sample Rate Settings](../images/la/sample-rate.png){ width="800" }
+  ![Sample Rate Settings](../images/logic-analyzer/sample-rate.png){ width="800" }
   <figcaption>Sample Rate Dropdown List</figcaption>
 </figure>
 
 For Mixed-Signal Oscilloscope series, the location of the sample rate configuration is slightly different, as shown below.
 
 <figure markdown>
-  ![Sample Rate Settings](../images/la/sample-rate-mso.png){ width="800" }
+  ![Sample Rate Settings](../images/logic-analyzer/sample-rate-mso.png){ width="800" }
   <figcaption>Sample Rate Settings for Mixed-Signal Oscilloscope series</figcaption>
 </figure>
 
@@ -40,12 +40,12 @@ For Mixed-Signal Oscilloscope series, the location of the sample rate configurat
 Configure the amount of channels to be used for capturing data. Note that this configuration shall be configured before you start the capture. If some channels are not in use, you can disable them to save memory.
 
 <figure markdown>
-  ![Channel Settings](../images/la/channels.png){ width="400" }
+  ![Channel Settings](../images/logic-analyzer/channels.png){ width="400" }
   <figcaption>Channel Settings</figcaption>
 </figure>
 
 <figure markdown>
-  ![Channel Settings](../images/la/channels-mso.png){ width="800" }
+  ![Channel Settings](../images/logic-analyzer/channels-mso.png){ width="800" }
   <figcaption>Channel Settings for Mixed Signal Oscilloscope series</figcaption>
 </figure>
 
@@ -54,19 +54,19 @@ Configure the amount of channels to be used for capturing data. Note that this c
 Configure how you store your captured data.
 
 <figure markdown>
-  ![Memory Modes](../images/la/memory-modes.png){ width="400" }
+  ![Memory Modes](../images/logic-analyzer/memory-modes.png){ width="400" }
   <figcaption>Storage Modes</figcaption>
 </figure>
 
 <figure markdown>
-  ![Memory Modes](../images/la/memory-modes-mso.png){ width="800" }
+  ![Memory Modes](../images/logic-analyzer/memory-modes-mso.png){ width="800" }
   <figcaption>Storage Modes for Mixed-Signal Oscilloscope series</figcaption>
 </figure>
 
 Here is an image the demonstates the difference between the three main storage modes.
 
 <figure markdown>
-  ![Memory Modes](../images/la/storage-modes.png){ width="800" }
+  ![Memory Modes](../images/logic-analyzer/storage-modes.png){ width="800" }
   <figcaption>Storage Modes Comparison</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ You can set the storage depth for capturing data. A single capture stops when th
 The upper limit differs between the models.
 
 <figure markdown>
-  ![Memory Modes](../images/la/memory-modes-adjust.png){ width="400" }
+  ![Memory Modes](../images/logic-analyzer/memory-modes-adjust.png){ width="400" }
 </figure>
 
 It also provides an estimated recordable time to help you decide how much memory you need.
@@ -135,12 +135,12 @@ Configure voltage thresholds that determine logic levels for captured signals.
 **Rule of thumb:** Threshold = Supply Voltage ÷ 2
 
 <figure markdown>
-  ![Threshold Settings dialog with Schmitt circuit mode](../images/la/threshold-settings.png){ width="400" }
+  ![Threshold Settings dialog with Schmitt circuit mode](../images/logic-analyzer/threshold-settings.png){ width="400" }
   <figcaption>Threshold Settings</figcaption>
 </figure>
 
 <figure markdown>
-  ![Threshold Settings dialog with Schmitt circuit mode](../images/la/threshold-settings-mso.png){ width="800" }
+  ![Threshold Settings dialog with Schmitt circuit mode](../images/logic-analyzer/threshold-settings-mso.png){ width="800" }
   <figcaption>Threshold Settings for Mixed-Signal Oscilloscope series</figcaption>
 </figure>
 
@@ -158,7 +158,7 @@ Real signals often contain:
 This causes trouble when analyzing the waveform, as the signal may be captured in an ambiguous state, as the figure below shows.
 
 <figure markdown>
-  ![Schmitt circuit demonstration](../images/la/schmitt-demonstration.png){ width="600" }
+  ![Schmitt circuit demonstration](../images/logic-analyzer/schmitt-demonstration.png){ width="600" }
 </figure>
 
 **Hardware surge filter limitations**
@@ -181,7 +181,7 @@ When using Schmitt circuit functions:
 For TravelLogic series, you can pair the channels as follows:
 
 <figure markdown>
-  ![Schmitt circuit for threshold settings](../images/la/threshold-schmitt.png){ width="400" }
+  ![Schmitt circuit for threshold settings](../images/logic-analyzer/threshold-schmitt.png){ width="400" }
 </figure>
 
 - First threshold set: CH0 - CH15

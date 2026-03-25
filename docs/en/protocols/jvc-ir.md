@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/jvc-ir-settings.png)
+  ![Decode Settings](../images/protocol-decode/jvc-ir-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/jvc-ir-example.png)
+  ![Decode Example](../images/protocol-decode/jvc-ir-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

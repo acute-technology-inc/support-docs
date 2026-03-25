@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/microchip-swi-settings.png)
+  ![Decode Settings](../images/protocol-decode/microchip-swi-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/microchip-swi-example.png)
+  ![Decode Example](../images/protocol-decode/microchip-swi-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

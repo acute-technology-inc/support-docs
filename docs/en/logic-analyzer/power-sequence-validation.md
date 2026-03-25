@@ -21,7 +21,7 @@ In this section, we will introduce how to further add restrictions on these meas
 1. Find the `Timing Check` button in the **Adv. Capture** tab of the toolbar and click it to open the timing check dialog.
 
     <figure markdown>
-      ![Timing Check Button](../images/la/timing-check-button.png){ width="400" }
+      ![Timing Check Button](../images/logic-analyzer/timing-check-button.png){ width="400" }
     </figure>
 
 2. Choose the configuration (.csv) file you want to use for.
@@ -32,7 +32,7 @@ In this section, we will introduce how to further add restrictions on these meas
 A snapshot of the timing check report is shown below:
 
 <figure markdown>
-  ![Timing Check Report](../images/la/timing-check-report.png){ width="800" }
+  ![Timing Check Report](../images/logic-analyzer/timing-check-report.png){ width="800" }
 </figure>
 
 ## Configuration File Format

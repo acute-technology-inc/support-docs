@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/mhl-cbus-settings.png)
+  ![Decode Settings](../images/protocol-decode/mhl-cbus-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/mhl-cbus-example.png)
+  ![Decode Example](../images/protocol-decode/mhl-cbus-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

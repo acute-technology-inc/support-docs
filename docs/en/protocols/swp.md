@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/swp-settings.png)
+  ![Decode Settings](../images/protocol-decode/swp-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/swp-example.png)
+  ![Decode Example](../images/protocol-decode/swp-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/swp-result.png)
+  ![Decode Figure](../images/protocol-decode/swp-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

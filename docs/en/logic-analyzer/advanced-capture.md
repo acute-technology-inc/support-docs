@@ -3,14 +3,14 @@
 In addition to the basic capture settings we introduced in the last section, we also provide some advanced capture settings for you to choose from. Here are the details:
 
 <figure markdown>
-  ![Advanced Capture Settings](../images/la/advanced-capture.png){ width="800" }
+  ![Advanced Capture Settings](../images/logic-analyzer/advanced-capture.png){ width="800" }
   <figcaption>Advanced Capture Settings</figcaption>
 </figure>
 
 ## Asynchronous Mode / Synchronous Mode
 
 <figure markdown>
-  ![Asynchronous Mode / Synchronous Mode](../images/la/async-sync-list.png){ width="300" }
+  ![Asynchronous Mode / Synchronous Mode](../images/logic-analyzer/async-sync-list.png){ width="300" }
   <figcaption>List of Asynchronous Mode / Synchronous Mode</figcaption>
 </figure>
 
@@ -66,13 +66,13 @@ Each edge condition set has two qualifier sets. Sampling occurs immediately when
 - CK0 ↑ → Sampling occurs immediately
 
 <figure markdown>
-  ![Advanced Settings](../images/la/sync-advanced-sample.png){ width="400" }
+  ![Advanced Settings](../images/logic-analyzer/sync-advanced-sample.png){ width="400" }
 </figure>
 
 - CK0 ↑ + CK1 = 0 → Sampling occurs immediately
 
 <figure markdown>
-  ![Advanced Settings](../images/la/sync-advanced-sample-2.png){ width="400" }
+  ![Advanced Settings](../images/logic-analyzer/sync-advanced-sample-2.png){ width="400" }
 </figure>
 
 ## Glitch Filter
@@ -88,7 +88,7 @@ We provide Glitch Filter feature in order to suppress short pulses in recorded d
 It actually applies a low-pass filter before we start capturing. The filtering process is done by hardware, so you can't disable it after the captured data is stored.
 
 <figure markdown>
-  ![Hardware Glitch Filter](../images/la/glitch-filter-hardware.png){ width="400" }
+  ![Hardware Glitch Filter](../images/logic-analyzer/glitch-filter-hardware.png){ width="400" }
   <figcaption>Hardware Glitch Filter Configuration</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Channels using the hardware glitch filter are marked with a **red dot** on the c
 Filter signals after capture without affecting trigger or timing.
 
 <figure markdown>
-  ![Software Glitch Filter](../images/la/glitch-filter-software.png){ width="400" }
+  ![Software Glitch Filter](../images/logic-analyzer/glitch-filter-software.png){ width="400" }
   <figcaption>Software Glitch Filter Configuration</figcaption>
 </figure>
 

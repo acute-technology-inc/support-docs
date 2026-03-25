@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/smart-card-iso7816-settings.png)
+  ![Decode Settings](../images/protocol-decode/smart-card-iso7816-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/smart-card-iso7816-example.png)
+  ![Decode Example](../images/protocol-decode/smart-card-iso7816-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

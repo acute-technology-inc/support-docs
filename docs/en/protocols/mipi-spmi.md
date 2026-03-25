@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/mipi-spmi-settings.png)
+  ![Decode Settings](../images/protocol-decode/mipi-spmi-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/mipi-spmi-example.png)
+  ![Decode Example](../images/protocol-decode/mipi-spmi-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

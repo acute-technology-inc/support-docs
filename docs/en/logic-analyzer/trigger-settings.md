@@ -6,7 +6,7 @@ Since we provide many trigger types, we separate them into different sections fo
 ## Trigger Conditions
 
 <figure markdown>
-  ![Trigger Conditions](../images/la/trigger-conditions.png){ width="200" }
+  ![Trigger Conditions](../images/logic-analyzer/trigger-conditions.png){ width="200" }
   <figcaption>Trigger Conditions</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ A single capture will record data until a digital trigger is found on a single c
 **Configuration**
 
 <figure markdown>
-  ![Single Level Trigger](../images/la/trigger-singlelevel.png){ width="400" }
+  ![Single Level Trigger](../images/logic-analyzer/trigger-singlelevel.png){ width="400" }
   <figcaption>Per Channel Trigger Settings</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ The most common use case is to trigger on a rising edge of a clock signal.
 We also provide trigger from a specific binary pattern from a specific channel label (e.g. I2C).
 
 <figure markdown>
-  ![Single Level Trigger](../images/la/trigger-singlelevel-label.png){ width="400" }
+  ![Single Level Trigger](../images/logic-analyzer/trigger-singlelevel-label.png){ width="400" }
   <figcaption>Trigger from a specific binary pattern</figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ You can create complex trigger conditions using multiple stages (up to 16 states
 **Configuration**
 
 <figure markdown>
-  ![Multi-level Trigger](../images/la/trigger-multilevel.png){ width="600" }
+  ![Multi-level Trigger](../images/logic-analyzer/trigger-multilevel.png){ width="600" }
   <figcaption>Multi-level Trigger Settings</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ Establish parallel trigger conditions. Any matching condition will trigger.
 An example is shown in the figure below. Either of the two patterns starting with P1 or P2 will trigger in the capture.
 
 <figure markdown>
-  ![Multi-level Trigger](../images/la/trigger-multilevel-orif.png){ width="600" }
+  ![Multi-level Trigger](../images/logic-analyzer/trigger-multilevel-orif.png){ width="600" }
   <figcaption>OR IF Example</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ If signal data is valid only when the clock is rising, you can:
 Trigger when a channel meets the trigger condition and the pulse width matches the specified length.
 
 <figure markdown>
-  ![Width Trigger](../images/la/trigger-width.png){ width="400" }
+  ![Width Trigger](../images/logic-analyzer/trigger-width.png){ width="400" }
   <figcaption>Width Trigger Settings</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ Trigger when a channel meets the trigger condition and the pulse width matches t
 Trigger when a signal duration exceeds the set time value, without waiting for a complete pulse.
 
 <figure markdown>
-  ![Timeout Trigger](../images/la/trigger-timeout.png){ width="400" }
+  ![Timeout Trigger](../images/logic-analyzer/trigger-timeout.png){ width="400" }
   <figcaption>Timeout Trigger Settings</figcaption>
 </figure>
 

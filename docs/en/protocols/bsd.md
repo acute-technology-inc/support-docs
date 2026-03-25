@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/bsd-settings.png)
+  ![Decode Settings](../images/protocol-decode/bsd-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/bsd-example.png)
+  ![Decode Example](../images/protocol-decode/bsd-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

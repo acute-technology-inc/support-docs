@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/itu-r-bt656-settings.png)
+  ![Decode Settings](../images/protocol-decode/itu-r-bt656-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/itu-r-bt656-example.png)
+  ![Decode Example](../images/protocol-decode/itu-r-bt656-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

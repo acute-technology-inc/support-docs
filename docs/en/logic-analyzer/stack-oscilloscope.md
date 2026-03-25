@@ -34,7 +34,7 @@ There are two methods for connecting the logic analyzer and oscilloscope:
 - Method 1: Acute's logic analyzer as Master, External Oscilloscope As Slave
 
 <figure markdown>
-   ![Method 1](../images/la/stack-oscilloscope-method-1.png){ width="500" }
+   ![Method 1](../images/logic-analyzer/stack-oscilloscope-method-1.png){ width="500" }
 </figure>
 
 **Direction**: Acute's logic analyzer **Trig-Out** port connect with the external oscilloscope's **Trig-In** port
@@ -42,7 +42,7 @@ There are two methods for connecting the logic analyzer and oscilloscope:
 - Method 2: External Oscilloscope as Master, Acute's logic analyzer as Slave
 
 <figure markdown>
-  ![Method 2](../images/la/stack-oscilloscope-method-2.png){ width="500" }
+  ![Method 2](../images/logic-analyzer/stack-oscilloscope-method-2.png){ width="500" }
 </figure>
 
 **Direction**: External oscilloscope **Trig-Out** port connect with Acute's logic analyzer's **Trig-In** port
@@ -66,7 +66,7 @@ Stack Oscilloscope depends on the Virtual Instrument Software Architecture (VISA
 ### Select The Oscilloscope
 
 <figure markdown>
-  ![Select The Oscilloscope](../images/la/stack-oscilloscope-settings.png){ width="400" }
+  ![Select The Oscilloscope](../images/logic-analyzer/stack-oscilloscope-settings.png){ width="400" }
 </figure>
 
 Choose oscilloscope brand from the dropdown list.

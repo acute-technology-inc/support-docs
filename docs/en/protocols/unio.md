@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/unio-settings.png)
+  ![Decode Settings](../images/protocol-decode/unio-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/unio-example.png)
+  ![Decode Example](../images/protocol-decode/unio-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

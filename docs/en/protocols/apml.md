@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/apml-settings.png)
+  ![Decode Settings](../images/protocol-decode/apml-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/apml-example.png)
+  ![Decode Example](../images/protocol-decode/apml-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

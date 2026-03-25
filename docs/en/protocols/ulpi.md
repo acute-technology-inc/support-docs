@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/ulpi-settings.png)
+  ![Decode Settings](../images/protocol-decode/ulpi-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/ulpi-example.png)
+  ![Decode Example](../images/protocol-decode/ulpi-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/ulpi-result.png)
+  ![Decode Figure](../images/protocol-decode/ulpi-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

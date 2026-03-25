@@ -10,19 +10,19 @@ There are several kinds of reports you can view here:
 - [Protocol decoder result](navigate-report.md#protocol-decoder-report) (varies across different protocols)
 
 <figure markdown>
-  ![Protocol decoder result](../images/la/report-decode.png)
+  ![Protocol decoder result](../images/logic-analyzer/report-decode.png)
 </figure>
 
 - [Transition report](navigate-report.md#transition-report) (0, 1 logic levels along with timestamps)
 
 <figure markdown>
-  ![Transition report](../images/la/report-transitions.png)
+  ![Transition report](../images/logic-analyzer/report-transitions.png)
 </figure>
 
 - [Waveform statistics](navigate-report.md#waveform-statistics) (period, frequency, edge count, etc.)
 
 <figure markdown>
-  ![Waveform statistics](../images/la/report-measurement.png)
+  ![Waveform statistics](../images/logic-analyzer/report-measurement.png)
 </figure>
 
 ## Report Toolbar
@@ -139,13 +139,13 @@ Sometimes you may want to focus on a specific part of the report, or you probabl
 Select the *Customized Report* item in the dropdown list from the report window toolbar.
 
 <figure markdown>
-  ![Customized Report](../images/la/customized-report-dropdown.png){ width="600" }
+  ![Customized Report](../images/logic-analyzer/customized-report-dropdown.png){ width="600" }
 </figure>
 
 Pick the columns you want to include. For the example below, we may choose only the data bits of the I2C decoder.
 
 <figure markdown>
-  ![Customized Report](../images/la/customized-report-settings.png){ width="600" }
+  ![Customized Report](../images/logic-analyzer/customized-report-settings.png){ width="600" }
 </figure>
 
 **Use cases**

@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/microwire-settings.png)
+  ![Decode Settings](../images/protocol-decode/microwire-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/microwire-example.png)
+  ![Decode Example](../images/protocol-decode/microwire-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/microwire-result.png)
+  ![Decode Figure](../images/protocol-decode/microwire-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

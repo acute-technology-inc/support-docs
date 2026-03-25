@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/cec-settings.png)
+  ![Decode Settings](../images/protocol-decode/cec-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/cec-example.png)
+  ![Decode Example](../images/protocol-decode/cec-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/cec-result.png)
+  ![Decode Figure](../images/protocol-decode/cec-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

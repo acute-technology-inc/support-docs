@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/nec-ir-settings.png)
+  ![Decode Settings](../images/protocol-decode/nec-ir-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/nec-ir-example.png)
+  ![Decode Example](../images/protocol-decode/nec-ir-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/ssi-settings.png)
+  ![Decode Settings](../images/protocol-decode/ssi-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/ssi-example.png)
+  ![Decode Example](../images/protocol-decode/ssi-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

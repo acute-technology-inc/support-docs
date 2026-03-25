@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/hdq-settings.png)
+  ![Decode Settings](../images/protocol-decode/hdq-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/hdq-example.png)
+  ![Decode Example](../images/protocol-decode/hdq-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/hdq-result.png)
+  ![Decode Figure](../images/protocol-decode/hdq-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

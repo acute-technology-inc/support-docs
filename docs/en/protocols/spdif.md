@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/spdif-settings.png)
+  ![Decode Settings](../images/protocol-decode/spdif-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/spdif-example.png)
+  ![Decode Example](../images/protocol-decode/spdif-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/spdif-result.png)
+  ![Decode Figure](../images/protocol-decode/spdif-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

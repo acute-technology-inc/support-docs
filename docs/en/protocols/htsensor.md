@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/htsensor-settings.png)
+  ![Decode Settings](../images/protocol-decode/htsensor-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/htsensor-example.png)
+  ![Decode Example](../images/protocol-decode/htsensor-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

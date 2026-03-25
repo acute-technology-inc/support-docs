@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/profibus-settings.png)
+  ![Decode Settings](../images/protocol-decode/profibus-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/profibus-example.png)
+  ![Decode Example](../images/protocol-decode/profibus-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

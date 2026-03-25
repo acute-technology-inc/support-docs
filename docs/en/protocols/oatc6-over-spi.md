@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/oatc6-over-spi-settings.png)
+  ![Decode Settings](../images/protocol-decode/oatc6-over-spi-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/oatc6-over-spi-example.png)
+  ![Decode Example](../images/protocol-decode/oatc6-over-spi-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

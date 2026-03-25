@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/mini-micro-led-settings.png)
+  ![Decode Settings](../images/protocol-decode/mini-micro-led-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/mini-micro-led-example.png)
+  ![Decode Example](../images/protocol-decode/mini-micro-led-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

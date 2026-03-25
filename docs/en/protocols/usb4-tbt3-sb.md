@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/usb4-tbt3-settings.png)
+  ![Decode Settings](../images/protocol-decode/usb4-tbt3-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/usb4-tbt3-example.png)
+  ![Decode Example](../images/protocol-decode/usb4-tbt3-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/usb4-tbt3-result.png)
+  ![Decode Figure](../images/protocol-decode/usb4-tbt3-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

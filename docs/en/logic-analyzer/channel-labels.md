@@ -3,7 +3,7 @@
 Now we focus on the left hand side of the UI, which is the channel label area. This is where we can manage all our channels, buses, and protocol decoders.
 
 <figure markdown>
-  ![Channel Labels](../images/la/channel-label-bar.png){ width="600" }
+  ![Channel Labels](../images/logic-analyzer/channel-label-bar.png){ width="600" }
 </figure>
 
 ## What's displayed in the channel label area?
@@ -19,7 +19,7 @@ Now we focus on the left hand side of the UI, which is the channel label area. T
 ### Digital Channel
 
 <figure markdown>
-  ![Digital Channel](../images/la/channel-label-digital.png){ width="600" }
+  ![Digital Channel](../images/logic-analyzer/channel-label-digital.png){ width="600" }
 </figure>
 
 ### Analog Channel
@@ -29,19 +29,19 @@ Now we focus on the left hand side of the UI, which is the channel label area. T
     Only available for [Mixed-Signal Oscilloscope](https://www.acute.com.tw/en/product/214) series.
 
 <figure markdown>
-  ![Analog Channel](../images/la/channel-label-analog.png){ width="600" }
+  ![Analog Channel](../images/logic-analyzer/channel-label-analog.png){ width="600" }
 </figure>
 
 ### Parallel Bus
 
 <figure markdown>
-  ![Parallel Bus](../images/la/channel-label-parallel-bus.png){ width="600" }
+  ![Parallel Bus](../images/logic-analyzer/channel-label-parallel-bus.png){ width="600" }
 </figure>
 
 ### Protocol Decoder
 
 <figure markdown>
-  ![Protocol Decoder](../images/la/channel-label-decode.png){ width="600" }
+  ![Protocol Decoder](../images/logic-analyzer/channel-label-decode.png){ width="600" }
 </figure>
 
 For protocol decoders, there is a ![](/assets/channels/icon-gear.png) icon on the top-right corner of the label. Clicking on it will open the protocol decoder settings dialog.
@@ -53,7 +53,7 @@ For protocol decoders, there is a ![](/assets/channels/icon-gear.png) icon on th
 Once you click the ![Add Channel](/assets/channels/icon-add-channel.png) icon, a dropdown list will popup to show you a list of options you can add.
 
 <figure markdown>
-  ![Add Channel](../images/la/channel-label-add.png){ width="200" }
+  ![Add Channel](../images/logic-analyzer/channel-label-add.png){ width="200" }
 </figure>
 
 ### Delete channels
@@ -69,7 +69,7 @@ Drag one label onto another to form parallel buses.
 Left-click on a channel label to open the channel settings dialog.
 
 <figure markdown>
-  ![Channel Settings](../images/la/channel-label-config.png){ width="350" }
+  ![Channel Settings](../images/logic-analyzer/channel-label-config.png){ width="350" }
 </figure>
 
 This allows you to:

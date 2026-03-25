@@ -5,7 +5,7 @@ Cursors play a crucial role in navigating and analyzing the captured data. They 
 ## Overview
 
 <figure markdown>
-  ![Cursor control panel](../images/la/toolbar-cursor.png){ width="600" }
+  ![Cursor control panel](../images/logic-analyzer/toolbar-cursor.png){ width="600" }
   <figcaption>Cursor control panel</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ Quickly jump to specific positions in the waveform area.
 **Shortcut**: Press **A-Z** keys to quickly jump to the corresponding cursor location.
 
 <figure markdown>
-  ![](../images/la/cursor-move-to-menu.png){ width="200" }
+  ![](../images/logic-analyzer/cursor-move-to-menu.png){ width="200" }
 </figure>
 
 **Available positions:**
@@ -79,11 +79,11 @@ The waveform pulse widths meeting the conditions can be searched on the specifie
 At the bottom right of the UI, there is a measurement display bar that shows measurement values between cursors. It will update automatically when you move the cursors. Of course, you can also manually edit the pairs of cursors by clicking the A-Z buttons.
 
 <figure markdown>
-  ![](../images/la/cursor-measurement-time.png){ width="800" }
+  ![](../images/logic-analyzer/cursor-measurement-time.png){ width="800" }
 </figure>
 
 <figure markdown>
-  ![](../images/la/cursor-measurement-change.png){ width="800" }
+  ![](../images/logic-analyzer/cursor-measurement-change.png){ width="800" }
 </figure>
 
 Additionaly, you can change the display format of the measurement with the icon on right side of the measurement display bar.

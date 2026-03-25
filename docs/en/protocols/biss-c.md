@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/biss-c-settings.png)
+  ![Decode Settings](../images/protocol-decode/biss-c-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/biss-c-example.png)
+  ![Decode Example](../images/protocol-decode/biss-c-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

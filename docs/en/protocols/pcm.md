@@ -3,17 +3,17 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/pcm-settings.png)
+  ![Decode Settings](../images/protocol-decode/pcm-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/pcm-example.png)
+  ![Decode Example](../images/protocol-decode/pcm-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 <figure markdown>
-  ![Decode Figure](../images/decode/pcm-result.png)
+  ![Decode Figure](../images/protocol-decode/pcm-result.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

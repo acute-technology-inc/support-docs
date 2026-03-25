@@ -3,7 +3,7 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Figure](../images/decode/mipi-csi.png)
+  ![Decode Figure](../images/protocol-decode/mipi-csi.png)
   <figcaption>Decode Figure</figcaption>
 </figure>
 

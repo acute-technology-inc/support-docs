@@ -33,7 +33,7 @@ Backward compatibility is a cornerstone of I3C design, allowing I²C legacy devi
 ## Decode Configuration
 
 <figure markdown>
-  ![Decode Configuration](../images/decode/mipi-i3c-decode-settings.png)
+  ![Decode Configuration](../images/protocol-decode/mipi-i3c-decode-settings.png)
 </figure>
 
 ### Startup
@@ -72,13 +72,13 @@ This ensure that when the frame is addressing the I²C device, the logic analyze
 Check the checkbox to enable the device configuration.
 
 <figure markdown>
-  ![Device Configuration](../images/decode/mipi-i3c-device-settings.png)
+  ![Device Configuration](../images/protocol-decode/mipi-i3c-device-settings.png)
 </figure>
 
 Here you can configure the static address of the I²C device to the list. After being set, you will see in the table as below.
 
 <figure markdown>
-  ![Device Configuration](../images/decode/mipi-i3c-device-settings-done.png)
+  ![Device Configuration](../images/protocol-decode/mipi-i3c-device-settings-done.png)
 </figure>
 
 There is another DDR5 Serial Presence Detect (SPD) checkbox for additional device address information that is used for DDR5 SPD detection.
@@ -88,25 +88,25 @@ There is another DDR5 Serial Presence Detect (SPD) checkbox for additional devic
 **Bus Initialization with DAA**:
 
 <figure markdown>
-  ![Bus Initialization with DAA](../images/decode/mipi-i3c-sample-daa.png){ width="800" }
+  ![Bus Initialization with DAA](../images/protocol-decode/mipi-i3c-sample-daa.png){ width="800" }
 </figure>
 
 **Common Command Code (CCC)**:
 
 <figure markdown>
-  ![Common Command Code (CCC)](../images/decode/mipi-i3c-sample-ccc.png){ width="800" }
+  ![Common Command Code (CCC)](../images/protocol-decode/mipi-i3c-sample-ccc.png){ width="800" }
 </figure>
 
 **HDR-DDR mode**:
 
 <figure markdown>
-  ![HDR-DDR mode](../images/decode/mipi-i3c-sample-hdr-ddr.png){ width="800" }
+  ![HDR-DDR mode](../images/protocol-decode/mipi-i3c-sample-hdr-ddr.png){ width="800" }
 </figure>
 
 ## Trigger Configuration
 
 <figure markdown>
-  ![Trigger Configuration](../images/trigger/mipi-i3c-trigger.png){ width="800" }
+  ![Trigger Settings](../images/protocol-trigger/mipi-i3c-trigger.png){ width="800" }
 </figure>
 
 ### Simple Triggers

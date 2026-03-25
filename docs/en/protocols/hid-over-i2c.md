@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/hid-over-i-2-c-settings.png)
+  ![Decode Settings](../images/protocol-decode/hid-over-i-2-c-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/hid-over-i-2-c-example.png)
+  ![Decode Example](../images/protocol-decode/hid-over-i-2-c-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 

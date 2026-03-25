@@ -3,13 +3,13 @@
 
 ## Decode Settings
 <figure markdown>
-  ![Decode Settings](../images/decode/avsbus-settings.png)
+  ![Decode Settings](../images/protocol-decode/avsbus-settings.png)
   <figcaption>Decode Settings</figcaption>
 </figure>
 
 ## Example
 <figure markdown>
-  ![Decode Example](../images/decode/avsbus-example.png)
+  ![Decode Example](../images/protocol-decode/avsbus-example.png)
   <figcaption>Decode Example</figcaption>
 </figure>
 
