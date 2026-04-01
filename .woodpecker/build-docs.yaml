@@ -3,6 +3,7 @@ when:
   - event: manual
   - event: push
     branch: main
+  - event: tag
 
 variables:
   # NAS PATH for Manual builds
@@ -21,7 +22,7 @@ labels:
   
 steps:
   build-docs-pr:
-    image: pxlib_build_env
+    image: aqdocker.acute-dev.io/pxlib_build_env:v1.0.1
     environment:
       NAS_PATH: *NAS_PR_PATH
     when:
@@ -34,7 +35,7 @@ steps:
       - cp docs.tar.gz $NAS_PATH
 
   build-docs-manual:
-    image: pxlib_build_env
+    image: aqdocker.acute-dev.io/pxlib_build_env:v1.0.1
     environment:
       NAS_PATH: *NAS_MANUAL_PATH
     when:
@@ -47,7 +48,7 @@ steps:
       - cp docs.tar.gz $NAS_PATH
 
   build-docs-release-internal:
-    image: pxlib_build_env
+    image: aqdocker.acute-dev.io/pxlib_build_env:v1.0.1
     environment:
       NAS_PATH: *NAS_MAIN_PATH
       NAS_RELEASE_INTERNAL_PATH: *NAS_RELEASE_INTERNAL_PATH
@@ -62,3 +63,22 @@ steps:
       - cp docs.tar.gz $NAS_PATH
       - rm -r /mnt/BuildBot/site/ladocs/*
       - cp -R site/* $NAS_RELEASE_INTERNAL_PATH
+
+  publish-docs:
+    image: aqdocker.acute-dev.io/pxlib_build_env:v1.0.1
+    environment:
+      GITHUB_USERNAME:
+        from_secret: ACUTETECHNOLGYINC_GITHUB_USERNAME
+      GITHUB_TOKEN:
+        from_secret: ACUTETECHNOLGYINC_GITHUB_TOKEN
+    when:
+      - event: tag
+    commands:
+      - apk update && apk add git
+      - uv run make build-strict
+      - git config --local user.email "sdk@acute.com.tw"
+      - git config --local user.name $GITHUB_USERNAME
+      - git config --list --local
+      - git remote add docs "https://$GITHUB_USERNAME:$GITHUB_TOKEN@github.com/acute-technology-inc/support-docs.git"
+      - git remote -v
+      - uv run mkdocs gh-deploy --force --remote-name docs --remote-branch main -m "update docs" -c -v
