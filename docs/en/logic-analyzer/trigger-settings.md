@@ -140,7 +140,9 @@ During a capture process, click the **Stop** button to manually set the trigger 
 
 ### Protocol Trigger
 
-Please refer to the [Protocol](../protocols/index.md) Page for more details. Here are some quick links to common protocols like I2C, MIPI I3C, SPI, UART, etc.:
+Our support different protocol trigger framing, which makes our analyzer powerful and easy to locate errors (complete reference docs are coming soon).
+
+<!-- Please refer to the [Protocol](../protocols/index.md) Page for more details. Here are some quick links to common protocols like I2C, MIPI I3C, SPI, UART, etc.:
 
 <div class="grid cards" markdown>
 
@@ -184,4 +186,4 @@ Please refer to the [Protocol](../protocols/index.md) Page for more details. Her
 
     [:octicons-arrow-right-24: Decode Settings](../protocols/uart.md)
 
-</div>
+</div> --> -->

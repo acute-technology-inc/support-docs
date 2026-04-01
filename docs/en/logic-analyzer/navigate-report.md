@@ -83,8 +83,10 @@ Perform automated measurements on signal characteristics. This is post-processin
 
 ## Protocol decoder report
 
-To learn more about the different columns that are used for our built-in analyzers, 
-please refer to the [Protocols](../../protocols/index.md) tab page to find your desired protocol. Here are several quick links to the most common protocols:
+Our analyzers comes with versatile information of the protocols (complete reference docs are coming soon).
+
+<!-- To learn more about the different columns that are used for our built-in analyzers, 
+please refer to the [Protocols](../../protocols/index.md) tab page to find your desired protocol.
 
 <div class="grid cards" markdown>
 
@@ -128,7 +130,7 @@ please refer to the [Protocols](../../protocols/index.md) tab page to find your 
 
     [:octicons-arrow-right-24: Trigger Settings](../protocols/uart.md)
 
-</div>
+</div> -->
 
 ## Customized Report
 

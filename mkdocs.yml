@@ -158,6 +158,7 @@ draft_docs: |
   troubleshooting/
   software/installation.md
   logic-analyzer/drafts/
+  protocols/
 
 nav:
   - Home: index.md
@@ -238,124 +239,124 @@ nav:
   #     - Keyboard shortcuts: protocol-analyzer/keyboard-shortcuts.md
   - Supported Protocols:
     - protocols/index.md
-    - Curated List:
-      - 1-Wire: protocols/1-wire.md
-      - 10BASE-T1S: protocols/10base-t1s.md
-      - 3-Wire: protocols/3-wire.md
-      - 7-Segment: protocols/7-segment.md
-      - A/D Converter: protocols/ad-converter.md
-      - AcceleroMeter: protocols/accmeter.md
-      - AD-Mux Flash: protocols/ad-mux-flash.md
-      - APML: protocols/apml.md
-      - AVSBus: protocols/avsbus.md
-      - BiSS-C: protocols/biss-c.md
-      - BSD: protocols/bsd.md
-      - BT1120: protocols/bt1120.md
-      - CAN FD: protocols/can-fd.md
-      - CEC: protocols/cec.md
-      - Closed Caption: protocols/closed-caption.md
-      - Codec SSI: protocols/codec-ssi.md
-      - CvTktTab: protocols/cvtktab.md
-      - DALI: protocols/dali.md
-      - DDC/EDID: protocols/ddc-edid.md
-      - DMX512: protocols/dmx512.md
-      - DisplayPort AUX: protocols/dp-auxch.md
-      - eSPI: protocols/espi.md
-      - FlexRay: protocols/flexray.md
-      - HD Audio: protocols/hd-audio.md
-      - HDLC: protocols/hdlc.md
-      - HDQ: protocols/hdq.md
-      - HID over I2C: protocols/hid-over-i2c.md
-      - HID over SPI: protocols/hid-over-spi.md
-      - HTSensor: protocols/htsensor.md
-      - I2C: protocols/i2c.md
-      - I2C EEPROM: protocols/i2c-eeprom.md
-      - I2C User Defined: protocols/i2c-user-defined.md
-      - I2S: protocols/i2s.md
-      - I80: protocols/i80.md
-      - IDE: protocols/ide.md
-      - IO-Link: protocols/iolink.md
-      - IrDA: protocols/irda.md
-      - ISELED RGB LED: protocols/iseled-rgb-led.md
-      - ITU-R BT.656: protocols/itu-r-bt656.md
-      - JTAG: protocols/jtag.md
-      - JVC IR: protocols/jvc-ir.md
-      - LCD1602: protocols/lcd1602.md
-      - LED Control: protocols/led-ctrl.md
-      - LIN: protocols/lin.md
-      - Line Decoding: protocols/line-decoding.md
-      - Line Encoding: protocols/line-encoding.md
-      - Lissajous: protocols/lissajous.md
-      - LPC: protocols/lpc.md
-      - LPT: protocols/lpt.md
-      - M-Bus: protocols/mbus.md
-      - MDDI: protocols/mddi.md
-      - MDIO: protocols/mdio.md
-      - MIPI CSI: protocols/mipi-csi.md
-      - MIPI DSI: protocols/mipi-dsi.md
-      - MIPI I3C: protocols/mipi-i3c.md
-      - MIPI RFFE: protocols/mipi-rffe.md
-      - MIPI SoundWire: protocols/mipi-soundwire.md
-      - MIPI SPMI: protocols/mipi-spmi.md
-      - Math: protocols/math.md
-      - MHL-CBUS: protocols/mhl-cbus.md
-      - Microchip SWI: protocols/microchip-swi.md
-      - Microwire: protocols/microwire.md
-      - Mini/Micro LED: protocols/mini-micro-led.md
-      - MII/RMII/RGMII/GMII:
-        - protocols/mii/index.md
-        - MII: protocols/mii/mii.md
-        - RMII: protocols/mii/rmii.md
-        - GMII: protocols/mii/gmii.md
-        - RGMII: protocols/mii/rgmii.md
-      - MMC/eMMC: protocols/mmc-emmc.md
-      - Modbus: protocols/modbus.md
-      - NAND Flash: protocols/nand-flash.md
-      - NEC IR: protocols/nec-ir.md
-      - OA3P (OPEN Alliance 3-Pin): protocols/oa3p-pmd.md
-      - OATC6 over SPI: protocols/oatc6-over-spi.md
-      - PCM: protocols/pcm.md
-      - PECI: protocols/peci.md
-      - PDM: protocols/pdm.md
-      - PMBus: protocols/pmbus.md
-      - PROFIBUS: protocols/profibus.md
-      - PS/2: protocols/ps2.md
-      - PWM: protocols/pwm.md
-      - QEI: protocols/qei.md
-      - Qi: protocols/qi.md
-      - QSPI: protocols/qspi.md
-      - RC-5: protocols/rc5.md
-      - RC-6: protocols/rc6.md
-      - RT-SWI: protocols/rt-swi.md
-      - RGB Interface: protocols/rgb-if.md
-      - SDIO/SD 3.0: protocols/sdio-sd3.md
-      - SDQ: protocols/sdq.md
-      - SENT: protocols/sent.md
-      - Serial Flash: protocols/serial-flash.md
-      - Serialized IRQ: protocols/serialized-irq.md
-      - SGPIO: protocols/sgpio.md
-      - Smart Card (ISO 7816): protocols/smart-card-iso7816.md
-      - SMBus: protocols/smbus.md
-      - SMI: protocols/smi.md
-      - S/PDIF: protocols/spdif.md
-      - SPI: protocols/spi.md
-      - SPI NAND: protocols/spi-nand.md
-      - ST7669: protocols/st7669.md
-      - SSI: protocols/ssi.md
-      - SVID: protocols/svid.md
-      - SVI2: protocols/svi2.md
-      - SWD: protocols/swd.md
-      - SWIM: protocols/swim.md
-      - SWP: protocols/swp.md
-      - TDM: protocols/tdm.md
-      - UART: protocols/uart.md
-      - UFCS: protocols/ufcs.md
-      - ULPI: protocols/ulpi.md
-      - UNI/O: protocols/unio.md
-      - USB 1.1: protocols/usb1-1.md
-      - USB Power Delivery: protocols/usb-pd.md
-      - USB4/Thunderbolt 3 Sideband: protocols/usb4-tbt3-sb.md
-      - Wiegand: protocols/wiegand.md
+    # - Curated List:
+    #   - 1-Wire: protocols/1-wire.md
+    #   - 10BASE-T1S: protocols/10base-t1s.md
+    #   - 3-Wire: protocols/3-wire.md
+    #   - 7-Segment: protocols/7-segment.md
+    #   - A/D Converter: protocols/ad-converter.md
+    #   - AcceleroMeter: protocols/accmeter.md
+    #   - AD-Mux Flash: protocols/ad-mux-flash.md
+    #   - APML: protocols/apml.md
+    #   - AVSBus: protocols/avsbus.md
+    #   - BiSS-C: protocols/biss-c.md
+    #   - BSD: protocols/bsd.md
+    #   - BT1120: protocols/bt1120.md
+    #   - CAN FD: protocols/can-fd.md
+    #   - CEC: protocols/cec.md
+    #   - Closed Caption: protocols/closed-caption.md
+    #   - Codec SSI: protocols/codec-ssi.md
+    #   - CvTktTab: protocols/cvtktab.md
+    #   - DALI: protocols/dali.md
+    #   - DDC/EDID: protocols/ddc-edid.md
+    #   - DMX512: protocols/dmx512.md
+    #   - DisplayPort AUX: protocols/dp-auxch.md
+    #   - eSPI: protocols/espi.md
+    #   - FlexRay: protocols/flexray.md
+    #   - HD Audio: protocols/hd-audio.md
+    #   - HDLC: protocols/hdlc.md
+    #   - HDQ: protocols/hdq.md
+    #   - HID over I2C: protocols/hid-over-i2c.md
+    #   - HID over SPI: protocols/hid-over-spi.md
+    #   - HTSensor: protocols/htsensor.md
+    #   - I2C: protocols/i2c.md
+    #   - I2C EEPROM: protocols/i2c-eeprom.md
+    #   - I2C User Defined: protocols/i2c-user-defined.md
+    #   - I2S: protocols/i2s.md
+    #   - I80: protocols/i80.md
+    #   - IDE: protocols/ide.md
+    #   - IO-Link: protocols/iolink.md
+    #   - IrDA: protocols/irda.md
+    #   - ISELED RGB LED: protocols/iseled-rgb-led.md
+    #   - ITU-R BT.656: protocols/itu-r-bt656.md
+    #   - JTAG: protocols/jtag.md
+    #   - JVC IR: protocols/jvc-ir.md
+    #   - LCD1602: protocols/lcd1602.md
+    #   - LED Control: protocols/led-ctrl.md
+    #   - LIN: protocols/lin.md
+    #   - Line Decoding: protocols/line-decoding.md
+    #   - Line Encoding: protocols/line-encoding.md
+    #   - Lissajous: protocols/lissajous.md
+    #   - LPC: protocols/lpc.md
+    #   - LPT: protocols/lpt.md
+    #   - M-Bus: protocols/mbus.md
+    #   - MDDI: protocols/mddi.md
+    #   - MDIO: protocols/mdio.md
+    #   - MIPI CSI: protocols/mipi-csi.md
+    #   - MIPI DSI: protocols/mipi-dsi.md
+    #   - MIPI I3C: protocols/mipi-i3c.md
+    #   - MIPI RFFE: protocols/mipi-rffe.md
+    #   - MIPI SoundWire: protocols/mipi-soundwire.md
+    #   - MIPI SPMI: protocols/mipi-spmi.md
+    #   - Math: protocols/math.md
+    #   - MHL-CBUS: protocols/mhl-cbus.md
+    #   - Microchip SWI: protocols/microchip-swi.md
+    #   - Microwire: protocols/microwire.md
+    #   - Mini/Micro LED: protocols/mini-micro-led.md
+    #   - MII/RMII/RGMII/GMII:
+    #     - protocols/mii/index.md
+    #     - MII: protocols/mii/mii.md
+    #     - RMII: protocols/mii/rmii.md
+    #     - GMII: protocols/mii/gmii.md
+    #     - RGMII: protocols/mii/rgmii.md
+    #   - MMC/eMMC: protocols/mmc-emmc.md
+    #   - Modbus: protocols/modbus.md
+    #   - NAND Flash: protocols/nand-flash.md
+    #   - NEC IR: protocols/nec-ir.md
+    #   - OA3P (OPEN Alliance 3-Pin): protocols/oa3p-pmd.md
+    #   - OATC6 over SPI: protocols/oatc6-over-spi.md
+    #   - PCM: protocols/pcm.md
+    #   - PECI: protocols/peci.md
+    #   - PDM: protocols/pdm.md
+    #   - PMBus: protocols/pmbus.md
+    #   - PROFIBUS: protocols/profibus.md
+    #   - PS/2: protocols/ps2.md
+    #   - PWM: protocols/pwm.md
+    #   - QEI: protocols/qei.md
+    #   - Qi: protocols/qi.md
+    #   - QSPI: protocols/qspi.md
+    #   - RC-5: protocols/rc5.md
+    #   - RC-6: protocols/rc6.md
+    #   - RT-SWI: protocols/rt-swi.md
+    #   - RGB Interface: protocols/rgb-if.md
+    #   - SDIO/SD 3.0: protocols/sdio-sd3.md
+    #   - SDQ: protocols/sdq.md
+    #   - SENT: protocols/sent.md
+    #   - Serial Flash: protocols/serial-flash.md
+    #   - Serialized IRQ: protocols/serialized-irq.md
+    #   - SGPIO: protocols/sgpio.md
+    #   - Smart Card (ISO 7816): protocols/smart-card-iso7816.md
+    #   - SMBus: protocols/smbus.md
+    #   - SMI: protocols/smi.md
+    #   - S/PDIF: protocols/spdif.md
+    #   - SPI: protocols/spi.md
+    #   - SPI NAND: protocols/spi-nand.md
+    #   - ST7669: protocols/st7669.md
+    #   - SSI: protocols/ssi.md
+    #   - SVID: protocols/svid.md
+    #   - SVI2: protocols/svi2.md
+    #   - SWD: protocols/swd.md
+    #   - SWIM: protocols/swim.md
+    #   - SWP: protocols/swp.md
+    #   - TDM: protocols/tdm.md
+    #   - UART: protocols/uart.md
+    #   - UFCS: protocols/ufcs.md
+    #   - ULPI: protocols/ulpi.md
+    #   - UNI/O: protocols/unio.md
+    #   - USB 1.1: protocols/usb1-1.md
+    #   - USB Power Delivery: protocols/usb-pd.md
+    #   - USB4/Thunderbolt 3 Sideband: protocols/usb4-tbt3-sb.md
+    #   - Wiegand: protocols/wiegand.md
   # - FAQ:
   #   - faq/index.md
   #   - Troubleshooting: 
