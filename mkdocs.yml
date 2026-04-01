@@ -237,8 +237,8 @@ nav:
   #     - File Operations: protocol-analyzer/file-operations.md
   #   - Preferences:
   #     - Keyboard shortcuts: protocol-analyzer/keyboard-shortcuts.md
-  - Supported Protocols:
-    - protocols/index.md
+  # - Supported Protocols:
+  #   - protocols/index.md
     # - Curated List:
     #   - 1-Wire: protocols/1-wire.md
     #   - 10BASE-T1S: protocols/10base-t1s.md
