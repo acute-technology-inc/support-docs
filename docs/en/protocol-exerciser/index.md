@@ -97,6 +97,24 @@ Each protocol has a specific wizard interface tailored to its features:
 <!-- - [SPI Wizard](spi/spi.md) - Configure and send SPI data (Coming soon) -->
 - [UART Wizard](uart/uart.md) - Transmit UART data
 
+#### Loop
+
+User can easily set the loop count to iterately send out the packets.
+
+Take I3C as an example.
+
+![Overall Loop](../images/protocol-exerciser/overall%20loop.png){: style="width: 500px; height: auto;" }
+
+User can set this value to loop all the packets. (All the black blocks)
+
+![Packet Loop](../images/protocol-exerciser//packets%20loop.png){: style="width: 500px; height: auto;" }
+
+Or, user can choose to loop a certain group of packets. (Inside one black block)
+
+![Frame Loop](../images/protocol-exerciser/frame%20loop.png){: style="width: 500px; height: auto;" }
+
+Even more, user can choose to loop a single frame.
+
 ---
 
 ## Supported protocols
