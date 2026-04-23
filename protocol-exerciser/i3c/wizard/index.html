@@ -1,0 +1,4152 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Acute Support Documentation Page">
+      
+      
+      
+      
+        <link rel="prev" href="../internal-node/">
+      
+      
+        <link rel="next" href="../../uart/uart/">
+      
+      
+        
+          <link rel="alternate" href="./" hreflang="en">
+        
+          <link rel="alternate" href="../../../zh-TW/protocol-exerciser/i3c/wizard/" hreflang="zh-TW">
+        
+          <link rel="alternate" href="../../../zh/protocol-exerciser/i3c/wizard/" hreflang="zh">
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Wizard - Acute Support Documentation Page</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#wizard" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Acute Support Documentation Page" class="md-header__button md-logo" aria-label="Acute Support Documentation Page" data-md-component="logo">
+      
+  <img src="../../../assets/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Acute Support Documentation Page
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Wizard
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="deep-purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../zh-TW/protocol-exerciser/i3c/wizard/" hreflang="zh-TW" class="md-select__link">
+              中文(繁體)
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../zh/protocol-exerciser/i3c/wizard/" hreflang="zh" class="md-select__link">
+              中文(简体)
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../software/download/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Protocol Exerciser
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../logic-analyzer/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Logic Analyzer
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Acute Support Documentation Page" class="md-nav__button md-logo" aria-label="Acute Support Documentation Page" data-md-component="logo">
+      
+  <img src="../../../assets/favicon.ico" alt="logo">
+
+    </a>
+    Acute Support Documentation Page
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software Installation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Software Installation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../software/download/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Download
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../software/installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Install
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sessions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sessions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../software/sessions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Working with multiple sessions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protocol Exerciser
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Protocol Exerciser
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protocols
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Protocols
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    I2C
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    I2C
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../i2c/i2c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    I2C Protocol Exerciser
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../i2c/quick-start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../i2c/bus-select/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bus Select
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../i2c/px-pair-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Px Pair Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../i2c/add-internal-node/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Add Internal Node
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../i2c/controller/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Controller Mode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../i2c/target/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Target Mode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MIPI I3C
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MIPI I3C
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../i3c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MIPI I3C Protocol Exerciser
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick-start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bus-select/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bus Select
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../px-pair-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Px Pair Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../controller/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Controller Mode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../target/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Target Mode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../internal-node/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Internal Node
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wizard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-send" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Send
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Send">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ibi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IBI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hot-join" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hot Join
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#private-rw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Private RW
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#broadcast-ccc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Broadcast CCC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direct-ccc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Direct CCC
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#packet-constructor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Packet Constructor
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_3" id="__nav_3_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UART
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    UART
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uart/uart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UART
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uart/quick-start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uart/functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bus Select
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uart/px-pair-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Px Pair Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../logic-analyzer/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logic Analyzer
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Logic Analyzer
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/interface-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/quick-start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capturing Data
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Capturing Data
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/capture-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capture settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/trigger-settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trigger settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/advanced-capture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced capture settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analyzing Waveforms
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Analyzing Waveforms
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/navigate-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigate the data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/channel-labels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Channel labels
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/cursor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interact with cursors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/navigate-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Navigate the report
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    File Operations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    File Operations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/file-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Open & Save Files
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/export-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Export Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced Features
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Advanced Features
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/power-sequence-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Power Sequence Validation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/stack-oscilloscope/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stack External Oscilloscope
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preferences
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Preferences
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/preferences/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    System environment options
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../logic-analyzer/keyboard-shortcuts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Keyboard shortcuts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-send" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Send
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Send">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ibi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IBI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hot-join" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hot Join
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#private-rw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Private RW
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#broadcast-ccc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Broadcast CCC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direct-ccc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Direct CCC
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#packet-constructor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Packet Constructor
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Protocol Exerciser
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../i2c/i2c/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../i3c/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    MIPI I3C
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="wizard">Wizard</h1>
+<h2 id="quick-send">Quick Send</h2>
+<h3 id="ibi">IBI</h3>
+<p><img alt="Quick Send - IBI" src="../../../images/protocol-exerciser/i3c/wizard-quick-ibi.png" /></p>
+<p>IBI (In-Band Interrupt) in MIPI I3C is a mechanism that lets a target device interrupt or notify the controller (master) using the same SDA/SCL lines as normal I3C data transfers—no extra interrupt pin is needed.</p>
+<h3 id="hot-join">Hot Join</h3>
+<p><img alt="Quick Send - Hot Join" src="../../../images/protocol-exerciser/i3c/wizard-quick-hotjoin.png" /></p>
+<p>Hot-Join is a feature of MIPI I3C that allows a target device to be added to an active I3C bus after the system is already powered and running, without resetting or disturbing existing devices.</p>
+<h3 id="private-rw"><a id="private-rw"></a>Private RW</h3>
+<p><img alt="Quick Send - Private RW" src="../../../images/protocol-exerciser/i3c/wizard-quick-private.png" /></p>
+<p>In MIPI I3C, Private Read and Private Write are the basic point-to-point data transfer operations between the controller and a single target device using that target’s dynamic address.
+They are called private because only one specific target participates in the transfer, unlike broadcast or group operations.</p>
+<ol>
+<li>
+<p><a id="private-rd-subaddr"></a>Private Read with SubAddress
+<img alt="Private Read SubAddr" src="../../../images/protocol-exerciser/i3c/private-rd-subaddr-edit.png" /></p>
+</li>
+<li>
+<p><a id="private-wr-subaddr"></a>Private Write with SubAddress
+<img alt="Private Write SubAddr" src="../../../images/protocol-exerciser/i3c/private-wr-subaddr-edit.png" /></p>
+</li>
+</ol>
+<h3 id="broadcast-ccc">Broadcast CCC</h3>
+<ol>
+<li>
+<p><a id="broadcast-ccc-enec"></a>Broadcast CCC - ENEC
+<img alt="Broadcast CCC - ENEC" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enec-edit.png" />
+Broadcast CCC, ENEC allows the controller to enable specific event types simultaneously on all I3C target devices on the bus.
+The ENEC Broadcast CCC tells all targets which events they are allowed to generate, such as:</p>
+<ul>
+<li>In-Band Interrupts (IBI)</li>
+<li>Hot-Join</li>
+<li>Controller Role Request (CRR)</li>
+</ul>
+<p>Without ENEC, targets are not allowed to issue these events.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-disec"></a>Broadcast CCC - DISEC
+<img alt="Broadcast CCC - DISEC" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-disec-edit.png" />
+Broadcast CCC, DISEC allows the controller to disable specific event types on all I3C target devices on the bus.
+The Broadcast DISEC CCC tells all targets to stop generating certain in-band events, including:</p>
+<ul>
+<li>In-Band Interrupts (IBI)</li>
+<li>Hot-Join</li>
+<li>Controller Role Request (CRR)</li>
+</ul>
+<p>After DISEC, targets must not attempt to issue the disabled events.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-entas0"></a>Broadcast CCC - ENTAS0
+<img alt="Broadcast CCC - ENTAS0" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-entas0-edit.png" />
+Broadcast CCC, ENTAS0 instructs all I3C target devices on the bus to enter Activity State 0, which is a defined low-activity / low-power state.
+The Broadcast ENTAS0 CCC tells all targets to:</p>
+<ul>
+<li>Transition into Activity State 0</li>
+<li>Reduce internal activity and power consumption</li>
+<li>Maintain bus awareness so they can resume normal operation later</li>
+</ul>
+<p>Activity State 0 is typically the lowest-power activity state defined for I3C targets.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-entas1"></a>Broadcast CCC - ENTAS1
+<img alt="Broadcast CCC - ENTAS1" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-entas1-edit.png" />
+Broadcast CCC, ENTAS1 instructs all I3C target devices on the bus to transition into Activity State 1, a moderate-activity / reduced-power operating state.
+The Broadcast ENTAS1 CCC tells all targets to:</p>
+<ul>
+<li>Enter Activity State 1</li>
+<li>Reduce power compared to full active mode</li>
+<li>Remain responsive to normal I3C bus operations</li>
+</ul>
+<p>Activity State 1 balances power savings with bus availability.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-entas2"></a>Broadcast CCC - ENTAS2
+<img alt="Broadcast CCC - ENTAS2" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-entas2-edit.png" />
+Broadcast CCC, ENTAS2 instructs all I3C target devices on the bus to transition into Activity State 2, which is a high-activity / near-full-performance state.
+The Broadcast ENTAS2 CCC tells all targets to:</p>
+<ul>
+<li>Enter Activity State 2</li>
+<li>Operate with higher internal activity than state 1</li>
+<li>Be ready for high-throughput or low-latency communication</li>
+</ul>
+<p>Activity State 2 is typically just below the fully unrestricted active state.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-entas3"></a>Broadcast CCC - ENTAS3
+<img alt="Broadcast CCC - ENTAS3" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-entas3-edit.png" />
+Broadcast CCC, ENTAS3 instructs all I3C target devices on the bus to transition into Activity State 3, which represents the highest activity and performance state defined by the I3C specification.
+The Broadcast ENTAS3 CCC tells all targets to:</p>
+<ul>
+<li>Enter Activity State 3</li>
+<li>Operate at full internal performance</li>
+<li>Be fully ready for maximum bus speed and lowest latency</li>
+</ul>
+<p>Activity State 3 corresponds to unrestricted, fully active operation.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-rstdaa"></a>Broadcast CCC - RSTDAA
+<img alt="Broadcast CCC - RSTDAA" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-rstdaa-edit.png" />
+Broadcast CCC, RSTDAA instructs all I3C target devices on the bus to clear their currently assigned dynamic addresses and return to an unaddressed state.
+The Broadcast RSTDAA CCC tells all targets to:</p>
+<ul>
+<li>Forget their dynamic address</li>
+<li>Return to the default, unaddressed condition</li>
+<li>Prepare for a fresh Dynamic Address Assignment (DAA) process</li>
+</ul>
+<p>After RSTDAA, no target is addressable by private transfers until DAA is performed again.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-entdaa"></a>Broadcast CCC - ENTDAA
+<img alt="Broadcast CCC - ENTDAA" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-entdaa-edit.png" />
+Broadcast CCC, ENTDAA tells all unaddressed I3C target devices on the bus to participate in the Dynamic Address Assignment (DAA) process, so the controller can assign each device a unique dynamic address.
+The Broadcast ENTDAA CCC allows the controller to:</p>
+<ul>
+<li>Start the Dynamic Address Assignment (DAA) sequence</li>
+<li>Assign unique dynamic addresses to all unaddressed targets</li>
+<li>Ensure no conflicts between devices on the bus</li>
+</ul>
+<p>Targets that already have a dynamic address ignore ENTDAA.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-deftgts"></a>Broadcast CCC - DEFTGTS
+<img alt="Broadcast CCC - DEFTGTS" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-deftgts-edit.png" />
+Broadcast CCC, DEFTGTS allows the controller to define timing parameters or slot assignments for all targets on the bus, particularly in grouped or time-slotted operations.
+The Broadcast DEFTGTS CCC allows the controller to:</p>
+<ul>
+<li>Assign timing slots to target devices for coordinated operations</li>
+<li>Control grouped transfer schedules, e.g., for multiple sensors</li>
+<li>Ensure deterministic data reporting in systems with many devices</li>
+</ul>
+<p>DEFTGTS is particularly important for high-speed or synchronized operations, where multiple targets may need to transmit data in a pre-defined order.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-setmwl"></a>Broadcast CCC - SETMWL
+<img alt="Broadcast CCC - SETMWL" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-setmwl-edit.png" />
+Broadcast CCC, SETMWL instructs all target devices on the bus to adopt a minimum number of bytes for write transactions before they will respond with an acknowledgment.
+The Broadcast SETMWL CCC allows the controller to:</p>
+<ul>
+<li>Specify a minimum number of bytes that a target must receive in a write transfer before it can process or respond</li>
+<li>Prevent targets from being triggered by partial or incomplete writes</li>
+<li>Improve data integrity and bus efficiency</li>
+</ul>
+<p>Essentially, SETMWL sets a threshold for write transaction length.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-setmrl"></a>Broadcast CCC - SETMRL
+<img alt="Broadcast CCC - SETMRL" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-setmrl-edit.png" />
+Broadcast CCC, SETMRL allows the controller to define the maximum number of data bytes that target devices are allowed to return in a single read transaction.
+The Broadcast SETMRL CCC tells all targets to:</p>
+<ul>
+<li>Limit the length of private read transfers</li>
+<li>Never return more than the specified number of bytes per read</li>
+<li>Ensure predictable and controlled read behavior</li>
+</ul>
+<p>This protects the controller from unexpectedly long read responses.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-enttm"></a>Broadcast CCC - ENTTM
+<img alt="Broadcast CCC - ENTTM" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enttm-edit.png" />
+Broadcast CCC, ENTTM Broadcast CCC tells all targets to enter a special test or compliance mode, which is used for:</p>
+<ul>
+<li>Manufacturing and production testing</li>
+<li>Electrical and signal integrity validation</li>
+<li>Protocol compliance and stress testing</li>
+</ul>
+<p>Only targets that support Test Mode respond to ENTTM; other devices safely ignore the command.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-setbuscon"></a>Broadcast CCC - SETBUSCON
+<img alt="Broadcast CCC - SETBUSCON" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-setbuscon-edit.png" />
+Broadcast CCC, SETBUSCON allows the controller to configure bus-level operating conditions simultaneously for all I3C target devices on the bus.
+The SETBUSCON Broadcast CCC tells all targets how the bus will operate, including parameters such as:</p>
+<ul>
+<li>Bus speed and timing constraints</li>
+<li>Clocking and mode-related behavior</li>
+<li>Other global bus configuration settings defined by the controller</li>
+</ul>
+<p>By issuing SETBUSCON as a broadcast, the controller ensures that all targets use a consistent view of the bus configuration, avoiding mismatches between devices.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-endxfer"></a>Broadcast CCC - ENDXFER
+<img alt="Broadcast CCC - ENDXFER" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-endxfer-edit.png" />
+Broadcast CCC, ENDXFER allows the controller to simultaneously terminate an ongoing data transfer or special bus operation for all I3C target devices on the bus.
+The ENDXFER Broadcast CCC tells all targets that the current transfer context has ended, and that they must:</p>
+<ul>
+<li>Stop participating in the current data phase or extended transfer</li>
+<li>Return to an idle or command-ready state</li>
+<li>Clear any temporary transfer-related state</li>
+</ul>
+<p>ENDXFER is used to cleanly close or abort a bus operation that may involve multiple targets, ensuring all devices are synchronized and no target remains in a partial or undefined transfer state.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-enthdr0"></a>Broadcast CCC - ENTHDR0
+<img alt="Broadcast CCC - ENTHDR0" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr0-edit.png" />
+Broadcast CCC, ENTHDR0 allows the controller to simultaneously switch all I3C target devices on the bus into HDR-DDR (High Data Rate – Double Data Rate) mode.
+The ENTHDR0 Broadcast CCC tells all targets that support HDR-DDR to:</p>
+<ul>
+<li>Exit Standard Data Rate (SDR) mode</li>
+<li>Enter HDR-DDR signaling</li>
+<li>Use double-data-rate transfers for higher throughput</li>
+</ul>
+<p>Only targets that support HDR-DDR mode respond to ENTHDR0. Devices that do not support this HDR mode safely ignore the command and remain in SDR mode.
+In this command, user can decide to turn on the "HDR Repeat".<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+</li>
+<li>
+<p><a id="broadcast-ccc-enthdr1"></a>Broadcast CCC - ENTHDR1
+<img alt="Broadcast CCC - ENTHDR1" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr1-edit.png" />
+Broadcast CCC, ENTHDR1 allows the controller to simultaneously switch all I3C target devices on the bus into HDR-TSP (High Data Rate – Ternary Symbol Pattern) mode.
+The ENTHDR1 Broadcast CCC tells all targets that support HDR-TSP to:</p>
+<ul>
+<li>Exit Standard Data Rate (SDR) mode</li>
+<li>Enter HDR-TSP signaling</li>
+<li>Use ternary symbol–based transfers to achieve higher data rates</li>
+</ul>
+<p>Only targets that support HDR-TSP mode respond to ENTHDR1. Devices that do not support this HDR mode safely ignore the command and remain in SDR mode.
+In this command, user can decide to turn on the "HDR Repeat".<sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+</li>
+<li>
+<p><a id="broadcast-ccc-enthdr2"></a>Broadcast CCC - ENTHDR2
+<img alt="Broadcast CCC - ENTHDR2" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr2-edit.png" />
+Broadcast CCC, ENTHDR2 allows the controller to simultaneously switch all I3C target devices on the bus into HDR-TSL (High Data Rate – Ternary Symbol Level) mode.
+The ENTHDR2 Broadcast CCC tells all targets that support HDR-TSL to:</p>
+<ul>
+<li>Exit Standard Data Rate (SDR) mode</li>
+<li>Enter HDR-TSL signaling</li>
+<li>Use ternary symbol–level encoding for higher-throughput transfers</li>
+</ul>
+<p>Only targets that support HDR-TSL mode respond to ENTHDR2; devices that do not support this HDR mode safely ignore the command and remain in SDR mode.
+In this command, user can decide to turn on the "HDR Repeat".<sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+</li>
+<li>
+<p><a id="broadcast-ccc-enthdr3"></a>Broadcast CCC - ENTHDR3
+<img alt="Broadcast CCC - ENTHDR3" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr3-edit.png" />
+Broadcast CCC, ENTHDR3 allows the controller to simultaneously switch all I3C target devices on the bus into HDR-BT (High Data Rate – Burst Type) mode.
+The ENTHDR3 Broadcast CCC tells all targets that support HDR-BT to:</p>
+<ul>
+<li>Exit Standard Data Rate (SDR) mode</li>
+<li>Enter HDR-BT signaling</li>
+<li>Use burst-mode transfers for high-speed data communication</li>
+</ul>
+<p>Only targets that support HDR-BT mode respond to ENTHDR3; devices that do not support this HDR mode safely ignore the command and remain in SDR mode.
+In this command, user can decide to turn on the "HDR Repeat".<sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+</li>
+<li>
+<p><a id="broadcast-ccc-enthdr4"></a>Broadcast CCC - ENTHDR4
+<img alt="Broadcast CCC - ENTHDR4" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr4-edit.png" />
+Broadcast CCC, ENTHDR4 allows the controller to simultaneously switch all I3C target devices on the bus into HDR-DY (High Data Rate – Dynamic) mode.
+The ENTHDR4 Broadcast CCC tells all targets that support HDR-DY to:</p>
+<ul>
+<li>Exit Standard Data Rate (SDR) mode</li>
+<li>Enter HDR-DY signaling</li>
+<li>Use dynamic high-speed transfer modes that adapt to bus conditions for optimized throughput</li>
+</ul>
+<p>Only targets that support HDR-DY mode respond to ENTHDR4; devices that do not support this HDR mode safely ignore the command and remain in SDR mode.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-enthdr5"></a>Broadcast CCC - ENTHDR5
+<img alt="Broadcast CCC - ENTHDR5" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr5-edit.png" />
+Broadcast CCC, ENTHDR5 allows the controller to simultaneously switch all I3C target devices on the bus into HDR-TSV (High Data Rate – Ternary Symbol Variable) mode.
+The ENTHDR5 Broadcast CCC tells all targets that support HDR-TSV to:</p>
+<ul>
+<li>Exit Standard Data Rate (SDR) mode</li>
+<li>Enter HDR-TSV signaling</li>
+<li>Use variable ternary-symbol encoding to achieve high-speed, adaptive data transfers</li>
+</ul>
+<p>Only targets that support HDR-TSV mode respond to ENTHDR5; devices that do not support this HDR mode safely ignore the command and remain in SDR mode.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-enthdr6"></a>Broadcast CCC - ENTHDR6
+<img alt="Broadcast CCC - ENTHDR6" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr6-edit.png" />
+Broadcast CCC, ENTHDR6 allows the controller to simultaneously switch all I3C target devices on the bus into HDR-BT1 (High Data Rate – Burst Type 1) mode.
+The ENTHDR6 Broadcast CCC tells all targets that support HDR-BT1 to:</p>
+<ul>
+<li>Exit Standard Data Rate (SDR) mode</li>
+<li>Enter HDR-BT1 signaling</li>
+<li>Use burst-type high-speed transfers optimized for single-cycle or low-latency operations</li>
+</ul>
+<p>Only targets that support HDR-BT1 mode respond to ENTHDR6; devices that do not support this HDR mode safely ignore the command and remain in SDR mode.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-enthdr7"></a>Broadcast CCC - ENTHDR7
+<img alt="Broadcast CCC - ENTHDR7" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr7-edit.png" />
+Broadcast CCC, ENTHDR7 allows the controller to simultaneously switch all I3C target devices on the bus into HDR-BT2 (High Data Rate – Burst Type 2) mode.
+The ENTHDR7 Broadcast CCC tells all targets that support HDR-BT2 to:</p>
+<ul>
+<li>Exit Standard Data Rate (SDR) mode</li>
+<li>Enter HDR-BT2 signaling</li>
+<li>Use an alternative burst-type high-speed transfer mode, typically optimized for higher throughput or multi-cycle burst operations</li>
+</ul>
+<p>Only targets that support HDR-BT2 mode respond to ENTHDR7; devices that do not support this HDR mode safely ignore the command and remain in SDR mode.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-setxtime"></a>Broadcast CCC - SETXTIME
+<img alt="Broadcast CCC - SETXTIME" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-setxtime-edit.png" />
+Broadcast CCC, SETXTIME allows the controller to simultaneously configure the timing parameters for extended data transfers on all I3C target devices on the bus.
+The SETXTIME Broadcast CCC tells all targets to:</p>
+<ul>
+<li>Set the maximum duration or timeout for ongoing or upcoming transfers</li>
+<li>Adjust internal timers to ensure synchronized transfer completion</li>
+<li>Prepare for operations that may require longer or extended data phases</li>
+</ul>
+<p>Only targets that support extended transfer timing respond to SETXTIME; devices that do not support this feature safely ignore the command.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-setaasa"></a>Broadcast CCC - SETAASA
+<img alt="Broadcast CCC - SETAASA" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-setaasa-edit.png" />
+Broadcast CCC, SETAASA allows the controller to simultaneously configure all I3C target devices on the bus to use a specific Activity-Aware Slave Address (AASA).
+The SETAASA Broadcast CCC tells all targets to:</p>
+<ul>
+<li>Enable Activity-Aware Slave Addressing, allowing devices to respond to a secondary address based on activity patterns</li>
+<li>Set the AASA value that targets will recognize for specific operations</li>
+<li>Support coordinated or selective communication in multi-target or power-optimized bus scenarios</li>
+</ul>
+<p>Only targets that support AASA respond to SETAASA; devices that do not support this feature safely ignore the command.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-rstact"></a>Broadcast CCC - RSTACT
+<img alt="Broadcast CCC - RSTACT" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-rstact-edit.png" />
+Broadcast CCC, RSTACK allows the controller to simultaneously reset the activity state of all I3C target devices on the bus.
+The RSTACK Broadcast CCC tells all targets to:</p>
+<ul>
+<li>Clear their current activity state</li>
+<li>Reset any activity counters, timers, or internal flags used for Activity-Aware Slave Addressing (AASA) or other activity-based operations</li>
+<li>Return to a default idle or ready state for bus communication</li>
+</ul>
+<p>Only targets that support activity state tracking respond to RSTACK; devices that do not support this feature safely ignore the command.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-defgrpa"></a>Broadcast CCC - DEFGRPA
+<img alt="Broadcast CCC - DEFGRPA" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-defgrpa-edit.png" />
+Broadcast CCC, DEFGRPA allows the controller to simultaneously define or assign a Group Address (GADDR) to all I3C target devices on the bus.
+The DEFGRPA Broadcast CCC tells all targets to:</p>
+<ul>
+<li>Accept a specific Group Address for future group-directed commands</li>
+<li>Enable devices to respond collectively to broadcasts or group-targeted operations</li>
+<li>Support coordinated communication for power optimization, event notification, or synchronized data transfers</li>
+</ul>
+<p>Only targets that support group addressing respond to DEFGRPA; devices that do not support this feature safely ignore the command.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-rstgrpa"></a>Broadcast CCC - RSTGRPA
+<img alt="Broadcast CCC - RSTGRPA" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-rstgrpa-edit.png" />
+Broadcast CCC, RSTGRPA allows the controller to simultaneously reset the Group Address (GADDR) of all I3C target devices on the bus.
+The RSTGRPA Broadcast CCC tells all targets to:</p>
+<ul>
+<li>Clear any previously assigned Group Address</li>
+<li>Remove the device from any group-targeted communications</li>
+<li>Return to a default state where they respond only to individual or broadcast commands</li>
+</ul>
+<p>Only targets that support group addressing respond to RSTGRPA; devices that do not support this feature safely ignore the command.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-mlane"></a>Broadcast CCC - MLANE
+<img alt="Broadcast CCC - MLANE" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-mlane-edit.png" />
+Broadcast CCC, MLANE allows the controller to simultaneously configure all I3C target devices on the bus for Multi-Lane operation.
+The MLANE Broadcast CCC tells all targets to:</p>
+<ul>
+<li>Enable or configure multi-lane communication, allowing multiple physical lanes to be used for higher data throughput</li>
+<li>Coordinate lane mapping and synchronization across all capable devices</li>
+<li>Prepare devices for parallel high-speed data transfers using multiple I3C lanes</li>
+</ul>
+<p>Only targets that support multi-lane operation respond to MLANE; devices that do not support this feature safely ignore the command.</p>
+</li>
+<li>
+<p><a id="broadcast-ccc-customized"></a>Broadcast CCC - Customized
+<img alt="Broadcast CCC - Customized" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-custom-edit.png" />
+User can send out customized packet for specific purpose.</p>
+</li>
+</ol>
+<h3 id="direct-ccc">Direct CCC</h3>
+<ol>
+<li>
+<p><a id="direct-ccc-enec"></a>Direct CCC - ENEC
+<img alt="Direct CCC - ENEC" src="../../../images/protocol-exerciser/i3c/direct-ccc-enec-edit.png" />
+Direct CCC, ENEC allows the controller to enable specific event types for an individual I3C target device on the bus.
+The ENEC Direct CCC tells a particular target which events it is allowed to generate, such as:</p>
+<ul>
+<li>In-Band Interrupts (IBI) – for asynchronous notifications to the controller</li>
+<li>Hot-Join – indicating that a new device has joined the bus</li>
+<li>Controller Role Request (CRR) – requesting a change in controller role</li>
+</ul>
+<p>Without ENEC, the target cannot issue these events, even if it supports them.</p>
+</li>
+<li>
+<p><a id="direct-ccc-disec"></a>Direct CCC - DISEC
+<img alt="Direct CCC - DISEC" src="../../../images/protocol-exerciser/i3c/direct-ccc-disec-edit.png" />
+Direct CCC, DISEC allows the controller to disable specific event types for an individual I3C target device on the bus.
+The DISEC Direct CCC tells a particular target to stop generating certain events, such as:</p>
+<ul>
+<li>In-Band Interrupts (IBI) – preventing the device from sending asynchronous notifications</li>
+<li>Hot-Join – ignoring indications when a new device joins</li>
+<li>Controller Role Request (CRR) – stopping requests to change the controller role</li>
+</ul>
+<p>By using DISEC, the controller can selectively block events from a single device without affecting other devices on the bus.</p>
+</li>
+<li>
+<p><a id="direct-ccc-entas0"></a>Direct CCC - ENTAS0
+<img alt="Direct CCC - ENTAS0" src="../../../images/protocol-exerciser/i3c/direct-ccc-entas0-edit.png" />
+Direct CCC, ENTAS0 instructs certain I3C target devices on the bus to enter Activity State 0, which is a defined low-activity / low-power state.
+The Direct ENTAS0 CCC tells certain targets to:</p>
+<ul>
+<li>Transition into Activity State 0</li>
+<li>Reduce internal activity and power consumption</li>
+<li>Maintain bus awareness so they can resume normal operation later</li>
+</ul>
+<p>Activity State 0 is typically the lowest-power activity state defined for I3C targets.</p>
+</li>
+<li>
+<p><a id="direct-ccc-entas1"></a>Direct CCC - ENTAS1
+<img alt="Direct CCC - ENTAS1" src="../../../images/protocol-exerciser/i3c/direct-ccc-entas1-edit.png" />
+Direct CCC, ENTAS1 instructs certain I3C target devices on the bus to transition into Activity State 1, a moderate-activity / reduced-power operating state.
+The Direct ENTAS1 CCC tells certain targets to:</p>
+<ul>
+<li>Enter Activity State 1</li>
+<li>Reduce power compared to full active mode</li>
+<li>Remain responsive to normal I3C bus operations</li>
+</ul>
+<p>Activity State 1 balances power savings with bus availability.</p>
+</li>
+<li>
+<p><a id="direct-ccc-entas2"></a>Direct CCC - ENTAS2
+<img alt="Direct CCC - ENTAS2" src="../../../images/protocol-exerciser/i3c/direct-ccc-entas2-edit.png" />
+Direct CCC, ENTAS2 instructs certain I3C target devices on the bus to transition into Activity State 2, which is a high-activity / near-full-performance state.
+The Direct ENTAS2 CCC tells certain targets to:</p>
+<ul>
+<li>Enter Activity State 2</li>
+<li>Operate with higher internal activity than state 1</li>
+<li>Be ready for high-throughput or low-latency communication</li>
+</ul>
+<p>Activity State 2 is typically just below the fully unrestricted active state.</p>
+</li>
+<li>
+<p><a id="direct-ccc-entas3"></a>Direct CCC - ENTAS3
+<img alt="Direct CCC - ENTAS3" src="../../../images/protocol-exerciser/i3c/direct-ccc-entas3-edit.png" />
+Direct CCC, ENTAS3 instructs certain I3C target devices on the bus to transition into Activity State 3, which represents the highest activity and performance state defined by the I3C specification.
+The Direct ENTAS3 CCC tells certain targets to:</p>
+<ul>
+<li>Enter Activity State 3</li>
+<li>Operate at full internal performance</li>
+<li>Be fully ready for maximum bus speed and lowest latency</li>
+</ul>
+<p>Activity State 3 corresponds to unrestricted, fully active operation.</p>
+</li>
+<li>
+<p><a id="direct-ccc-setdasa"></a>Direct CCC - SETDASA
+<img alt="Direct CCC - SETDASA" src="../../../images/protocol-exerciser/i3c/direct-ccc-setdasa-edit.png" />
+Direct CCC, SETDASA instructs a specific I3C target device on the bus, identified by its static I2C address, to adopt a new dynamic 7-bit address assigned by the controller.
+The Direct SETDASA CCC tells the target to:</p>
+<ul>
+<li>Accept the new dynamic address provided by the controller</li>
+<li>Switch from using its static address to the assigned dynamic address for future communications</li>
+<li>Acknowledge the assignment so that normal I3C bus communication can proceed</li>
+</ul>
+<p>This allows the controller to efficiently assign dynamic addresses to known devices without performing a full broadcast ENTDAA procedure.</p>
+</li>
+<li>
+<p><a id="direct-ccc-setnewda"></a>Direct CCC - SETNEWDA
+<img alt="Direct CCC - SETNEWDA" src="../../../images/protocol-exerciser/i3c/direct-ccc-setnewda-edit.png" />
+Direct CCC, SETNEWDA instructs a specific I3C target device, identified by its current dynamic address, to adopt a new dynamic 7-bit address assigned by the controller.
+The Direct SETNEWDA CCC tells the target to:</p>
+<ul>
+<li>Change its current dynamic address to the new dynamic address provided by the controller</li>
+<li>Update its internal address mapping so future communications use the new dynamic address</li>
+<li>Acknowledge the address change so the controller knows the operation was successful</li>
+</ul>
+<p>This command allows the controller to reassign dynamic addresses to devices already on the bus, for example, to resolve address conflicts or reorganize bus addressing without resetting devices.</p>
+</li>
+<li>
+<p><a id="direct-ccc-setmwl"></a>Direct CCC - SETMWL
+<img alt="Direct CCC - SETMWL" src="../../../images/protocol-exerciser/i3c/direct-ccc-setmwl-edit.png" />
+Direct CCC, SETMWL instructs a specific I3C target device on the bus to set its Maximum Write Length (MWL), which defines the largest number of data bytes the controller is allowed to write to that target in a single I3C write transaction.
+The Direct SETMWL CCC tells the target to:</p>
+<ul>
+<li>Update its internal Maximum Write Length value to the value provided by the controller</li>
+<li>Limit future write transfers from the controller to this specified maximum length</li>
+<li>Enforce flow control by rejecting or managing writes that exceed the configured limit</li>
+</ul>
+<p>This command allows the controller to optimize bus performance and ensure compatibility with targets that have internal buffering or processing constraints.</p>
+</li>
+<li>
+<p><a id="direct-ccc-setmrl"></a>Direct CCC - SETMRL
+<img alt="Direct CCC - SETMRL" src="../../../images/protocol-exerciser/i3c/direct-ccc-setmrl-edit.png" />
+Direct CCC, SETMRL instructs a specific I3C target device on the bus to set its Maximum Read Length (MRL), which defines the largest number of data bytes the controller is allowed to read from that target in a single I3C read transaction.
+The Direct SETMRL CCC tells the target to:</p>
+<ul>
+<li>Update its internal Maximum Read Length value to the value provided by the controller</li>
+<li>Limit future read transfers to the specified maximum length</li>
+<li>Ensure that read operations do not exceed the target’s internal buffering or data availability constraints</li>
+</ul>
+<p>This command allows the controller to manage read transaction sizes, improving reliability and efficiency while preventing data overruns or incomplete transfers.</p>
+</li>
+<li>
+<p><a id="direct-ccc-getmwl"></a>Direct CCC - GETMWL
+<img alt="Direct CCC - GETMWL" src="../../../images/protocol-exerciser/i3c/direct-ccc-getmwl-edit.png" />
+Direct CCC, GETMWL instructs a specific I3C target device on the bus to report its Maximum Write Length (MWL), which indicates the largest number of data bytes the controller is permitted to write to that target in a single I3C write transaction.
+The Direct GETMWL CCC tells the target to:</p>
+<ul>
+<li>Return its currently configured Maximum Write Length value to the controller</li>
+<li>Allow the controller to determine safe write transaction sizes</li>
+<li>Support optimal bus scheduling and flow control decisions</li>
+</ul>
+<p>This command allows the controller to query a target’s write capacity, either before issuing write transfers or to confirm the value previously set using SETMWL.</p>
+</li>
+<li>
+<p><a id="direct-ccc-getmrl"></a>Direct CCC - GETMRL
+<img alt="Direct CCC - GETMRL" src="../../../images/protocol-exerciser/i3c/direct-ccc-getmrl-edit.png" />
+Direct CCC, GETMRL instructs a specific I3C target device on the bus to report its Maximum Read Length (MRL), which indicates the largest number of data bytes the controller is permitted to read from that target in a single I3C read transaction.
+The Direct GETMRL CCC tells the target to:</p>
+<ul>
+<li>Return its currently configured Maximum Read Length value to the controller</li>
+<li>Allow the controller to determine safe and efficient read transaction sizes</li>
+<li>Support proper flow control and bus scheduling</li>
+</ul>
+<p>This command allows the controller to query a target’s read capacity, either before performing read operations or to verify the value previously configured using SETMRL.</p>
+</li>
+<li>
+<p><a id="direct-ccc-getpid"></a>Direct CCC - GETPID
+<img alt="Direct CCC - GETPID" src="../../../images/protocol-exerciser/i3c/direct-ccc-getpid-edit.png" />
+Direct CCC, GETPID instructs a specific I3C target device on the bus to report its Provisional ID (PID), which uniquely identifies the device according to the MIPI I3C specification.
+The Direct GETPID CCC tells the target to:</p>
+<ul>
+<li>Return its 48-bit Provisional ID to the controller</li>
+<li>Allow the controller to identify the device vendor, part, and instance</li>
+<li>Support device discovery, enumeration, and validation</li>
+</ul>
+<p>This command allows the controller to uniquely identify a target device without relying on static addresses, and is commonly used during device discovery or for verification after dynamic address assignment.</p>
+</li>
+<li>
+<p><a id="direct-ccc-getbcr"></a>Direct CCC - GETBCR
+<img alt="Direct CCC - GETBCR" src="../../../images/protocol-exerciser/i3c/direct-ccc-getbcr-edit.png" />
+Direct CCC, GETBCR instructs a specific I³C target device on the bus to report its Bus Characteristics Register (BCR), which describes the target’s fundamental bus-related capabilities.
+The Direct GETBCR CCC tells the target to:</p>
+<ul>
+<li>Return its Bus Characteristics Register value to the controller</li>
+<li>Indicate whether the device supports key I³C features such as I³C target mode, I2C legacy compatibility, and in-band interrupt capability</li>
+<li>Allow the controller to understand how the device behaves on the I³C bus</li>
+</ul>
+<p>This command allows the controller to determine basic bus capabilities and protocol support of a target device, which is essential during device discovery and initialization.</p>
+</li>
+<li>
+<p><a id="direct-ccc-getdcr"></a>Direct CCC - GETDCR
+<img alt="Direct CCC - GETDCR" src="../../../images/protocol-exerciser/i3c/direct-ccc-getdcr-edit.png" />
+Direct CCC, GETDCR instructs a specific I³C target device on the bus to report its Device Characteristics Register (DCR), which describes the device’s functional classification.
+The Direct GETDCR CCC tells the target to:</p>
+<ul>
+<li>Return its Device Characteristics Register value to the controller</li>
+<li>Indicate the general device type or functional category</li>
+<li>Allow the controller to identify the intended role of the device on the bus</li>
+</ul>
+<p>This command allows the controller to understand what kind of device a target is, enabling appropriate driver selection and configuration during device discovery and initialization.</p>
+</li>
+<li>
+<p><a id="direct-ccc-getstatus"></a>Direct CCC - GETSTATUS
+<img alt="Direct CCC - GETSTATUS" src="../../../images/protocol-exerciser/i3c/direct-ccc-getstatus-edit.png" />
+Direct CCC, GETSTATUS instructs a specific I³C target device on the bus to report its Status Register, which provides current operational and interrupt-related status information.
+The Direct GETSTATUS CCC tells the target to:</p>
+<ul>
+<li>Return its current status information to the controller</li>
+<li>Indicate pending events such as interrupts or errors</li>
+<li>Allow the controller to determine the target’s operational state</li>
+</ul>
+<p>This command allows the controller to query real-time device status, often as a follow-up to an In-Band Interrupt (IBI) or during diagnostic and monitoring operations.</p>
+</li>
+<li>
+<p><a id="direct-ccc-getacccr"></a>Direct CCC - GETACCCR
+<img alt="Direct CCC - GETACCCR" src="../../../images/protocol-exerciser/i3c/direct-ccc-getacccr-edit.png" />
+Direct CCC, GETACCCR instructs a specific I³C target device on the bus to report its Advanced Capabilities Control Register (ACCCR), which describes the target’s support for advanced I³C features and capabilities.
+The Direct GETACCCR CCC tells the target to:</p>
+<ul>
+<li>Return its Advanced Capabilities Control Register value to the controller</li>
+<li>Indicate support for optional and advanced I³C features</li>
+<li>Allow the controller to determine how to enable or use advanced bus functionality with the target</li>
+</ul>
+<p>This command allows the controller to discover advanced target capabilities beyond the basic bus and device characteristics, helping optimize performance and feature usage.</p>
+</li>
+<li>
+<p><a id="direct-ccc-endxfer"></a>Direct CCC - ENDXFER
+<img alt="Direct CCC - ENDXFER" src="../../../images/protocol-exerciser/i3c/direct-ccc-endxfer-edit.png" />
+Direct CCC, ENDXFER instructs a specific I³C target device on the bus to terminate the current data transfer sequence and return to an idle or ready state.
+The Direct ENDXFER CCC tells the target to:</p>
+<ul>
+<li>End the ongoing transfer or transaction sequence</li>
+<li>Clear any internal state related to the current transfer</li>
+<li>Prepare to accept new commands or transfers from the controller</li>
+</ul>
+<p>This command allows the controller to cleanly abort or conclude a transfer, ensuring both the controller and target return to a known, synchronized state on the I³C bus.</p>
+</li>
+<li>
+<p><a id="direct-ccc-setbrgtgt"></a>Direct CCC - SETBRGTGT
+<img alt="Direct CCC - SETBRGTGT" src="../../../images/protocol-exerciser/i3c/direct-ccc-setbrgtgt-edit.png" />
+Direct CCC, SETBRGTGT instructs a specific I³C target device on the bus to configure its bus-related timing or behavior as a bridge target, which is relevant when the device participates in bridging or multi-segment bus topologies.
+The Direct SETBRGTGT CCC tells the target to:</p>
+<ul>
+<li>Set or update its bridge target configuration parameters</li>
+<li>Adjust its behavior to properly forward or manage signals between bus segments</li>
+<li>Acknowledge the configuration so the controller knows the bridge target is ready</li>
+</ul>
+<p>This command allows the controller to manage bus segmentation and bridge devices, enabling proper communication across complex I³C topologies while maintaining timing and protocol integrity.</p>
+</li>
+<li>
+<p><a id="direct-ccc-getmxds"></a>Direct CCC - GETMXDS
+<img alt="Direct CCC - GETMXDS" src="../../../images/protocol-exerciser/i3c/direct-ccc-getmxds-edit.png" />
+Direct CCC, GETMXDS instructs a specific I³C target device on the bus to report its Maximum Data Speed (MXDS), which indicates the highest data rate the device can reliably support on the I³C bus.
+The Direct GETMXDS CCC tells the target to:</p>
+<ul>
+<li>Return its current Maximum Data Speed value to the controller</li>
+<li>Inform the controller of the fastest speed at which it can communicate</li>
+<li>Allow the controller to optimize bus timing and overall performance</li>
+</ul>
+<p>This command allows the controller to query a target’s speed capability, ensuring that data transfers are conducted within the device’s supported limits and preventing communication errors due to excessive speed.</p>
+</li>
+<li>
+<p><a id="direct-ccc-getcaps"></a>Direct CCC - GETCAPS
+<img alt="Direct CCC - GETCAPS" src="../../../images/protocol-exerciser/i3c/direct-ccc-getcaps-edit.png" />
+Direct CCC, GETCAPS instructs a specific I³C target device on the bus to report its capabilities, providing a summary of the device’s supported features and functional options.
+The Direct GETCAPS CCC tells the target to:</p>
+<ul>
+<li>Return a value indicating which I³C features it supports</li>
+<li>Include information such as support for In-Band Interrupts (IBIs), HDR modes, multi-master capability, and other optional features</li>
+<li>Allow the controller to determine how best to communicate with and utilize the device</li>
+</ul>
+<p>This command allows the controller to discover the functional capabilities of a target device, enabling proper configuration, optimized bus usage, and compatibility checks before performing advanced operations.</p>
+</li>
+<li>
+<p><a id="direct-ccc-setroute"></a>Direct CCC - SETROUTE
+<img alt="Direct CCC - SETROUTE" src="../../../images/protocol-exerciser/i3c/direct-ccc-setroute-edit.png" />
+Direct CCC, SETROUTE instructs a specific I³C target device on the bus to configure its routing path, which is particularly relevant in complex or multi-segment I³C topologies where certain devices act as bridges or routing points.
+The Direct SETROUTE CCC tells the target to:</p>
+<ul>
+<li>Set or update its internal routing configuration</li>
+<li>Determine which bus segment or downstream devices it should forward traffic to</li>
+<li>Acknowledge the new routing path so the controller knows the device is ready for communication</li>
+</ul>
+<p>This command allows the controller to manage traffic paths and device connectivity, ensuring proper communication in multi-segment or bridged I³C networks.</p>
+</li>
+<li>
+<p><a id="direct-ccc-d2dxfer"></a>Direct CCC - D2DXFER
+<img alt="Direct CCC - D2DXFER" src="../../../images/protocol-exerciser/i3c/direct-ccc-d2dxfer-edit.png" />
+Direct CCC, D2DXFER instructs a specific I³C target device on the bus to perform a direct-to-direct data transfer between two devices on the bus, without requiring the controller to relay all the data.
+The Direct D2DXFER CCC tells the target to:</p>
+<ul>
+<li>Transfer a specified block of data directly from a source device to a destination device</li>
+<li>Use the target device as a facilitator for the transfer if needed</li>
+<li>Acknowledge completion of the transfer to the controller</li>
+</ul>
+<p>This command allows the controller to offload data movement between devices, reducing bus traffic and improving overall efficiency for large data transfers.</p>
+</li>
+<li>
+<p><a id="direct-ccc-setxtime"></a>Direct CCC - SETXTIME
+<img alt="Direct CCC - SETXTIME" src="../../../images/protocol-exerciser/i3c/direct-ccc-setxtime-edit.png" />
+Direct CCC, SETXTIME instructs a specific I³C target device on the bus to set a transfer timeout value, defining the maximum allowed duration for certain data transfer operations.
+The Direct SETXTIME CCC tells the target to:</p>
+<ul>
+<li>Configure its internal transfer timeout according to the value provided by the controller</li>
+<li>Limit how long a read or write transaction can remain active before the target considers it failed</li>
+<li>Acknowledge the new timeout setting so future transfers comply with the configured limit</li>
+</ul>
+<p>This command allows the controller to enforce reliable and predictable timing on the I³C bus, helping prevent stalled transfers or bus lockup due to slow or unresponsive devices.</p>
+</li>
+<li>
+<p><a id="direct-ccc-getxtime"></a>Direct CCC - GETXTIME
+<img alt="Direct CCC - GETXTIME" src="../../../images/protocol-exerciser/i3c/direct-ccc-getxtime-edit.png" />
+Direct CCC, GETXTIME instructs a specific I³C target device on the bus to report its current transfer timeout value, which defines the maximum allowed duration for certain data transfer operations.
+The Direct GETXTIME CCC tells the target to:</p>
+<ul>
+<li>Return its currently configured transfer timeout value to the controller</li>
+<li>Allow the controller to determine how long the target will wait during a read or write transaction before timing out</li>
+<li>Support bus scheduling and error management by providing accurate timing information</li>
+</ul>
+<p>This command allows the controller to query a target’s transfer timing constraints, helping ensure that data transfers are performed reliably and within the expected time limits.</p>
+</li>
+<li>
+<p><a id="direct-ccc-rstact"></a>Direct CCC - RSTACT
+<img alt="Direct CCC - RSTACT" src="../../../images/protocol-exerciser/i3c/direct-ccc-rstact-edit.png" />
+Direct CCC, RSTACT instructs a specific I³C target device on the bus to reset its Activity State to the default or inactive state as defined by the I³C specification.
+The Direct RSTACT CCC tells the target to:</p>
+<ul>
+<li>Transition from its current activity state to the default or idle state</li>
+<li>Clear any temporary operational conditions related to activity state (e.g., performance level, internal counters)</li>
+<li>Acknowledge the reset so the controller knows the device is back in a known state</li>
+</ul>
+<p>This command allows the controller to reinitialize or normalize a device’s activity state, which is useful for power management, performance tuning, or recovering devices that are in a higher activity state than required.</p>
+</li>
+<li>
+<p><a id="direct-ccc-setgrpa"></a>Direct CCC - SETGRPA
+<img alt="Direct CCC - SETGRPA" src="../../../images/protocol-exerciser/i3c/direct-ccc-setgrpa-edit.png" />
+Direct CCC, SETGRPA instructs a specific I³C target device on the bus to assign it to a particular group address (Group Address A), enabling group communication and selective broadcast operations.
+The Direct SETGRPA CCC tells the target to:</p>
+<ul>
+<li>Store the specified group address in its internal configuration</li>
+<li>Respond to future group-targeted broadcast commands sent to that group address</li>
+<li>Acknowledge the assignment so the controller knows the device is successfully grouped</li>
+</ul>
+<p>This command allows the controller to organize devices into functional or logical groups, enabling efficient broadcast communication without addressing each device individually.</p>
+</li>
+<li>
+<p><a id="direct-ccc-rstgrpa"></a>Direct CCC - RSTGRPA
+<img alt="Direct CCC - RSTGRPA" src="../../../images/protocol-exerciser/i3c/direct-ccc-rstgrpa-edit.png" />
+Direct CCC, RSTGRPA instructs a specific I³C target device on the bus to clear or reset its assigned Group Address A (GRPA), removing it from the group.
+The Direct RSTGRPA CCC tells the target to:</p>
+<ul>
+<li>Delete or invalidate its stored Group Address A</li>
+<li>Stop responding to broadcast commands sent to that group address</li>
+<li>Acknowledge the reset so the controller knows the device is no longer part of the group</li>
+</ul>
+<p>This command allows the controller to dynamically manage group memberships, ensuring that devices only respond to group-targeted operations when appropriate.</p>
+</li>
+<li>
+<p><a id="direct-ccc-mlane"></a>Direct CCC - MLANE
+<img alt="Direct CCC - MLANE" src="../../../images/protocol-exerciser/i3c/direct-ccc-mlane-edit.png" />
+Direct CCC, MLANE instructs a specific I³C target device on the bus to configure or report its Multi-Lane operation settings, which are used in systems that support multiple physical lanes for parallel data transfer.
+The Direct MLANE CCC tells the target to:</p>
+<ul>
+<li>Enable or configure multi-lane operation parameters (such as lane assignment or activation)</li>
+<li>Adjust internal settings to participate correctly in multi-lane transfers</li>
+<li>Acknowledge the configuration so the controller knows the target is ready for multi-lane communication</li>
+</ul>
+<p>This command allows the controller to optimize data throughput by coordinating devices that support multiple parallel lanes, enabling higher-speed communication or load balancing across lanes.</p>
+</li>
+<li>
+<p><a id="direct-ccc-customized"></a>Direct CCC - Customized
+<img alt="Direct CCC - Customized" src="../../../images/protocol-exerciser/i3c/direct-ccc-reserved-edit.png" />
+User can send out customized packet for specific purpose.</p>
+</li>
+<li>
+<p><a id="legacy-i2c-rw"></a>Legacy I2C RW
+    <img alt="Legacy I2C RW" src="../../../images/protocol-exerciser/i3c/i2c-legacy-rw.png" /></p>
+<ol>
+<li>
+<p><a id="legacy-i2c-rd-subaddr"></a>Legacy I2C Read with SubAddr
+<img alt="Legacy I2C Read with SubAddr" src="../../../images/protocol-exerciser/i3c/i2c-legacy-rd-subaddr-edit.png" /></p>
+</li>
+<li>
+<p><a id="legacy-i2c-wr-subaddr"></a>Legacy I2C Write with SubAddr
+<img alt="Legacy I2C Write with SubAddr" src="../../../images/protocol-exerciser/i3c/i2c-legacy-wr-subaddr-edit.png" /></p>
+</li>
+</ol>
+<p>User can send out legacy I2C packet, for specific purpose.</p>
+</li>
+</ol>
+<h2 id="packet-constructor">Packet Constructor</h2>
+<ol>
+<li>
+<p>Private RW</p>
+<ol>
+<li>
+<p>Private Read
+<img alt="Private Read" src="../../../images/protocol-exerciser/i3c/private-rd-packet.png" /></p>
+</li>
+<li>
+<p>Private Read with SubAddr
+<img alt="Private Read with SubAddr" src="../../../images/protocol-exerciser/i3c/private-rd-subaddr-packet.png" /></p>
+</li>
+<li>
+<p>Private Write
+<img alt="Private Wirte" src="../../../images/protocol-exerciser/i3c/private-wr-packet.png" /></p>
+</li>
+<li>
+<p>Private Write with SubAddr
+<img alt="Private Wirte with SubAddr" src="../../../images/protocol-exerciser/i3c/private-wr-subaddr-packet.png" /></p>
+</li>
+</ol>
+<p>Please refer to <a href="#private-rw">Private RW</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC</p>
+<ol>
+<li>
+<p>Broadcast CCC - ENEC
+<img alt="Broadcast CCC - ENEC" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enec-packet.png" />
+Please refer to <a href="#broadcast-ccc-enec">ENEC</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - DISEC
+<img alt="Broadcast CCC - DISEC" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-disec-packet.png" />
+Please refer to <a href="#broadcast-ccc-disec">DISEC</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENTAS0
+<img alt="Broadcast CCC - ENTAS0" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-entas0-packet.png" />
+Please refer to <a href="#broadcast-ccc-entas0">ENTAS0</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENTAS1
+<img alt="Broadcast CCC - ENTAS1" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-entas1-packet.png" />
+Please refer to <a href="#broadcast-ccc-entas1">ENTAS1</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENTAS2
+<img alt="Broadcast CCC - ENTAS2" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-entas2-packet.png" />
+Please refer to <a href="#broadcast-ccc-entas2">ENTAS2</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENTAS3
+<img alt="Broadcast CCC - ENTAS3" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-entas3-packet.png" />
+Please refer to <a href="#broadcast-ccc-entas3">ENTAS3</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - RSTDAA
+<img alt="Broadcast CCC - RSTDAA" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-rstdaa-packet.png" />
+Please refer to <a href="#broadcast-ccc-rstdaa">RSTDAA</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENTDAA
+<img alt="Broadcast CCC - ENTDAA" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-entdaa-packet.png" />
+Please refer to <a href="#broadcast-ccc-entdaa">ENTDAA</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - DEFTGTS
+<img alt="Broadcast CCC - DEFTGTS" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-deftgts-packet.png" />
+Please refer to <a href="#broadcast-ccc-deftgts">DEFTGTS</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - SETMWL
+<img alt="Broadcast CCC - SETMWL" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-setmwl-packet.png" />
+Please refer to <a href="#broadcast-ccc-setmwl">SETMWL</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - SETMRL
+<img alt="Broadcast CCC - SETMRL" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-setmrl-packet.png" />
+Please refer to <a href="#broadcast-ccc-setmrl">SETMRL</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENTTM
+<img alt="Broadcast CCC - ENTTM" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enttm-packet.png" />
+Please refer to <a href="#broadcast-ccc-enttm">ENTTM</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - SETBUSCON
+<img alt="Broadcast CCC - SETBUSCON" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-setbuscon-packet.png" />
+Please refer to <a href="#broadcast-ccc-setbuscon">SETBUSCON</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENDXFER
+<img alt="Broadcast CCC - ENDXFER" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-endxfer-packet.png" />
+Please refer to <a href="#broadcast-ccc-endxfer">ENDXFER</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENTHDR0</p>
+<ol>
+<li><img alt="Broadcast CCC - ENTHDR0 Packet" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr0-packet-ccc.png" /></li>
+<li><img alt="Broadcast CCC - ENTHDR0 Data" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr0-packet-data.png" />
+Please refer to <a href="#broadcast-ccc-enthdr0">ENTHDR0</a> for more detail description.</li>
+</ol>
+</li>
+<li>
+<p>Broadcast CCC - ENTHDR1</p>
+<ol>
+<li><img alt="Broadcast CCC - ENTHDR1 Packet" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr1-packet-ccc.png" /></li>
+<li><img alt="Broadcast CCC - ENTHDR1 Data" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr1-packet-data.png" />
+Please refer to <a href="#broadcast-ccc-enthdr1">ENTHDR1</a> for more detail description.</li>
+</ol>
+</li>
+<li>
+<p>Broadcast CCC - ENTHDR2</p>
+<ol>
+<li><img alt="Broadcast CCC - ENTHDR2 Packet" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr2-packet-ccc.png" /></li>
+<li><img alt="Broadcast CCC - ENTHDR2 Data" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr2-packet-data.png" />
+Please refer to <a href="#broadcast-ccc-enthdr2">ENTHDR2</a> for more detail description.</li>
+</ol>
+</li>
+<li>
+<p>Broadcast CCC - ENTHDR3</p>
+<ol>
+<li><img alt="Broadcast CCC - ENTHDR3 Packet" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr3-packet-ccc.png" /></li>
+<li><img alt="Broadcast CCC - ENTHDR3 Data" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr3-packet-data.png" />
+Please refer to <a href="#broadcast-ccc-enthdr3">ENTHDR3</a> for more detail description.</li>
+</ol>
+</li>
+<li>
+<p>Broadcast CCC - ENTHDR4
+<img alt="Broadcast CCC - ENTHDR4" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr4-packet.png" />
+Please refer to <a href="#broadcast-ccc-enthdr4">ENTHDR4</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENTHDR5
+<img alt="Broadcast CCC - ENTHDR5" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr5-packet.png" />
+Please refer to <a href="#broadcast-ccc-enthdr5">ENTHDR5</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENTHDR6
+<img alt="Broadcast CCC - ENTHDR6" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr6-packet.png" />
+Please refer to <a href="#broadcast-ccc-enthdr6">ENTHDR6</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - ENTHDR7
+<img alt="Broadcast CCC - ENTHDR7" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-enthdr7-packet.png" />
+Please refer to <a href="#broadcast-ccc-enthdr7">ENTHDR7</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - SETXTIME
+<img alt="Broadcast CCC - SETXTIME" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-setxtime-packet.png" />
+Please refer to <a href="#broadcast-ccc-setxtime">SETXTIME</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - SETAASA
+<img alt="Broadcast CCC - SETAASA" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-setaasa-packet.png" />
+Please refer to <a href="#broadcast-ccc-setaasa">SETAASA</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - RSTACT
+<img alt="Broadcast CCC - RSTACT" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-rstact-packet.png" />
+Please refer to <a href="#broadcast-ccc-rstact">RSTACT</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - DEFGRPA
+<img alt="Broadcast CCC - DEFGRPA" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-defgrpa-packet.png" />
+Please refer to <a href="#broadcast-ccc-defgrpa">DEFGRPA</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - RSTGRPA
+<img alt="Broadcast CCC - RSTGRPA" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-rstgrpa-packet.png" />
+Please refer to <a href="#broadcast-ccc-rstgrpa">RSTGRPA</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - MLANE
+<img alt="Broadcast CCC - MLANE" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-mlane-packet.png" />
+Please refer to <a href="#broadcast-ccc-mlane">MLANE</a> for more detail description.</p>
+</li>
+<li>
+<p>Broadcast CCC - Customized
+<img alt="Broadcast CCC - Customized" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-custom-packet.png" />
+Please refer to <a href="#broadcast-ccc-customized">Customized</a> for more detail description.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Image for Direct CCC</p>
+<p>Most of the Direct CCC can add Repeat Starts when multiple target address needed.</p>
+<ol>
+<li>
+<p>Direct CCC - ENEC
+<img alt="Direct CCC - ENEC" src="../../../images/protocol-exerciser/i3c/direct-ccc-enec-packet.png" />
+Please refer to <a href="#direct-ccc-enec">ENEC</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - DISEC
+<img alt="Direct CCC - DISEC" src="../../../images/protocol-exerciser/i3c/direct-ccc-disec-packet.png" />
+Please refer to <a href="#direct-ccc-disec">DISEC</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - ENTAS0
+<img alt="Direct CCC - ENTAS0" src="../../../images/protocol-exerciser/i3c/direct-ccc-entas0-packet.png" />
+Please refer to <a href="#direct-ccc-entas0">ENTAS0</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - ENTAS1
+<img alt="Direct CCC - ENTAS1" src="../../../images/protocol-exerciser/i3c/direct-ccc-entas1-packet.png" />
+Please refer to <a href="#direct-ccc-entas1">ENTAS1</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - ENTAS2
+<img alt="Direct CCC - ENTAS2" src="../../../images/protocol-exerciser/i3c/direct-ccc-entas2-packet.png" />
+Please refer to <a href="#direct-ccc-entas2">ENTAS2</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - ENTAS3
+<img alt="Direct CCC - ENTAS3" src="../../../images/protocol-exerciser/i3c/direct-ccc-entas3-packet.png" />
+Please refer to <a href="#direct-ccc-entas3">ENTAS3</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - SETDASA
+<img alt="Direct CCC - SETDASA" src="../../../images/protocol-exerciser/i3c/direct-ccc-setdasa-packet.png" />
+Please refer to <a href="#direct-ccc-setdasa">SETDASA</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - SETNEWDA
+<img alt="Direct CCC - SETNEWDA" src="../../../images/protocol-exerciser/i3c/direct-ccc-setnewda-packet.png" />
+Please refer to <a href="#direct-ccc-setnewda">SETNEWDA</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - SETMWL
+<img alt="Direct CCC - SETMWL" src="../../../images/protocol-exerciser/i3c/direct-ccc-setmwl-packet.png" />
+Please refer to <a href="#direct-ccc-setmwl">SETMWL</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - SETMRL
+<img alt="Direct CCC - SETMRL" src="../../../images/protocol-exerciser/i3c/direct-ccc-setmrl-packet.png" />
+Please refer to <a href="#direct-ccc-setmrl">SETMRL</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - GETMWL
+<img alt="Direct CCC - GETMWL" src="../../../images/protocol-exerciser/i3c/direct-ccc-getmwl-packet.png" />
+Please refer to <a href="#direct-ccc-getmwl">GETMWL</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - GETMRL
+<img alt="Direct CCC - GETMRL" src="../../../images/protocol-exerciser/i3c/direct-ccc-getmrl-packet.png" />
+Please refer to <a href="#direct-ccc-getmrl">GETMRL</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - GETPID
+<img alt="Direct CCC - GETPID" src="../../../images/protocol-exerciser/i3c/direct-ccc-getpid-packet.png" />
+Please refer to <a href="#direct-ccc-getpid">GETPID</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - GETBCR
+<img alt="Direct CCC - GETBCR" src="../../../images/protocol-exerciser/i3c/direct-ccc-getbcr-packet.png" />
+Please refer to <a href="#direct-ccc-getbcr">GETBCR</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - GETDCR
+<img alt="Direct CCC - GETDCR" src="../../../images/protocol-exerciser/i3c/direct-ccc-getdcr-packet.png" />
+Please refer to <a href="#direct-ccc-getdcr">GETDCR</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - GETSTATUS
+<img alt="Direct CCC - GETSTATUS" src="../../../images/protocol-exerciser/i3c/direct-ccc-getstatus-packet.png" />
+Please refer to <a href="#direct-ccc-getstatus">GETSTATUS</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - GETACCCR
+<img alt="Direct CCC - GETACCCR" src="../../../images/protocol-exerciser/i3c/direct-ccc-getacccr-packet.png" />
+Please refer to <a href="#direct-ccc-getacccr">GETACCCR</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - ENDXFER
+<img alt="Direct CCC - ENDXFER" src="../../../images/protocol-exerciser/i3c/direct-ccc-endxfer-packet.png" />
+Please refer to <a href="#direct-ccc-endxfer">ENDXFER</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - SETBRGTGT
+<img alt="Direct CCC - SETBRGTGT" src="../../../images/protocol-exerciser/i3c/direct-ccc-setbrgtgt-packet.png" />
+Please refer to <a href="#direct-ccc-setbrgtgt">SETBRGTGT</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - GETMXDS
+<img alt="Direct CCC - GETMXDS" src="../../../images/protocol-exerciser/i3c/direct-ccc-getmxds-packet.png" />
+Please refer to <a href="#direct-ccc-getmxds">GETMXDS</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - GETCAPS
+<img alt="Direct CCC - GETCAPS" src="../../../images/protocol-exerciser/i3c/direct-ccc-getcaps-packet.png" />
+Please refer to <a href="#direct-ccc-getcaps">GETCAPS</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - SETROUTE
+<img alt="Direct CCC - SETROUTE" src="../../../images/protocol-exerciser/i3c/direct-ccc-setroute-packet.png" />
+Please refer to <a href="#direct-ccc-setroute">SETROUTE</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - D2DXFER
+<img alt="Direct CCC - D2DXFER" src="../../../images/protocol-exerciser/i3c/direct-ccc-d2dxfer-packet.png" />
+Please refer to <a href="#direct-ccc-d2dxfer">D2DXFER</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - SETXTIME
+<img alt="Direct CCC - SETXTIME" src="../../../images/protocol-exerciser/i3c/direct-ccc-setxtime-packet.png" />
+Please refer to <a href="#direct-ccc-setxtime">SETXTIME</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - GETXTIME
+<img alt="Direct CCC - GETXTIME" src="../../../images/protocol-exerciser/i3c/direct-ccc-getxtime-packet.png" />
+Please refer to <a href="#direct-ccc-getxtime">GETXTIME</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - RSTACT
+<img alt="Direct CCC - RSTACT" src="../../../images/protocol-exerciser/i3c/direct-ccc-rstact-packet.png" />
+Please refer to <a href="#direct-ccc-rstact">RSTACT</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - SETGRPA
+<img alt="Direct CCC - SETGRPA" src="../../../images/protocol-exerciser/i3c/direct-ccc-setgrpa-packet.png" />
+Please refer to <a href="#direct-ccc-setgrpa">SETGRPA</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - RSTGRPA
+<img alt="Direct CCC - RSTGRPA" src="../../../images/protocol-exerciser/i3c/direct-ccc-rstgrpa-packet.png" />
+Please refer to <a href="#direct-ccc-rstgrpa">RSTGRPA</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - MLANE
+<img alt="Direct CCC - MLANE" src="../../../images/protocol-exerciser/i3c/direct-ccc-mlane-packet.png" />
+Please refer to <a href="#direct-ccc-mlane">MLANE</a> for more detail description.</p>
+</li>
+<li>
+<p>Direct CCC - Customized
+<img alt="Direct CCC - Customized" src="../../../images/protocol-exerciser/i3c/direct-ccc-reserved-packet.png" /> <br />
+Please refer to <a href="#direct-ccc-customized">Customized</a> for more detail description.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Legacy I2C RW</p>
+<ol>
+<li>
+<p>Legacy I2C Read
+<img alt="Legacy I2C Read" src="../../../images/protocol-exerciser/i3c/i2c-legacy-rd-packet.png" />
+Please refer to <a href="#legacy-i2c-rw">Legacy I2C Read</a> for more detail description.</p>
+</li>
+<li>
+<p>Legacy I2C Read with SubAddr
+<img alt="Legacy I2C Read with SubAddr" src="../../../images/protocol-exerciser/i3c/i2c-legacy-rd-subaddr-packet.png" />
+Please refer to <a href="#legacy-i2c-rd-subaddr">Legacy I2C Read with SubAddr</a> for more detail description.</p>
+</li>
+<li>
+<p>Legacy I2C Write
+<img alt="Legacy I2C Write" src="../../../images/protocol-exerciser/i3c/i2c-legacy-wr-packet.png" />
+Please refer to <a href="#legacy-i2c-rw">Legacy I2C Write</a> for more detail description.</p>
+</li>
+<li>
+<p>Legacy I2C Write with SubAddr
+<img alt="Legacy I2C Write with SubAddr" src="../../../images/protocol-exerciser/i3c/i2c-legacy-wr-subaddr-packet.png" />
+Please refer to <a href="#legacy-i2c-wr-subaddr">Legacy I2C Write with SubAddr</a> for more detail description.</p>
+</li>
+</ol>
+</li>
+</ol>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>HDR Repeat</p>
+<p><img alt="HDR Repeat" src="../../../images/protocol-exerciser/i3c/broadcast-ccc-hdr-restart.png" /></p>
+<p>If the user switches the option to <em>HDR Repeat</em>, the next frame of the packet will be displayed, allowing other settings to be adjusted at this time.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../internal-node/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Internal Node">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Internal Node
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../uart/uart/" class="md-footer__link md-footer__link--next" aria-label="Next: UART">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                UART
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 - 2026 Acute Technology Inc.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/acute-technology-inc" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/people/Acute-Technology-Inc-%E7%9A%87%E6%99%B6%E7%A7%91%E6%8A%80/100057450009131/" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://x.com/Acute_Tech_Inc" target="_blank" rel="noopener" title="x.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M357.2 48h70.6L273.6 224.2 455 464H313L201.7 318.6 74.5 464H3.8l164.9-188.5L-5.2 48h145.6l100.5 132.9zm-24.8 373.8h39.1L119.1 88h-42z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/acute-technology-taiwan" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/user/AcuteTechnologyInc" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://space.bilibili.com/522011819" target="_blank" rel="noopener" title="space.bilibili.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M488.6 104.1c16.7 18.1 24.4 39.7 23.3 65.7v202.4c-.4 26.4-9.2 48.1-26.5 65.1-17.2 17-39.1 25.9-65.5 26.7H92c-26.4-.8-48.2-9.8-65.3-27.2S.7 396.5 0 368.2V169.8c.8-26 9.7-47.6 26.7-65.7C43.8 87.8 65.5 78.8 92 78h29.4L96 52.2c-5.7-5.7-8.6-13-8.6-21.8S90.3 14.3 96 8.6 109 0 117.9 0s16.1 2.9 21.9 8.6L213.1 78h88l74.5-69.4C381.7 2.9 389.2 0 398 0s16.1 2.9 21.9 8.6c5.7 5.7 8.6 13 8.6 21.8s-2.9 16.1-8.6 21.8L394.6 78h29.3c26.4.8 48 9.8 64.7 26.1m-38.8 69.7c-.4-9.6-3.7-17.4-10.7-23.5-5.2-6.1-14-9.4-22.7-9.8H96c-9.6.4-17.4 3.7-23.6 9.8-6.1 6.1-9.4 13.9-9.8 23.5v194.4c0 9.2 3.3 17 9.8 23.5s14.4 9.8 23.6 9.8h320.4c9.2 0 17-3.3 23.3-9.8s9.7-14.3 10.1-23.5zm-264.3 42.7c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2-6.2 6.3-14 9.5-23.6 9.5s-17.5-3.2-23.6-9.5-9.4-14-9.8-23.2v-33.3c.4-9.1 3.8-16.9 10.1-23.2s13.2-9.6 23.3-10c9.2.4 17 3.7 23.3 10m191.5 0c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2s-14 9.5-23.6 9.5-17.4-3.2-23.6-9.5c-7-6.3-9.4-14-9.7-23.2v-33.3c.3-9.1 3.7-16.9 10-23.2s14.1-9.6 23.3-10c9.2.4 17 3.7 23.3 10"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "content.tabs", "content.footnote.tooltips", "header.autohide", "navigation.tabs", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.top", "navigation.path", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

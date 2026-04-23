@@ -1,5 +1,0 @@
-site/
-build/
-.venv/
-.mypy_cache/
-.obsidian/
