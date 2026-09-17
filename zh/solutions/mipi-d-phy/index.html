@@ -1,0 +1,1828 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Acute 技术支持文件">
+      
+      
+      
+        <link rel="canonical" href="https://acute-technology-inc.github.io/support-docs/zh/solutions/mipi-d-phy/">
+      
+      
+        <link rel="prev" href="../emmc/">
+      
+      
+        <link rel="next" href="../mipi-i3c/">
+      
+      
+        
+          <link rel="alternate" href="../../../solutions/mipi-d-phy/" hreflang="en">
+        
+          <link rel="alternate" href="../../../zh-TW/solutions/mipi-d-phy/" hreflang="zh-TW">
+        
+          <link rel="alternate" href="./" hreflang="zh">
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>MIPI D-PHY - Acute 技术支持文件</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-F8N5MR49MS"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-F8N5MR49MS",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-F8N5MR49MS",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mipi-d-phy" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../" title="Acute 技术支持文件" class="md-header__button md-logo" aria-label="Acute 技术支持文件" data-md-component="logo">
+      
+  <img src="../../../assets/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Acute 技术支持文件
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              MIPI D-PHY
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="deep-purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="选择当前语言">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../solutions/mipi-d-phy/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../zh-TW/solutions/mipi-d-phy/" hreflang="zh-TW" class="md-select__link">
+              中文(繁體)
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="zh" class="md-select__link">
+              中文(简体)
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  首页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../protocol-exerciser/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  协议练习器
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../logic-analyzer/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  逻辑分析仪
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../protocol-analyzer/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  协议分析仪
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../supported-protocols/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  协议说明
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  解决方案
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="Acute 技术支持文件" class="md-nav__button md-logo" aria-label="Acute 技术支持文件" data-md-component="logo">
+      
+  <img src="../../../assets/favicon.ico" alt="logo">
+
+    </a>
+    Acute 技术支持文件
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../protocol-exerciser/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    协议练习器
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../logic-analyzer/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    逻辑分析仪
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../protocol-analyzer/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    协议分析仪
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../supported-protocols/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    协议说明
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    解决方案
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    解决方案
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../edp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    eDP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emmc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    eMMC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MIPI D-PHY
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MIPI D-PHY
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        概况:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tearing-effect-signal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录一: Tearing Effect Signal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录二: 影像还原功能
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lp-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录三: 无法量测/仅量测到LP mode信号/大量错误产生解决方法:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录四: 还原影像列表
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        另请参阅
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mipi-i3c/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MIPI I3C
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nand-flash/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NAND Flash
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sd-3-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SD 3.0 / 4.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sgmii/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SGMII
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ufs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UFS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        概况:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tearing-effect-signal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录一: Tearing Effect Signal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录二: 影像还原功能
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lp-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录三: 无法量测/仅量测到LP mode信号/大量错误产生解决方法:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        附录四: 还原影像列表
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        另请参阅
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="导航栏" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../" class="md-path__link">
+        
+  <span class="md-ellipsis">
+    首页
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    解决方案
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="mipi-d-phy">MIPI D-PHY</h1>
+<h2 id="_1">概况:</h2>
+<p>支援型号:</p>
+<table>
+<thead>
+<tr>
+<th>BF6264B</th>
+<th>BF7264B</th>
+<th>BF7264B+</th>
+<th>BF7264 Pro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>●</td>
+<td>●</td>
+<td>●</td>
+</tr>
+</tbody>
+</table>
+<p>BF7264B/B+/Pro产品正面有两个USB孔</p>
+<p>除主机可继续使用原BF6264B功能外，增加MIPI D-PHY分析仪功能。</p>
+<p>MIPI D-PHY方案，规格内容如下: </p>
+<hr />
+<ul>
+<li><strong>BF7264B/B+/Pro，32Gb RAM，搭配MIPI D-PHY探头组</strong></li>
+</ul>
+<p><img alt="" src="../images/mipi-d-phy-01.jpg" /></p>
+<ul>
+<li><strong>支持 D-PHY V1.2</strong>
+Up to 2.0Gbps per lane，1 + 4 Lanes</li>
+</ul>
+<p><img alt="" src="../images/mipi-d-phy-02.png" /></p>
+<ul>
+<li><strong>可显示CSI-2 1.3或DSI 1.3协议封包资料以表格方式呈现，包含DSI中的DCS 1.3指令解析</strong></li>
+</ul>
+<p><img alt="" src="../images/mipi-d-phy-03.png" /></p>
+<ul>
+<li><strong>使用32Gb RAM搭配硬盘串流来储存D-PHY通讯资料，可完整节录待测物从Low Power Mode初始化到High Speed Mode的流程</strong></li>
+<li>可撷取资料量 (以未启用硬盘串流来估算)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>解析度</th>
+<th>可撷取影像量</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1K (FHD 1080x1920)</td>
+<td>约500 Frame</td>
+<td></td>
+</tr>
+<tr>
+<td>2K (WQHD 1440x2560)</td>
+<td>约280 Frame</td>
+<td></td>
+</tr>
+<tr>
+<td>4K (UHD 2160x3840)</td>
+<td>约120 Frame</td>
+<td>需要8 Lane或是4 Lane带有DSC压缩</td>
+</tr>
+<tr>
+<td>8K (4320x8192)</td>
+<td>不支持</td>
+<td>不支持</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>提供Data Filter功能，可将不必要的影像资料滤除以节省內存</strong></li>
+<li><strong>提供Search资料功能</strong></li>
+<li><strong>提供ECC/CRC Packet 计算及错误显示</strong></li>
+<li><strong>可显示DSI、CSI影像资料，包含RGB、YCbCr、RAW格式，以及压缩的DSC 类型之封包，并统计Porch数据。详细信息请参考附录二。</strong></li>
+</ul>
+<p><img alt="" src="../images/mipi-d-phy-04.jpg" /></p>
+<p><img alt="" src="../images/mipi-d-phy-05.jpg" /></p>
+<ul>
+<li><strong>D-PHY命令统计功能，包含封包总数、各别指令数量、以长度分类的指令统计以及错误数量统计</strong></li>
+</ul>
+<p><img alt="" src="../images/mipi-d-phy-06.png" /></p>
+<ul>
+<li><strong>D-PHY命令触发功能</strong><ul>
+<li>触发参数包含命令与参数资料可输入 32 bytes 的资料做为触发条件.</li>
+</ul>
+</li>
+<li>可涵盖所有 Short Packet， 以及大部分非影像资料的 Long Packet</li>
+<li>
+<p>Short Packet长度4bytes Header
+Long Packet长度4bytes Header + 28byte Data</p>
+<ul>
+<li>可触发 CRC/ECC Error</li>
+<li>可透过Trigger-Out接孔同步触发外部的示波器</li>
+<li><strong>TE通道侦测 (Tearing Effect)</strong></li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="../images/mipi-d-phy-07.png" /></p>
+<ul>
+<li>可侦测屏幕所发送TE信号, 须加购LA Probe方能使用此功能。</li>
+<li>详细说明请参考附录一。</li>
+</ul>
+<h2 id="faq">FAQ</h2>
+<ul>
+<li><strong>支持MIPI DSI第几版的规格，是否有Differential对数或port数限制呢?</strong></li>
+<li>A: 支持到D-PHY V1.2，最高2.0Gbps per lane，1 + 4 Lanes。</li>
+<li><strong>是否有支持C-PHY解码呢?</strong></li>
+<li>A: 不支持C-PHY解码，亦无开发计划。</li>
+<li><strong>是否支持DSI-2?</strong></li>
+<li>A: 不支持，本产品无法量测DSI-2规格的内部C-PHY信号，同时也不支持DSI-2</li>
+<li>的VDC-M影像压缩格式。</li>
+<li><strong>量测时是否会影响信号品质?</strong></li>
+<li>A: 外接的仪器量测必然会有部分的负载效应影响，我们这边采用End-Tip搭配SMPM Coaxial Cable的连接方式来降低对待测物干扰并提升信号品质。</li>
+<li>
+<p><strong>是否有支持信号发送 (Tx) 功能?</strong>
+A: 不支持信号发送功能</p>
+</li>
+<li>
+<p><strong>主机与探头如何连接?</strong></p>
+</li>
+<li>A: 主机仅能使用Slot B作为探头连接槽，并注意主机前端的两个USB插槽也需要连接至Way Station上，且上方USB对应Top Way Station，下方USB对应Bottom Way Station，不可接错，否则将无法量测。连接后请开启软件，选择协议分析仪D-PHY DSI/CSI，并请注意两个Way Station灯号是否皆有亮起红灯跟绿灯各一。</li>
+</ul>
+<p><img alt="" src="../images/mipi-d-phy-08.png" /></p>
+<p><img alt="" src="../images/mipi-d-phy-09.png" /></p>
+<p><img alt="" src="../images/mipi-d-phy-10.png" /></p>
+<ul>
+<li><strong>探头与待测物如何连接?</strong></li>
+<li>A: 焊线: </li>
+<li><strong>軟板FPC End-tip:</strong></li>
+</ul>
+<p><img alt="" src="../images/mipi-d-phy-11.png" /></p>
+<p><strong>(请勿过度弯曲，避免软板内部断路)</strong></p>
+<p>使用End-tip以跳线的方式连接待测物，此时跳线长度必须少于5mm 以</p>
+<ul>
+<li>提升信号品质。</li>
+<li>若无法将跳线长度缩短在5mm内，建议在待测信号端先焊接100Ω电阻，再从该电阻后跳线接至End-tip上，如此跳线可拉长至3cm左右。
+步骤一: 先将SMPM-SMPM cable接上End-tip，确认有定位声。</li>
+</ul>
+<p>步骤二: 再进行跳线焊接，这样可避免焊接好之后插上SMPM Cable时影响跳线。</p>
+<p>※ End-tip的R1/R2电阻是1kΩ/0402，若焊线时不慎损毁，可自行替换。</p>
+<p><img alt="" src="../images/mipi-d-phy-12.png" /></p>
+<p>将R1, R2焊上表中相对应之电阻, C1焊上对应之电容, 并依照硬板之步骤完成与待测物之连接</p>
+<table>
+<thead>
+<tr>
+<th>CLK</th>
+<th>FPC End Tip</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt; 800Mbps</td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;= 800Mbps 标配</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>user-tip: 客户自行依待测物形态设计专属的End-tip，只需用1kΩ连接待测信</p>
+<ul>
+<li>
+<p>号再以50Ω特性阻抗的PCB trace接往SMPM plug即可，之后便可用user-tip取代End-tip，将SMPM-SMPM cable接到user-tip便可。
+使用Breakout方式连结: 自行设计EV board使用SMPM Connector连接Acute</p>
+</li>
+<li>
+<p>MIPI D-PHY Analyzer将PCB板上的D-PHY Host与Device连接断开后改为上方的结构，左侧接回到D-PHY Host，右侧则接到MIPI D-PHY Device。设计时PCB上面的R1/2/3尽量接在一起，并使用50Ω特性阻抗之走线，完成后便可于下方使用SMPM Connector连接Acute MIPI D-PHY Analyzer进行量测。</p>
+</li>
+</ul>
+<p><img alt="" src="../images/mipi-d-phy-13.png" /></p>
+<ul>
+<li><strong>在跳好线之后，想用三用电表确认是否有短路发生。</strong></li>
+<li>接线如下图，</li>
+</ul>
+<p><img alt="" src="../images/mipi-d-phy-14.png" /></p>
+<ul>
+<li>在地线接好之后，包含整个Way Station、Probe 都接好。</li>
+<li>量测点<strong>A</strong>: End-Tip电阻<strong>前</strong>端对地，绿色线==&gt;电表不响。</li>
+<li>量测点<strong>B</strong>: End-Tip电阻<strong>后</strong>端对地，红色线==&gt;电表会响，是否表示有焊接问题，造成短路发生?</li>
+<li>量测点<strong>B</strong>电表会响为正常现象，是因为电阻后端对地只有50Ω，阻抗低，一般电表测短路功能一定会响。测量时，只要前端1.05 KΩ处对地不会响，这样就没有短路问题发生。</li>
+<li><strong>待测物如何接地?</strong></li>
+<li>由于设备与待测系统仍需共地，因此可先将Way Station上的GND Port连接至待测物的GND即可，两个Way Station都要接。</li>
+<li>除非信号品质太差或干扰太大，分析之后发生较多的错误时，则可改为每个End-tip都接地的效果最好。
+<strong>有指令某个Command 或 Data type 做为 trigger 点的功能吗?</strong></li>
+</ul>
+<p>A: 可以指定特定的Data Type / DCS或是Error进行触发。</p>
+<p><img alt="" src="../images/mipi-d-phy-15.png" /></p>
+<p><strong>是否可以自行设置一个HS/LP起始点(例如DCS CMD)，指定抓取多少时间内的Data?</strong></p>
+<p>A: 可以将起始条件设置在触发项目后，到工作模式选单内调整为资料监控仪模式，</p>
+<p>并指定撷取时间长度。</p>
+<p><img alt="" src="../images/mipi-d-phy-16.png" /></p>
+<h2 id="tearing-effect-signal">附录一: Tearing Effect Signal</h2>
+<p>Tearing Effect (TE) 脚位信号量测</p>
+<p><img alt="" src="../images/mipi-d-phy-17.jpg" /></p>
+<p>(图片来源: https://blog.csdn.net/kris_fei/article/details/77775553)</p>
+<p>TE脚位是显示屏用来告知Host, 目前屏幕图形绘制中, 不可以更新数据, 若在TE = High的情况更新屏幕, 则影像上会出现水平断裂线, 此功能可以清楚的辨识出没有依照TE状态操作的指令, 减少猜测问题点以及另外架设示波器来验证所需的时间</p>
+<p>TE功能需要用户多添购一组LA Probe才能支持, 默认从通道0输入, 支持3.3V以及 1.8V两种工作电压模式, 设置画面如下,</p>
+<p><img alt="" src="../images/mipi-d-phy-18.png" /></p>
+<p>实际撷取画面:</p>
+<p><img alt="" src="../images/mipi-d-phy-19.png" /></p>
+<h2 id="_2">附录二: 影像还原功能</h2>
+<p>点选窗口-&gt;Video Display Dialog, 可开启影像还原功能,</p>
+<p><img alt="" src="../images/mipi-d-phy-20.png" /></p>
+<p><img alt="" src="../images/mipi-d-phy-21.png" /></p>
+<p>请设置待测物送出的DSI, CSI格式, 分辨率, RGB order, 再按下Process即可开始还原影像,。另提供部分解析功能, 若待测物仅更新部分屏幕时, 可将此项勾选, 将显示部分更新内容。</p>
+<p>影像还原实例:</p>
+<p><img alt="" src="../images/mipi-d-phy-22.png" /></p>
+<p>并提供与主报告区之数据作连动功能, 方便找寻影像数据位置。</p>
+<p>Save Image可将还原影像以 .jpg / .bmp / .bin 方式输出。</p>
+<p>DSI若以Video mode传送影像数据, 也有提供Porch功能可统计每张影像所送出的格式,</p>
+<p>可统计VSA, VBP, VFP, HBP, HFP, image的功能</p>
+<h2 id="lp-mode">附录三: 无法量测/仅量测到LP mode信号/大量错误产生解决方法:</h2>
+<p>Step 1: 请检查探头与主机间的2条USB是否有没接好或接触不良问题</p>
+<ul>
+<li>将主机端与WayStation端的USB拔除再重新插回
+Step 2: 请检察Lane/CLK的焊线是否有在规定内之5mm内, 并确认每个End-tip都有</li>
+</ul>
+<p>接上Gnd,</p>
+<p>Step 3: 开启波形检视功能并送出HS信号, 用以确定接线正常,</p>
+<p>Step 3.1: 开启波形检视功能</p>
+<p><img alt="" src="../images/mipi-d-phy-23.png" /></p>
+<p>Step 3.2: 切换模式, 使用Protocol Monitor mode并缩小内存,</p>
+<p>若后续解决问题, 再切换回Protocol Analyzer mode</p>
+<p><img alt="" src="../images/mipi-d-phy-24.png" /></p>
+<p>Step 3.3: 开启波形窗口</p>
+<p><img alt="" src="../images/mipi-d-phy-25.png" /></p>
+<p>Step 3.4: 撷取波形</p>
+<p>Step 3.5: 分析是否有HS信号, 红色箭头”前”波形为LP, “后”则为HS信号, 请找到相似位置并将其波形放大检视, 若重复撷取数次仍无法找到LP, HS波形或有少Lane/CLK的情况, 可能原因为Lane/CLK没接通, 请见FAQ第七点,</p>
+<p><img alt="" src="../images/mipi-d-phy-26.png" /></p>
+<p><img alt="" src="../images/mipi-d-phy-27.png" /></p>
+<p>Step 3.6: 确认CLK Duty是否为50:50, 并检查HS SYNC 1D后方之Lane 0-3的每一个edge宽度, 正常为半个CLK cycle的宽度或其倍数, 如非正常, 请再次检查焊线是否符合规定,</p>
+<p>若符合规定, 仍会有噪声或是CLK Duty问题, 请继续缩短焊线长度, Gnd也就近引入,</p>
+<p>Ex: CLK duty不好情况, 65:35, 1.4ns:0.8ns</p>
+<p><img alt="" src="../images/mipi-d-phy-28.png" /></p>
+<p>Ex: Lane 0, Lane 3不为半个CLK cycle的宽度</p>
+<p>Half CLK cycle = (1.4 + 0.8) / 2 = 1.1 (ns)</p>
+<p>正常的Data波形约1.1ns或其倍数</p>
+<p><img alt="" src="../images/mipi-d-phy-29.png" /></p>
+<h2 id="_3">附录四: 还原影像列表</h2>
+<p><img alt="" src="../images/mipi-d-phy-30.png" /></p>
+<ol>
+<li>Video mode - 1125 * 2436</li>
+</ol>
+<p><strong>2. CMD mode – 1125 * 2436</strong></p>
+<p><img alt="" src="../images/mipi-d-phy-31.png" /></p>
+<h2 id="_4">另请参阅</h2>
+<ul>
+<li><a href="../../protocols/mipi-csi/">MIPI CSI — 解码设置</a></li>
+<li><a href="../../protocols/mipi-dsi/">MIPI DSI — 解码设置</a></li>
+<li><a href="../../protocol-analyzer/mipi-csi/">MIPI CSI — Protocol Analyzer 设置</a></li>
+<li><a href="../../protocol-analyzer/mipi-dsi/">MIPI DSI — Protocol Analyzer 设置</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../emmc/" class="md-footer__link md-footer__link--prev" aria-label="上一页: eMMC">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                eMMC
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../mipi-i3c/" class="md-footer__link md-footer__link--next" aria-label="下一页: MIPI I3C">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                MIPI I3C
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 - 2026 Acute Technology Inc.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/acute-technology-inc" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.facebook.com/people/Acute-Technology-Inc-%E7%9A%87%E6%99%B6%E7%A7%91%E6%8A%80/100057450009131/" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://x.com/Acute_Tech_Inc" target="_blank" rel="noopener" title="x.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M357.2 48h70.6L273.6 224.2 455 464H313L201.7 318.6 74.5 464H3.8l164.9-188.5L-5.2 48h145.6l100.5 132.9zm-24.8 373.8h39.1L119.1 88h-42z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/acute-technology-taiwan" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/user/AcuteTechnologyInc" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://space.bilibili.com/522011819" target="_blank" rel="noopener" title="space.bilibili.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M488.6 104.1c16.7 18.1 24.4 39.7 23.3 65.7v202.4c-.4 26.4-9.2 48.1-26.5 65.1-17.2 17-39.1 25.9-65.5 26.7H92c-26.4-.8-48.2-9.8-65.3-27.2S.7 396.5 0 368.2V169.8c.8-26 9.7-47.6 26.7-65.7C43.8 87.8 65.5 78.8 92 78h29.4L96 52.2c-5.7-5.7-8.6-13-8.6-21.8S90.3 14.3 96 8.6 109 0 117.9 0s16.1 2.9 21.9 8.6L213.1 78h88l74.5-69.4C381.7 2.9 389.2 0 398 0s16.1 2.9 21.9 8.6c5.7 5.7 8.6 13 8.6 21.8s-2.9 16.1-8.6 21.8L394.6 78h29.3c26.4.8 48 9.8 64.7 26.1m-38.8 69.7c-.4-9.6-3.7-17.4-10.7-23.5-5.2-6.1-14-9.4-22.7-9.8H96c-9.6.4-17.4 3.7-23.6 9.8-6.1 6.1-9.4 13.9-9.8 23.5v194.4c0 9.2 3.3 17 9.8 23.5s14.4 9.8 23.6 9.8h320.4c9.2 0 17-3.3 23.3-9.8s9.7-14.3 10.1-23.5zm-264.3 42.7c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2-6.2 6.3-14 9.5-23.6 9.5s-17.5-3.2-23.6-9.5-9.4-14-9.8-23.2v-33.3c.4-9.1 3.8-16.9 10.1-23.2s13.2-9.6 23.3-10c9.2.4 17 3.7 23.3 10m191.5 0c6.3 6.3 9.7 14.1 10.1 23.2V273c-.4 9.2-3.7 16.9-9.8 23.2s-14 9.5-23.6 9.5-17.4-3.2-23.6-9.5c-7-6.3-9.4-14-9.7-23.2v-33.3c.3-9.1 3.7-16.9 10-23.2s14.1-9.6 23.3-10c9.2.4 17 3.7 23.3 10"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "content.tabs", "content.footnote.tooltips", "header.autohide", "navigation.tabs", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.top", "navigation.path", "navigation.prune", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
