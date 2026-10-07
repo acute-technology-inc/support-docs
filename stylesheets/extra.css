@@ -1,0 +1,21 @@
+.md-grid {
+  max-width: px2rem(1440px);
+  margin-inline: auto;
+}
+
+/* Protocol page H1: optional full name from AqDecodeList.CSV */
+.md-typeset h1 .protocol-fullname {
+  font-weight: 400;
+}
+
+/* Decode Settings Qt screenshots: 85% of default display width */
+.md-typeset h2#decode-settings ~ figure img[src*="-settings"],
+.md-typeset h2#decode-settings ~ p > img[src*="-settings"] {
+  width: 85%;
+  height: auto;
+}
+
+/* Protocol Analyzer Supported Models: summary lines under product-line headings */
+.md-typeset .pa-model-note {
+  margin-left: 1.5em;
+}
